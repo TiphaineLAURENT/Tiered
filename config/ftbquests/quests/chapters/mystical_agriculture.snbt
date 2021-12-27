@@ -1,0 +1,732 @@
+{
+	id: "4D01287CE3D57354"
+	group: ""
+	order_index: 2
+	filename: "mystical_agriculture"
+	title: "Mystical Agriculture"
+	icon: "mysticalagriculture:inferium_essence"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: 0.0d
+			id: "30757BE839B5011C"
+			tasks: [{
+				id: "3163A7BF50A878D9"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			id: "31C5263D2AE4CCC2"
+			tasks: [{
+				id: "46A25F77BB837401"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			id: "0CB87B4D8C9CB496"
+			tasks: [{
+				id: "71C46420749AFB52"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			id: "269BC6E7E12CD427"
+			tasks: [{
+				id: "6F57B52C67E4E461"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			id: "44D20CA4123D4DA5"
+			tasks: [{
+				id: "1EEC8BB4D7CEB950"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 0.0d
+			id: "08E5288E2A0B03A3"
+			tasks: [{
+				id: "335CCA9D26180DFD"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -1.0d
+			id: "4DC4D1B492613272"
+			tasks: [{
+				id: "6A83C1A4803D4511"
+				type: "item"
+				item: "mysticalagriculture:master_infusion_crystal"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			id: "733E4F6E49E26454"
+			tasks: [{
+				id: "6550957C700A1C65"
+				type: "item"
+				item: {
+					id: "matc:inferium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			id: "2C89D995C0EF9E75"
+			tasks: [{
+				id: "2F85634FD87B5474"
+				type: "item"
+				item: {
+					id: "matc:prudentium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			id: "159E67035DA1A673"
+			tasks: [{
+				id: "5A40DDD7828240BF"
+				type: "item"
+				item: {
+					id: "matc:tertium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			id: "22E7A6D4D8A4A81D"
+			tasks: [{
+				id: "793870095585174F"
+				type: "item"
+				item: {
+					id: "matc:imperium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.0d
+			id: "379BB78E9717C97D"
+			tasks: [{
+				id: "5D95AFA931451D03"
+				type: "item"
+				item: {
+					id: "matc:supremium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			id: "62F3F8F9C27E9546"
+			tasks: [{
+				id: "395E1C042F57040E"
+				type: "item"
+				item: "mysticalagradditions:inferium_apple"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			id: "45FE4BF6C16E1878"
+			tasks: [{
+				id: "1276410EF3E7612F"
+				type: "item"
+				item: "mysticalagradditions:prudentium_apple"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			id: "361928BA31BF6997"
+			tasks: [{
+				id: "6A41CEA6736712C2"
+				type: "item"
+				item: "mysticalagradditions:tertium_apple"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			id: "761F62BFB8F4E43F"
+			tasks: [{
+				id: "54BB2AE9DEBF4455"
+				type: "item"
+				item: "mysticalagradditions:imperium_apple"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -0.5d
+			id: "0A20B7B579A6634A"
+			tasks: [{
+				id: "0620D208247C0E4D"
+				type: "item"
+				item: "mysticalagradditions:supremium_apple"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -0.5d
+			id: "2C99B3152B756F88"
+			tasks: [{
+				id: "4620D6701972DE3B"
+				type: "item"
+				item: "mysticalagradditions:insanium_apple"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			id: "503835EC5A56F216"
+			tasks: [
+				{
+					id: "74F196D0DFD05AFD"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "559AD441A54AEA4F"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "06EFA315948816E5"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2B281169D6DD0094"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			id: "1AAEA7A1BC05D56B"
+			tasks: [
+				{
+					id: "48DD38C57779EC91"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0320BD6CD0493485"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "268E9529F78E3C7A"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "56969362AF37F003"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			id: "27175D6A4174166E"
+			tasks: [
+				{
+					id: "2953A83D3F6AAE01"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5ECCF4D3912D249E"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1EA1DED9DA68C064"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "72202D8C7EBBF93A"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -0.5d
+			id: "3CBE8A01789D2D44"
+			tasks: [
+				{
+					id: "60AE3FD44789F1DB"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "55912BF14C8C5D1D"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2E79D07CD77CC339"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "27A59C481FC29BAE"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: -0.5d
+			id: "0F6A104B36D46B30"
+			tasks: [
+				{
+					id: "5FD5497533BCEAF2"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:supremium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4C0015695CFE7337"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:supremium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1729E5825B1DC72B"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:supremium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0EA36F8BED838D06"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:supremium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: -0.5d
+			id: "55AB78762A78FA78"
+			tasks: [
+				{
+					id: "660B47897FD219D0"
+					type: "item"
+					item: {
+						id: "mysticaladaptations:insanium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "16B747BCBA1D32BD"
+					type: "item"
+					item: {
+						id: "mysticaladaptations:insanium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "349B025814DF00BB"
+					type: "item"
+					item: {
+						id: "mysticaladaptations:insanium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "06A7B8FC6314D591"
+					type: "item"
+					item: {
+						id: "mysticaladaptations:insanium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			id: "7CF0B78EDA6DFF0D"
+			tasks: [
+				{
+					id: "161FADDE94D393FC"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6AE43A05602B7B85"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C68D26EA37C2316"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			id: "0840A8BA6EF2A95C"
+			tasks: [
+				{
+					id: "3A32DB07B684614A"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4B7CB6DC217669FF"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5E04914ABB1FEA84"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			id: "3F543A87A0BE1F3A"
+			tasks: [
+				{
+					id: "086E212589DB4DE5"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3E2B0B969E4BAEE0"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "794CCE68D145E60C"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 0.5d
+			id: "0ED3A414618981FE"
+			tasks: [
+				{
+					id: "32C7629135615FE6"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "07BDE2C123C19E3E"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "71F18BA86F5A04AD"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 0.5d
+			id: "66B1E6345B78E7E6"
+			tasks: [
+				{
+					id: "08D577E66D4EB1DE"
+					type: "item"
+					item: "mysticalagriculture:supremium_axe"
+				}
+				{
+					id: "53F4B5F839DD4F2C"
+					type: "item"
+					item: "mysticalagriculture:supremium_pickaxe"
+				}
+				{
+					id: "0D97F5E6A98F943B"
+					type: "item"
+					item: "mysticalagriculture:supremium_shovel"
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 0.5d
+			id: "29F3C858502A0509"
+			tasks: [
+				{
+					id: "505B02DF0F2E9F56"
+					type: "item"
+					item: "mysticaladaptations:insanium_axe"
+				}
+				{
+					id: "7CAA8C819DA42A11"
+					type: "item"
+					item: "mysticaladaptations:insanium_pickaxe"
+				}
+				{
+					id: "679E7F659BFB8E21"
+					type: "item"
+					item: "mysticaladaptations:insanium_shovel"
+				}
+			]
+		}
+	]
+}

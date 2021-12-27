@@ -1,0 +1,1187 @@
+{
+	id: "5428034ACF7D5A47"
+	group: ""
+	order_index: 0
+	filename: "progression"
+	title: "Armors"
+	icon: {
+		id: "overloaded:multi_chestplate"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -11.0d
+			y: -1.0d
+			id: "6A5E69DBD8548616"
+			tasks: [
+				{
+					id: "5232312DCEFE598A"
+					type: "item"
+					item: {
+						id: "minecraft:leather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "1BD0214246AB216E"
+					type: "item"
+					item: {
+						id: "minecraft:leather_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "69C7AF972E1CFF30"
+					type: "item"
+					item: {
+						id: "minecraft:leather_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "05E1295D41EC712E"
+					type: "item"
+					item: {
+						id: "minecraft:leather_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "51259E89014B4485"
+				type: "item"
+				item: "minecraft:leather"
+				count: 24
+			}]
+		}
+		{
+			x: -8.0d
+			y: -1.0d
+			dependencies: ["658894F5BE7AD286"]
+			id: "4F6C51A43A909A13"
+			tasks: [
+				{
+					id: "6DBF6F20898CDD54"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4A874BA5DE8D30A0"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "10CBE810EFCEDEF8"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "24D4C9FAE781249D"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -1.0d
+			dependencies: ["6A5E69DBD8548616"]
+			dependency_requirement: "all_started"
+			id: "658894F5BE7AD286"
+			tasks: [
+				{
+					id: "1848CA30CF394B82"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-527277230
+								1147290555
+								-1882485507
+								1843020620
+							]
+						}
+					}
+				}
+				{
+					id: "31D74F7A1B893DBA"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "44513814A9CD2EF6"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "549A41D73EE3B15E"
+					type: "item"
+					item: {
+						id: "minecraft:chainmail_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -1.0d
+			dependencies: ["4F6C51A43A909A13"]
+			id: "45FA89F971AD62B7"
+			tasks: [
+				{
+					id: "593065145B0A160C"
+					type: "item"
+					item: {
+						id: "minecraft:golden_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0E8EA926C9E994FD"
+					type: "item"
+					item: {
+						id: "minecraft:golden_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0F30A42747487CB0"
+					type: "item"
+					item: {
+						id: "minecraft:golden_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3532B37FF39DF0D1"
+					type: "item"
+					item: {
+						id: "minecraft:golden_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			dependencies: ["45FA89F971AD62B7"]
+			id: "49BF2338A9B1FDB7"
+			tasks: [
+				{
+					id: "2B3358F66315B45E"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "403032C018B632DF"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-527277230
+								1147290555
+								-1882485507
+								1843020620
+							]
+						}
+					}
+				}
+				{
+					id: "3B1316CC6AF582D4"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-527277230
+								1147290555
+								-1882485507
+								1843020620
+							]
+						}
+					}
+				}
+				{
+					id: "27FCCFC863BA717A"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-527277230
+								1147290555
+								-1882485507
+								1843020620
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			dependencies: ["49BF2338A9B1FDB7"]
+			id: "1E4520169892DFF2"
+			tasks: [
+				{
+					id: "3FE6B0466885C132"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-527277230
+								1147290555
+								-1882485507
+								1843020620
+							]
+						}
+					}
+				}
+				{
+					id: "797DF2F8A355E2F1"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "63538F6A9AD1B80F"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "25C462C218700FF2"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.499999999999999d
+			y: 0.5000000000000001d
+			dependencies: ["1E4520169892DFF2"]
+			id: "737B74D79433D203"
+			tasks: [
+				{
+					id: "384CAF74C000AE41"
+					type: "item"
+					item: {
+						id: "upgradednetherite:gold_upgraded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4446469D9B2B18D5"
+					type: "item"
+					item: {
+						id: "upgradednetherite:gold_upgraded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "76CEF4F91BF11688"
+					type: "item"
+					item: {
+						id: "upgradednetherite:gold_upgraded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1BEE7ACB0EF30776"
+					type: "item"
+					item: {
+						id: "upgradednetherite:gold_upgraded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0000000000000004d
+			y: 0.5000000000000001d
+			dependencies: ["1E4520169892DFF2"]
+			id: "3234B032BAE2F17F"
+			tasks: [
+				{
+					id: "09C191C6654B12A5"
+					type: "item"
+					item: {
+						id: "upgradednetherite:fire_upgraded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6D27AC20EBD2AD68"
+					type: "item"
+					item: {
+						id: "upgradednetherite:fire_upgraded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0056A05233BCD74C"
+					type: "item"
+					item: {
+						id: "upgradednetherite:fire_upgraded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "397E28D77EBA7382"
+					type: "item"
+					item: {
+						id: "upgradednetherite:fire_upgraded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 0.5d
+			dependencies: ["1E4520169892DFF2"]
+			id: "3A0D830B3B138522"
+			tasks: [
+				{
+					id: "40F288E48CF74372"
+					type: "item"
+					item: {
+						id: "upgradednetherite:ender_upgraded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3B7D92FF1F3ECDE5"
+					type: "item"
+					item: {
+						id: "upgradednetherite:ender_upgraded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0DAA7F54F36E9750"
+					type: "item"
+					item: {
+						id: "upgradednetherite:ender_upgraded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "14276C5225E21EEE"
+					type: "item"
+					item: {
+						id: "upgradednetherite:ender_upgraded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["1E4520169892DFF2"]
+			id: "291B0ED3773F89E2"
+			tasks: [
+				{
+					id: "3CBFD9F4C5AF5410"
+					type: "item"
+					item: {
+						id: "upgradednetherite:water_upgraded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3D19F240176AC17F"
+					type: "item"
+					item: {
+						id: "upgradednetherite:water_upgraded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "44AB8E2A3D8ADFC8"
+					type: "item"
+					item: {
+						id: "upgradednetherite:water_upgraded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4D99AFEAE83FA435"
+					type: "item"
+					item: {
+						id: "upgradednetherite:water_upgraded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			dependencies: ["1E4520169892DFF2"]
+			id: "535F5F471DCDC2B3"
+			tasks: [
+				{
+					id: "0A5712FD99FE050E"
+					type: "item"
+					item: {
+						id: "upgradednetherite:wither_upgraded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "04010CB9546B063F"
+					type: "item"
+					item: {
+						id: "upgradednetherite:wither_upgraded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0AB10631C3CD7E6F"
+					type: "item"
+					item: {
+						id: "upgradednetherite:wither_upgraded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5CE0D04AA6E5AEA5"
+					type: "item"
+					item: {
+						id: "upgradednetherite:wither_upgraded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			dependencies: ["1E4520169892DFF2"]
+			id: "695EF0EC43E39823"
+			tasks: [
+				{
+					id: "10DBC057EDA0A7EA"
+					type: "item"
+					item: {
+						id: "upgradednetherite:poison_upgraded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2922A18B00A43AB9"
+					type: "item"
+					item: {
+						id: "upgradednetherite:poison_upgraded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "797F421DC9D6F334"
+					type: "item"
+					item: {
+						id: "upgradednetherite:poison_upgraded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1BF6B55E90AD89BE"
+					type: "item"
+					item: {
+						id: "upgradednetherite:poison_upgraded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 3.5d
+			dependencies: ["1E4520169892DFF2"]
+			id: "4C9FE15C4FCDAB3D"
+			tasks: [
+				{
+					id: "70E2C8DE653FA6C3"
+					type: "item"
+					item: {
+						id: "upgradednetherite:feather_upgraded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "68BFE61E5E248CA0"
+					type: "item"
+					item: {
+						id: "upgradednetherite:feather_upgraded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-527277230
+								1147290555
+								-1882485507
+								1843020620
+							]
+						}
+					}
+				}
+				{
+					id: "352B319DD7AFCC85"
+					type: "item"
+					item: {
+						id: "upgradednetherite:feather_upgraded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "75E74221A151C80F"
+					type: "item"
+					item: {
+						id: "upgradednetherite:feather_upgraded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 3.5d
+			dependencies: ["1E4520169892DFF2"]
+			id: "522F48C4AFDC9F4F"
+			tasks: [
+				{
+					id: "33E83191E0EBBD63"
+					type: "item"
+					item: {
+						id: "upgradednetherite:phantom_upgraded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "00623550869257CE"
+					type: "item"
+					item: {
+						id: "upgradednetherite:phantom_upgraded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6FB8DA8B9BFCCBFE"
+					type: "item"
+					item: {
+						id: "upgradednetherite:phantom_upgraded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "348F8CC9EC8C8EB0"
+					type: "item"
+					item: {
+						id: "upgradednetherite:phantom_upgraded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 5.0d
+			dependencies: ["1E4520169892DFF2"]
+			id: "662A3D8B6BD6DD2B"
+			tasks: [
+				{
+					id: "1F1E6EF9FFA5A3FD"
+					type: "item"
+					item: {
+						id: "upgradednetherite:corrupt_upgraded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:binding_curse"
+							}]
+						}
+					}
+				}
+				{
+					id: "6EEB889A5AC0F382"
+					type: "item"
+					item: {
+						id: "upgradednetherite:corrupt_upgraded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:binding_curse"
+							}]
+						}
+					}
+				}
+				{
+					id: "01A9EF01C42D3360"
+					type: "item"
+					item: {
+						id: "upgradednetherite:corrupt_upgraded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:binding_curse"
+							}]
+						}
+					}
+				}
+				{
+					id: "5EC2235F4F82CB64"
+					type: "item"
+					item: {
+						id: "upgradednetherite:corrupt_upgraded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:binding_curse"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			dependencies: [
+				"737B74D79433D203"
+				"3234B032BAE2F17F"
+				"3A0D830B3B138522"
+				"291B0ED3773F89E2"
+				"535F5F471DCDC2B3"
+				"695EF0EC43E39823"
+				"4C9FE15C4FCDAB3D"
+				"522F48C4AFDC9F4F"
+				"662A3D8B6BD6DD2B"
+				"1E4520169892DFF2"
+			]
+			id: "2B50CEAADB68D121"
+			tasks: [
+				{
+					id: "3D2D76D6BA79674A"
+					type: "item"
+					item: {
+						id: "upgradednetherite:ultimate_upgraded_netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7565F758649ACF4A"
+					type: "item"
+					item: {
+						id: "upgradednetherite:ultimate_upgraded_netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "76D91F6594147AA6"
+					type: "item"
+					item: {
+						id: "upgradednetherite:ultimate_upgraded_netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "147685E9EDB3AAC6"
+					type: "item"
+					item: {
+						id: "upgradednetherite:ultimate_upgraded_netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.9999999999999991d
+			y: -1.0d
+			hide_dependency_lines: false
+			dependencies: ["1E4520169892DFF2"]
+			hide: true
+			id: "09504CE7816509DF"
+			tasks: [
+				{
+					id: "6106F4BED7CC4481"
+					type: "item"
+					item: {
+						id: "advancednetherite:netherite_iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0189DFF2BA68077F"
+					type: "item"
+					item: {
+						id: "advancednetherite:netherite_iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3C652DBF23DBB901"
+					type: "item"
+					item: {
+						id: "advancednetherite:netherite_iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4DF2C109A255E71D"
+					type: "item"
+					item: {
+						id: "advancednetherite:netherite_iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.4999999999999991d
+			y: -1.0d
+			dependencies: ["09504CE7816509DF"]
+			id: "23CE83A51C60D0C3"
+			tasks: [
+				{
+					id: "44080682AF7FA50D"
+					type: "item"
+					item: {
+						id: "advancednetherite:netherite_gold_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2E70ABE7A68FDC3F"
+					type: "item"
+					item: {
+						id: "advancednetherite:netherite_gold_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "13A492AA30B9DDEF"
+					type: "item"
+					item: {
+						id: "advancednetherite:netherite_gold_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "37EADDC81AFC47F2"
+					type: "item"
+					item: {
+						id: "advancednetherite:netherite_gold_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.9999999999999998d
+			y: -1.0d
+			dependencies: ["23CE83A51C60D0C3"]
+			id: "7553EC8A14CB5D11"
+			tasks: [
+				{
+					id: "0543F2DBB59D9B5D"
+					type: "item"
+					item: {
+						id: "advancednetherite:netherite_emerald_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "347D54B28AAA3BE7"
+					type: "item"
+					item: {
+						id: "advancednetherite:netherite_emerald_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4EA6BC30593DF586"
+					type: "item"
+					item: {
+						id: "advancednetherite:netherite_emerald_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "626E9A61C2A7B57E"
+					type: "item"
+					item: {
+						id: "advancednetherite:netherite_emerald_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			dependencies: ["7553EC8A14CB5D11"]
+			id: "56E12016B014F784"
+			tasks: [
+				{
+					id: "7A0EF5FDCD73A806"
+					type: "item"
+					item: {
+						id: "advancednetherite:netherite_diamond_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "146FD97D990EA00D"
+					type: "item"
+					item: {
+						id: "advancednetherite:netherite_diamond_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-527277230
+								1147290555
+								-1882485507
+								1843020620
+							]
+						}
+					}
+				}
+				{
+					id: "6CCFEAAA6A586CC7"
+					type: "item"
+					item: {
+						id: "advancednetherite:netherite_diamond_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1AD94CF191640CB7"
+					type: "item"
+					item: {
+						id: "advancednetherite:netherite_diamond_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			dependencies: ["1E4520169892DFF2"]
+			id: "407D96EFE284E959"
+			tasks: [
+				{
+					id: "5414833944588B02"
+					type: "item"
+					item: {
+						id: "cyclic:emerald_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "075299C2E1E6539A"
+					type: "item"
+					item: {
+						id: "cyclic:emerald_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "232AC4BAD29A07B6"
+					type: "item"
+					item: {
+						id: "cyclic:emerald_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7DDC8E462BABAD21"
+					type: "item"
+					item: {
+						id: "cyclic:emerald_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+	]
+}
