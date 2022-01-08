@@ -1,7 +1,7 @@
 {
 	id: "163E8BE5DE12CA4C"
 	group: ""
-	order_index: 3
+	order_index: 6
 	filename: "furnaces"
 	title: "Furnaces"
 	default_quest_shape: ""
@@ -387,8 +387,9 @@
 			}]
 		}
 		{
-			x: -9.0d
+			x: -19.5d
 			y: 3.0d
+			dependencies: ["0E2590E745685CF3"]
 			id: "1293DAFD7747E7A2"
 			tasks: [{
 				id: "3384E674C0A6B010"

@@ -1,0 +1,338 @@
+{
+	id: "000000000000059D"
+	group: ""
+	order_index: 13
+	filename: "energy_generation"
+	title: "Power Generation"
+	icon: "solarflux:sp_1"
+	subtitle: ["Give me some power."]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 5.5d
+			y: -5.0d
+			description: ["Solar Panel I can generate 1RF/t and transfer 8RF/t."]
+			id: "000000000000059E"
+			tasks: [{
+				id: "000000000000059F"
+				type: "item"
+				item: "solarflux:sp_1"
+			}]
+			rewards: [{
+				id: "4B5181CB21E60D76"
+				type: "item"
+				item: "solarflux:sp_1"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.5d
+			description: ["Solar Panel II can generate 8RF/t and transfer 64RF/t."]
+			dependencies: ["000000000000059E"]
+			id: "00000000000005A0"
+			tasks: [{
+				id: "00000000000005A1"
+				type: "item"
+				item: "solarflux:sp_2"
+			}]
+			rewards: [{
+				id: "63ECD97BFA5E8D9E"
+				type: "item"
+				item: "solarflux:sp_2"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.5d
+			description: ["Solar Panel III can generate 32RF/t and transfer 256RF/t."]
+			dependencies: ["00000000000005A0"]
+			id: "00000000000005A2"
+			tasks: [{
+				id: "00000000000005A3"
+				type: "item"
+				item: "solarflux:sp_3"
+			}]
+			rewards: [{
+				id: "56F69D5EBA42869C"
+				type: "item"
+				item: "solarflux:sp_3"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			description: ["Solar Panel IV can generate 128RF/t and transfer 1,024RF/t."]
+			dependencies: ["00000000000005A2"]
+			id: "00000000000005A4"
+			tasks: [{
+				id: "00000000000005A5"
+				type: "item"
+				item: "solarflux:sp_4"
+			}]
+			rewards: [{
+				id: "2886DBCC481B63B3"
+				type: "item"
+				item: "solarflux:sp_4"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.0d
+			description: ["Solar Panel V can generate 512RF/t and transfer 4,096RF/t."]
+			dependencies: ["00000000000005A4"]
+			id: "00000000000005A6"
+			tasks: [{
+				id: "00000000000005A7"
+				type: "item"
+				item: "solarflux:sp_5"
+			}]
+			rewards: [{
+				id: "0A6457902A03D78E"
+				type: "item"
+				item: "solarflux:sp_5"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			description: ["Solar Panel VI can generate 2,048RF/t and transfer 16,348RF/t."]
+			dependencies: ["00000000000005A6"]
+			id: "00000000000005A8"
+			tasks: [{
+				id: "00000000000005A9"
+				type: "item"
+				item: "solarflux:sp_6"
+			}]
+			rewards: [{
+				id: "51F2B780C04ED0CB"
+				type: "item"
+				item: "solarflux:sp_6"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			description: ["Solar Panel VII can generate 8,192RF/t and transfer 65,536RF/t."]
+			dependencies: ["00000000000005A8"]
+			id: "00000000000005AA"
+			tasks: [{
+				id: "00000000000005AB"
+				type: "item"
+				item: "solarflux:sp_7"
+			}]
+			rewards: [{
+				id: "38B724C18E78759D"
+				type: "item"
+				item: "solarflux:sp_7"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			description: ["Solar Panel VIII can generate 32,768RF/t and transfer 262,144RF/t."]
+			dependencies: ["00000000000005AA"]
+			id: "00000000000005AC"
+			tasks: [{
+				id: "00000000000005AD"
+				type: "item"
+				item: "solarflux:sp_8"
+			}]
+			rewards: [{
+				id: "10B0BCCC4C1BC59E"
+				type: "item"
+				item: "solarflux:sp_8"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.0d
+			description: ["Gobber Solar Panel can generate 1,048,576RF/t and transfer 16,384,000RF/t."]
+			dependencies: ["00000000000005B0"]
+			id: "00000000000005AE"
+			tasks: [{
+				id: "00000000000005AF"
+				type: "item"
+				item: "solarflux:sp_custom_gobber"
+			}]
+			rewards: [{
+				id: "6F6A78B300B55DBE"
+				type: "item"
+				item: "solarflux:sp_custom_gobber"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			description: ["Etherium  Solar Panel can generate 524,288RF/t and transfer 8,192,000RF/t."]
+			dependencies: ["2011C6A8B662156E"]
+			id: "00000000000005B0"
+			tasks: [{
+				id: "00000000000005B1"
+				type: "item"
+				item: "solarflux:sp_custom_etherium"
+			}]
+			rewards: [{
+				id: "5CA013B213652D23"
+				type: "item"
+				item: "solarflux:sp_custom_etherium"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			description: ["Ultimate Solar Panel can generate 8,388,608RF/t and transfer 50,331,648RF/t."]
+			dependencies: ["00000000000005AE"]
+			id: "00000000000005B2"
+			tasks: [{
+				id: "00000000000005B3"
+				type: "item"
+				item: "solarflux:sp_custom_ultimate"
+			}]
+			rewards: [{
+				id: "4BD9233FC23B44CB"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.5d
+			description: ["The Flux Controller is used to enable wireless charging on your Flux Network."]
+			dependencies: ["00000000000005BC"]
+			id: "00000000000005B4"
+			tasks: [{
+				id: "00000000000005B5"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+			rewards: [{
+				id: "3421E5D6C13AF383"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.5d
+			description: ["The Flux Plug receives energy from adjacent blocks passively, adding energy to your Flux Network."]
+			dependencies: ["00000000000005BC"]
+			id: "00000000000005B6"
+			tasks: [{
+				id: "00000000000005B7"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+			rewards: [{
+				id: "5184C1837A21DE15"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -6.5d
+			description: ["The Flux Point provides energy to adjacent blocks actively, removing energy from your Flux Network."]
+			dependencies: ["00000000000005BC"]
+			id: "00000000000005B8"
+			tasks: [{
+				id: "00000000000005B9"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+			rewards: [{
+				id: "0DA37E1A4478BB3C"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -5.5d
+			description: ["The Gargantuan Flux Storage can store up to 128M RF in your Flux Network."]
+			dependencies: ["00000000000005BC"]
+			id: "00000000000005BA"
+			tasks: [{
+				id: "00000000000005BB"
+				type: "item"
+				item: "fluxnetworks:gargantuan_flux_storage"
+			}]
+			rewards: [{
+				id: "5134DAE586700E9E"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 64
+			}]
+		}
+		{
+			title: "Flux Dust"
+			x: 5.5d
+			y: -6.0d
+			description: ["To get Flux Dust, you need to throw Redstone Dust on top of a bedrock or flux block, then left click on an Obsidian block, previously placed above of your Redstone dust, to crush your Redstone and transform it into Flux."]
+			id: "00000000000005BC"
+			tasks: [{
+				id: "00000000000005BD"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 64L
+			}]
+			rewards: [{
+				id: "78C255731402B15F"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 64
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			description: ["Wyvern Solar Panel can generate 65,536RF/t and transfer 512,000RF/t."]
+			dependencies: ["00000000000005AC"]
+			id: "77CE60B3B721B8D4"
+			tasks: [{
+				id: "2938E4E7F30ECD3E"
+				type: "item"
+				item: "solarflux:sp_de.wyvern"
+			}]
+			rewards: [{
+				id: "1370337EA9E03BED"
+				type: "item"
+				item: "solarflux:sp_de.wyvern"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			description: ["Draconic Solar Panel can generate 131,072RF/t and transfer 1,024,000RF/t."]
+			dependencies: ["77CE60B3B721B8D4"]
+			id: "6879CAB5AC5113E7"
+			tasks: [{
+				id: "0F30C48337B04F86"
+				type: "item"
+				item: "solarflux:sp_de.draconic"
+			}]
+			rewards: [{
+				id: "508E62D115042FE6"
+				type: "item"
+				item: "solarflux:sp_de.draconic"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.5d
+			description: ["Chaotic Solar Panel can generate 262,144RF/t and transfer 4,096,000RF/t."]
+			dependencies: ["6879CAB5AC5113E7"]
+			id: "2011C6A8B662156E"
+			tasks: [{
+				id: "16DC0A37EC80678F"
+				type: "item"
+				item: "solarflux:sp_de.chaotic"
+			}]
+			rewards: [{
+				id: "69C3D0647388C89A"
+				type: "item"
+				item: "solarflux:sp_de.chaotic"
+			}]
+		}
+	]
+}

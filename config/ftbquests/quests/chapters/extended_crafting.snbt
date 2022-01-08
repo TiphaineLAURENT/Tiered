@@ -1,0 +1,749 @@
+{
+	id: "5F1828D807F8D85C"
+	group: ""
+	order_index: 22
+	filename: "extended_crafting"
+	title: "Extended Crafting"
+	icon: "extendedcrafting:ultimate_table"
+	subtitle: ["Big PP table."]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Black Iron"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"To craft Black Iron you need a Pewter Ingot, a Black Lotus, a Nocturnal Powder and a Kyronite Interconnect in an Energizing Orb."
+				"This is the main ingredient to start Extended Crafting."
+			]
+			size: 2.0d
+			id: "4F376C7EADD0619C"
+			tasks: [{
+				id: "31F3CF5C8DAAF8E1"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+				count: 64L
+			}]
+			rewards: [{
+				id: "111896C8E57CB827"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+				count: 16
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			description: ["The Basic Crafting Table is mainly used to craft Solar Panel from Environmental Energy."]
+			dependencies: ["57F3367A8CFAF22A"]
+			id: "5C965464AA01EDC2"
+			tasks: [{
+				id: "635FAEABB999EF21"
+				type: "item"
+				item: "extendedcrafting:basic_table"
+			}]
+			rewards: [{
+				id: "5162841CA5660B83"
+				type: "item"
+				item: "extendedcrafting:basic_table"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			description: [
+				"You can automate the Basic Crafting Table with it."
+				"The Table will grab items in an inventory on top of it."
+			]
+			dependencies: [
+				"07CA1C4EB1E3DB56"
+				"5C965464AA01EDC2"
+				"2CE4199287C93A9C"
+			]
+			id: "04598CC602252D1B"
+			tasks: [{
+				id: "108559D39F2EC3FD"
+				type: "item"
+				item: "extendedcrafting:basic_auto_table"
+			}]
+			rewards: [{
+				id: "70AB90E000186077"
+				type: "loot"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: ["Basic Component is used to craft the Basic Catalyst."]
+			dependencies: ["4F376C7EADD0619C"]
+			id: "2C32C7782C9E7C2E"
+			tasks: [{
+				id: "7D16E11E2F6E0CA0"
+				type: "item"
+				item: "extendedcrafting:basic_component"
+			}]
+			rewards: [{
+				id: "09756B10EA855E61"
+				type: "item"
+				item: "extendedcrafting:basic_component"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			description: ["Basic Catalyst is used to craft the Basic Crafting Table."]
+			dependencies: ["2C32C7782C9E7C2E"]
+			id: "57F3367A8CFAF22A"
+			tasks: [{
+				id: "410167C32E56A099"
+				type: "item"
+				item: "extendedcrafting:basic_catalyst"
+			}]
+			rewards: [{
+				id: "4EBBEDF67E021A16"
+				type: "item"
+				item: "extendedcrafting:basic_catalyst"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			description: ["The Advanced Crafting Table is mainly used to craft Solar Panel from Solar Flux."]
+			dependencies: ["6DF6AF043BB23CA8"]
+			id: "474281C4E572602E"
+			tasks: [{
+				id: "258F19721CC5F009"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+			rewards: [{
+				id: "2D120473A5026788"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			description: [
+				"You can automate the Advanced Crafting Table with it."
+				"The Table will grab items in an inventory on top of it."
+			]
+			dependencies: [
+				"07CA1C4EB1E3DB56"
+				"2CE4199287C93A9C"
+				"474281C4E572602E"
+			]
+			id: "0811F7EEF6D2B64C"
+			tasks: [{
+				id: "43665384924BBBD7"
+				type: "item"
+				item: "extendedcrafting:advanced_auto_table"
+			}]
+			rewards: [{
+				id: "12FA0BD93953AB80"
+				type: "loot"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			description: ["Advanced Component is used to craft the Advanced Catalyst."]
+			dependencies: ["4F376C7EADD0619C"]
+			id: "71D7790E92D711A0"
+			tasks: [{
+				id: "720F4FBF1E012EC6"
+				type: "item"
+				item: "extendedcrafting:advanced_component"
+			}]
+			rewards: [{
+				id: "1D3A98563726AAF3"
+				type: "item"
+				item: "extendedcrafting:advanced_component"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			description: ["Advanced Catalyst is used to craft the Advanced Crafting Table."]
+			dependencies: ["71D7790E92D711A0"]
+			id: "6DF6AF043BB23CA8"
+			tasks: [{
+				id: "7F454A0C3A9E0C63"
+				type: "item"
+				item: "extendedcrafting:advanced_catalyst"
+			}]
+			rewards: [{
+				id: "223A17437D3CAA15"
+				type: "item"
+				item: "extendedcrafting:advanced_catalyst"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			description: ["The Elite Crafting Table is used to craft the Quarkotron controller and some creative items."]
+			dependencies: ["29A8494555E53416"]
+			id: "59B2F59D0C14B884"
+			tasks: [{
+				id: "1B984CC59CC102D3"
+				type: "item"
+				item: "extendedcrafting:elite_table"
+			}]
+			rewards: [{
+				id: "00D52D7ABBB43AF7"
+				type: "item"
+				item: "extendedcrafting:elite_table"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			description: [
+				"You can automate the Elite Crafting Table with it."
+				"The Table will grab items in an inventory on top of it."
+			]
+			dependencies: [
+				"07CA1C4EB1E3DB56"
+				"2CE4199287C93A9C"
+				"59B2F59D0C14B884"
+			]
+			id: "66EA51C9925F7818"
+			tasks: [{
+				id: "43662305A10B00A3"
+				type: "item"
+				item: "extendedcrafting:elite_auto_table"
+			}]
+			rewards: [{
+				id: "739056F8D9150EDE"
+				type: "loot"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: ["Elite Component is used to craft the Elite Catalyst."]
+			dependencies: ["4F376C7EADD0619C"]
+			id: "5CE3ACAFBE790C28"
+			tasks: [{
+				id: "6FA10E4F47DD5FFF"
+				type: "item"
+				item: "extendedcrafting:elite_component"
+			}]
+			rewards: [{
+				id: "4CC4C8B709532362"
+				type: "item"
+				item: "extendedcrafting:elite_component"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			description: ["Elite Catalyst is used to craft the Elite Crafting Table."]
+			dependencies: ["5CE3ACAFBE790C28"]
+			id: "29A8494555E53416"
+			tasks: [{
+				id: "34886658095F5371"
+				type: "item"
+				item: "extendedcrafting:elite_catalyst"
+			}]
+			rewards: [{
+				id: "45DB3FE57A798A47"
+				type: "item"
+				item: "extendedcrafting:elite_catalyst"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			description: ["The Ultimate Crafting Table is mainly used to craft creative items."]
+			dependencies: ["12FB7D4F819CC21A"]
+			id: "1D0B07D5A177B5ED"
+			tasks: [{
+				id: "5C4F10ED91DB720F"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+			rewards: [{
+				id: "097D5C2DE5F220D5"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			description: [
+				"You can automate the Ultimate Crafting Table with it."
+				"The Table will grab items in an inventory on top of it."
+			]
+			dependencies: [
+				"07CA1C4EB1E3DB56"
+				"1D0B07D5A177B5ED"
+				"2CE4199287C93A9C"
+			]
+			id: "211C47F2C232EDE6"
+			tasks: [{
+				id: "789AC134DAC1E3FE"
+				type: "item"
+				item: "extendedcrafting:ultimate_auto_table"
+			}]
+			rewards: [{
+				id: "4679494D6A77C806"
+				type: "loot"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: ["Ultimate Component is used to craft the Ultimate Catalyst."]
+			dependencies: ["4F376C7EADD0619C"]
+			id: "11535C5D96099177"
+			tasks: [{
+				id: "275CECE34C564116"
+				type: "item"
+				item: "extendedcrafting:ultimate_component"
+			}]
+			rewards: [{
+				id: "4CEE6307485A749D"
+				type: "item"
+				item: "extendedcrafting:ultimate_component"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			description: ["Ultimate Catalyst is used to craft the Ultimate Crafting Table."]
+			dependencies: ["11535C5D96099177"]
+			id: "12FB7D4F819CC21A"
+			tasks: [{
+				id: "65440D79F7B7404A"
+				type: "item"
+				item: "extendedcrafting:ultimate_catalyst"
+			}]
+			rewards: [{
+				id: "3925835E2094D431"
+				type: "item"
+				item: "extendedcrafting:ultimate_catalyst"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			description: ["The Crystaltine Component is mainly used to craft the automation version of Extended Table."]
+			dependencies: ["4F376C7EADD0619C"]
+			id: "2CE4199287C93A9C"
+			tasks: [{
+				id: "553EDE3721C1478A"
+				type: "item"
+				item: "extendedcrafting:crystaltine_component"
+			}]
+			rewards: [{
+				id: "7DD84B82E40804E9"
+				type: "item"
+				item: "extendedcrafting:crystaltine_component"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			description: ["The Redstone Component is mainly used to craft the automation version of Extended Table."]
+			dependencies: ["4F376C7EADD0619C"]
+			id: "07CA1C4EB1E3DB56"
+			tasks: [{
+				id: "253E3EFC35CA567A"
+				type: "item"
+				item: "extendedcrafting:redstone_component"
+			}]
+			rewards: [{
+				id: "5B96C22C46107756"
+				type: "item"
+				item: "extendedcrafting:redstone_component"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"The Ender Crafter work with Ender Alternator, the more you have, the fastest it crafts."
+				"The max size is 7x7x7 with the Crafter at the center."
+			]
+			id: "2A4B496451E1606F"
+			tasks: [
+				{
+					id: "28B13782024B5794"
+					type: "item"
+					item: "extendedcrafting:ender_crafter"
+				}
+				{
+					id: "028E459C0D94D192"
+					type: "item"
+					item: "extendedcrafting:ender_alternator"
+					count: 12L
+				}
+			]
+			rewards: [{
+				id: "553285228209A7A0"
+				type: "item"
+				item: "extendedcrafting:ender_alternator"
+				count: 12
+			}]
+		}
+		{
+			title: "Combination Crafting"
+			x: 6.5d
+			y: 0.0d
+			description: ["The Crafting Core, with the Pedestal, is used to craft the Creative Essence and other end game things."]
+			dependencies: ["4F376C7EADD0619C"]
+			id: "3F4C2EC234F74D74"
+			tasks: [
+				{
+					id: "0E685BE37225E3F5"
+					type: "item"
+					item: "extendedcrafting:crafting_core"
+				}
+				{
+					id: "5EE2382DAE7892EC"
+					type: "item"
+					item: "extendedcrafting:pedestal"
+					count: 12L
+				}
+			]
+			rewards: [{
+				id: "2856453887E17F82"
+				type: "item"
+				item: "extendedcrafting:pedestal"
+				count: 12
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			description: ["The Quantum Compressor is only used to craft Singularities."]
+			dependencies: ["4F376C7EADD0619C"]
+			id: "01225FF9727AD15D"
+			tasks: [{
+				id: "2114C1ACAE565282"
+				type: "item"
+				item: "extendedcrafting:compressor"
+			}]
+			rewards: [{
+				id: "4FFBEE170CFC9090"
+				type: "item"
+				item: "extendedcrafting:compressor"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			description: ["Combine all the Singularity !"]
+			dependencies: ["2114C1ACAE565282"]
+			id: "77B2A91BD9E59CB3"
+			tasks: [{
+				id: "4620538E5319E044"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+			rewards: [{
+				id: "62F8F37D835A72B6"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			description: [
+				"A Miraculous Soup with a lot of vegetable and fruits."
+				""
+				"Tips, you can buy all the seeds and saplings in the market."
+			]
+			id: "4937F2ACAF32F6BC"
+			tasks: [{
+				id: "3365174E36C9B091"
+				type: "item"
+				item: "kubejs:miraculous_soup"
+			}]
+			rewards: [{
+				id: "3588A0D705E4A259"
+				type: "item"
+				item: "kubejs:miraculous_soup"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			description: [
+				"Craft a skewer with all the meat !"
+				""
+				"But if you eat it, you're going to have Bloodthirst effect."
+			]
+			id: "51A59478078205DB"
+			tasks: [{
+				id: "3D77427E388412CD"
+				type: "item"
+				item: "kubejs:ultimate_skewer"
+			}]
+			rewards: [{
+				id: "3DAAC69F0AB2CC9C"
+				type: "item"
+				item: "kubejs:ultimate_skewer"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			description: ["Collect and combine a lot of honeycomb."]
+			id: "75B139ECC1945B83"
+			tasks: [{
+				id: "535F674FB4C03A37"
+				type: "item"
+				item: "kubejs:ultimate_comb"
+			}]
+			rewards: [{
+				id: "38A43D7827D740A9"
+				type: "item"
+				item: "kubejs:ultimate_comb"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			description: [
+				"Like his name said, it's a sphere of all things."
+				"Combined all the ultimate items and a quarkonium block to get this  sphere."
+			]
+			dependencies: [
+				"211DE7106D6B6D96"
+				"75B139ECC1945B83"
+				"45FE575FFC250E33"
+				"51A59478078205DB"
+				"4937F2ACAF32F6BC"
+				"4EADD291B10F3476"
+				"77B2A91BD9E59CB3"
+			]
+			size: 2.0d
+			id: "09556A9AE232B5F9"
+			tasks: [{
+				id: "5F68BDEA99B0E0A7"
+				type: "item"
+				item: "kubejs:sphere"
+			}]
+			rewards: [{
+				id: "2BEFACE57B1C7657"
+				type: "item"
+				item: {
+					id: "botania:water_bowl"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "minecraft:water"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			description: [
+				"The Creative Essence is used to craft creative things."
+				"Also used to craft the Transmutation Table or the Machinarium Ingot to start working on the Quarkotron."
+			]
+			id: "6B724B21BEC259E8"
+			tasks: [{
+				id: "2F533F46B7A0E3CE"
+				type: "item"
+				item: "mysticalagradditions:creative_essence"
+			}]
+			rewards: [{
+				id: "3B0437CBD5AC17D3"
+				type: "item"
+				item: "mysticalagradditions:creative_essence"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			description: ["Combine five ultimate Netherite in the Basic Crafting Table to get an Ultimate Netherite Lattice."]
+			id: "45FE575FFC250E33"
+			tasks: [{
+				id: "7ED383919620E386"
+				type: "item"
+				item: "kubejs:ultimate_netherite_lattice"
+			}]
+			rewards: [{
+				id: "4F3D740C0609F31E"
+				type: "item"
+				item: "kubejs:ultimate_netherite_lattice"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			description: [
+				"Combine all the ingot, at least 81 of them."
+				""
+				"You can also craft a seed to collect this ingot."
+			]
+			id: "211DE7106D6B6D96"
+			tasks: [{
+				id: "168CAFF6C20F4590"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+			rewards: [{
+				id: "5CB839A24BEA8E3B"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+		}
+		{
+			title: "Quarkotron"
+			x: 4.0d
+			y: -3.0d
+			description: [
+				"The Quarkotron is a multiblock who can create a Pile of Quarkonium with power and a bit of time."
+				""
+				"You have also an Advanced Quarkotron who can duplicate Quarkonium, but you have, first, obtain at minimum a Pile of Quarkonium."
+				"{image:kubejs:textures/ftbquests/begin/quarkotron.png width:150 height:100 align:1}"
+			]
+			dependencies: ["7E922AD8B921E613"]
+			id: "24B49269256757AA"
+			tasks: [
+				{
+					id: "004CDDBFEDDFED0F"
+					type: "item"
+					item: "masterfulmachinery:quarkonium_controller"
+				}
+				{
+					id: "6643D99FF79F5A42"
+					type: "item"
+					item: "masterfulmachinery:quarkonium_quarkitem_port_items_output"
+				}
+				{
+					id: "1CE052835CE1C90B"
+					type: "item"
+					item: "masterfulmachinery:quarkonium_qfe_port_energy_input"
+				}
+			]
+			rewards: [{
+				id: "1CC527684C843EAF"
+				type: "item"
+				item: "masterfulmachinery:quarkonium_quarkitem_port_items_input"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			description: ["Collect a Pile of Quarkonium."]
+			dependencies: ["24B49269256757AA"]
+			id: "5B36D846A5857392"
+			tasks: [{
+				id: "376C7F26EF90613B"
+				type: "item"
+				item: "kubejs:pile_of_quarkonium"
+			}]
+			rewards: [{
+				id: "7DD9406590B6F48F"
+				type: "item"
+				item: "kubejs:pile_of_quarkonium"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			description: ["Craft a Quarkonium Nugget."]
+			dependencies: ["5B36D846A5857392"]
+			id: "398224CCB0E840EC"
+			tasks: [{
+				id: "36EAB1628B2333C4"
+				type: "item"
+				item: "kubejs:quarkonium_nugget"
+			}]
+			rewards: [{
+				id: "5BC107775C602123"
+				type: "item"
+				item: "kubejs:quarkonium_nugget"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			description: ["Craft a Quarkonium Ingot."]
+			dependencies: ["398224CCB0E840EC"]
+			id: "12A871B84E9DE25B"
+			tasks: [{
+				id: "18578008CF987475"
+				type: "item"
+				item: "kubejs:quarkonium_ingot"
+			}]
+			rewards: [{
+				id: "19D40F66663CC966"
+				type: "item"
+				item: "kubejs:quarkonium_ingot"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			description: ["Craft a Block of Quarkonium."]
+			dependencies: ["12A871B84E9DE25B"]
+			id: "4EADD291B10F3476"
+			tasks: [{
+				id: "0B4B1A6A0412B263"
+				type: "item"
+				item: "kubejs:quarkonium_block"
+			}]
+			rewards: [{
+				id: "6AED50518468B831"
+				type: "item"
+				item: "kubejs:quarkonium_block"
+			}]
+		}
+		{
+			title: "How do I begin Extended Crafting?"
+			icon: "create:brass_hand"
+			x: 0.0d
+			y: -3.0d
+			shape: "circle"
+			description: [
+				"To begin with Extended Crafting you need first to look how to make Black Iron. Yep, you're going to need several materials."
+				"{image:kubejs:textures/ftbquests/begin/powahpowah.png width:150 height:100 align:1}"
+				"You need to begin first Powah, Astral and Environmental Tech to get your Black Iron."
+			]
+			id: "366A89D72C3624CE"
+			tasks: [{
+				id: "5146516F53D73173"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "7D59ECDBBBB6C170"
+				type: "item"
+				item: "mob_grinding_utils:solid_xp_baby"
+			}]
+		}
+		{
+			title: "Machinarium Ingot"
+			x: 3.0d
+			y: -3.0d
+			description: ["Machinarium Ingot is used to craft the Machinarium Block for the Quarkotron."]
+			dependencies: ["6B724B21BEC259E8"]
+			id: "7E922AD8B921E613"
+			tasks: [{
+				id: "34A282BED80BD77C"
+				type: "item"
+				item: "kubejs:machinarium_ingot"
+				count: 64L
+			}]
+			rewards: [{
+				id: "72B0FB818F799C5E"
+				type: "item"
+				item: "kubejs:machinarium_ingot"
+				count: 4
+			}]
+		}
+	]
+}
