@@ -18,4 +18,19 @@ onEvent('jei.hide.items', (event) => {
 	// Zinc
 	event.hide('create:zinc_ingot')
 	event.hide('create:zinc_nugget')
+
+	// Copper
+	event.hide('create:copper_ingot')
+	event.hide('create:copper_ore')
+	event.hide('create:copper_block')
+	event.hide('create:copper_nugget')
+	event.hide('mekanism:ingot_copper')
+	event.hide('mekanism:copper_ore')
+	event.hide('mekanism:block_copper')
+	event.hide('mekanism:nugget_copper')
+	event.hide('mekanism:dust_copper')
+	event.hide('tconstruct:copper_ingot')
+	event.hide('tconstruct:copper_ore')
+	event.hide('tconstruct:copper_block')
+	event.hide('tconstruct:copper_nugget')
 })

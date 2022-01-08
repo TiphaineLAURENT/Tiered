@@ -13,12 +13,37 @@ events.listen('item.tags', (event) => {
     // Zinc
     event.removeAllTagsFrom('create:zinc_ingot')
     event.removeAllTagsFrom('create:zinc_nugget')
+
+    // Copper
+    event.removeAllTagsFrom('create:copper_ingot')
+    event.removeAllTagsFrom('mekanism:ingot_copper')
+    event.removeAllTagsFrom('tconstruct:copper_ingot')
+    event.removeAllTagsFrom('create:copper_block')
+    event.removeAllTagsFrom('mekanism:block_copper')
+    event.removeAllTagsFrom('tconstruct:copper_block')
+    event.removeAllTagsFrom('create:copper_nugget')
+    event.removeAllTagsFrom('mekanism:nugget_copper')
+    event.removeAllTagsFrom('tconstruct:copper_nugget')
+    event.removeAllTagsFrom('mekanism:dust_copper')
+    event.removeAllTagsFrom('tconstruct:copper_dust')
+    event.removeAllTagsFrom('create:copper_sheet')
+    event.removeAllTagsFrom('create:copper_ore')
+    event.removeAllTagsFrom('mekanism:copper_ore')
+    event.removeAllTagsFrom('tconstruct:copper_ore')
 })
 
 events.listen('block.tags', (event) => {
     // Lead
     event.removeAllTagsFrom('mekanism:lead_ore')
     event.removeAllTagsFrom('mekanism:block_lead')
+
+    // Copper
+    event.removeAllTagsFrom('create:copper_block')
+    event.removeAllTagsFrom('mekanism:block_copper')
+    event.removeAllTagsFrom('tconstruct:copper_block')
+    event.removeAllTagsFrom('create:copper_ore')
+    event.removeAllTagsFrom('mekanism:copper_ore')
+    event.removeAllTagsFrom('tconstruct:copper_ore')
 })
 
 events.listen('recipes', (event) => {
@@ -90,4 +115,68 @@ events.listen('recipes', (event) => {
 
     event.remove({ id: 'create:crafting/materials/zinc_ingot_from_decompacting' })
     event.shapeless('9x moremekanismprocessing:zinc_ingot', ['create:zinc_block'])
+
+    // Copper
+    event.remove({ id: 'create:crafting/materials/copper_ingot_from_compacting' })
+    event.remove({ id: 'create:crafting/materials/copper_ingot_from_decompacting' })
+    event.remove({ id: 'create:blasting/copper_ingot_from_ore' })
+    event.remove({ id: 'create:blasting/copper_ingot_from_crushed' })
+    event.blasting('thermal:copper_ingot', ['create:crushed_copper_ore']).xp(0.5)
+    event.remove({ id: 'create:smelting/copper_ingot_from_ore' })
+    event.remove({ id: 'create:smelting/copper_ingot_from_crushed' })
+    event.smelting('thermal:copper_ingot', ['create:crushed_copper_ore']).xp(0.5)
+    event.remove({ id: 'mysticalagriculture:essence/common/copper_ingot' })
+    event.shaped('thermal:copper_ingot',
+        [
+            'EEE',
+            'E E',
+            'EEE'
+        ], { E: 'mysticalagriculture:copper_essence' }
+    )
+    event.remove({ id: 'create:crafting/materials/copper_block_from_compacting' })
+    event.remove({ id: 'create:crafting/materials/copper_nugget_from_decompacting' })
+    event.remove({ id: 'create:splashing/crushed_copper_ore' })
+    event.custom({
+        'type': 'create:splashing',
+        'ingredients': [
+            {
+                'item': 'create:crushed_copper_ore'
+            }
+        ],
+        'results': [
+            {
+                'item': 'thermal:copper_nugget',
+                'count': 10
+            },
+            {
+                'item': 'thermal:copper_nugget',
+                'count': 5,
+                'chance': 0.5
+            }
+        ]
+    })
+
+    event.remove({ id: 'mekanism:processing/copper/ingot/from_block' })
+    event.remove({ id: 'mekanism:processing/copper/ingot/from_nuggets' })
+    event.remove({ id: 'mekanism:processing/copper/ingot/from_dust_blasting' })
+    event.remove({ id: 'mekanism:processing/copper/ingot/from_ore_blasting' })
+    event.remove({ id: 'mekanism:processing/copper/ingot/from_dust_smelting' })
+    event.remove({ id: 'mekanism:processing/copper/ingot/from_ore_smelting' })
+    event.remove({ id: 'mekanism:processing/copper/storage_blocks/from_ingots' })
+    event.remove({ id: 'mekanism:processing/copper/nugget/from_ingot' })
+    event.remove({ id: 'mekanism:processing/copper/dust/from_ingot' })
+    event.remove({ id: 'mekanism:processing/copper/nugget/from_ingot' })
+    event.remove({ id: 'mekanism:processing/copper/dust/from_ore' })
+    event.recipes.mekanism.enriching(Item.of('thermal:copper_dust', 2), '#forge:ores/copper')
+    event.remove({ id: 'mekanism:processing/copper/dust/from_dirty_dust' })
+    event.recipes.mekanism.enriching(Item.of('thermal:copper_dust', 1), 'mekanism:dirty_dust_copper')
+    event.remove({ id: 'mekanism:processing/copper/ore/from_dust' })
+    event.recipes.mekanism.combining('thermal:copper_ore', '8x thermal:copper_dust', 'minecraft:cobblestone')
+
+    event.remove({ id: 'tconstruct:common/materials/copper_ingot_from_block' })
+    event.remove({ id: 'tconstruct:common/materials/copper_ingot_from_nuggets' })
+    event.remove({ id: 'tconstruct:common/materials/copper_ingot_blasting' })
+    event.remove({ id: 'tconstruct:common/materials/copper_ingot_smelting' })
+    event.remove({ id: 'tconstruct:common/materials/copper_block_from_ingots' })
+    event.remove({ id: 'tconstruct:common/materials/copper_nugget_from_ingot' })
 })
