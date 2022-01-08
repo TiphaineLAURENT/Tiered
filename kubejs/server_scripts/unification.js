@@ -9,6 +9,10 @@ events.listen('item.tags', (event) => {
     event.removeAllTagsFrom('mekanism:nugget_lead')
     event.removeAllTagsFrom('mekanism:dust_lead')
     event.removeAllTagsFrom('mekanism:block_lead')
+
+    // Zinc
+    event.removeAllTagsFrom('create:zinc_ingot')
+    event.removeAllTagsFrom('create:zinc_nugget')
 })
 
 events.listen('block.tags', (event) => {
@@ -45,4 +49,45 @@ events.listen('recipes', (event) => {
     event.remove({ id: 'mekanism:processing/lead/dust/from_ore' })
     event.recipes.mekanism.enriching(Item.of('thermal:lead_dust', 2), '#forge:ores/lead')
     event.remove({ id: 'mekanism:processing/lead/storage_blocks/from_ingots' })
+
+    // Zinc
+    event.remove({ id: 'create:smelting/zinc_ingot_from_ore' })
+    event.smelting('moremekanismprocessing:zinc_ingot', '#forge:ores/zinc').xp(0.5)
+
+    event.remove({ id: 'create:blasting/zinc_ingot_from_ore' })
+    event.blasting('moremekanismprocessing:zinc_ingot', '#forge:ores/zinc').xp(0.5)
+
+    event.remove({ id: 'create:smelting/zinc_ingot_from_crushed' })
+    event.smelting('moremekanismprocessing:zinc_ingot', 'create:crushed_zinc_ore').xp(0.5)
+
+    event.remove({ id: 'create:crafting/materials/zinc_ingot_from_compacting' })
+
+    event.remove({ id: 'create:crafting/materials/zinc_nugget_from_decompacting' })
+
+    event.remove({ id: 'create:splashing/crushed_zinc_ore' })
+    event.custom({
+        'type': 'create:splashing',
+        'ingredients': [
+            {
+                'item': 'create:crushed_zinc_ore'
+            }
+        ],
+        'results': [
+            {
+                'item': 'moremekanismprocessing:zinc_nugget',
+                'count': 10
+            },
+            {
+                'item': 'moremekanismprocessing:zinc_nugget',
+                'count': 5,
+                'chance': 0.5
+            }
+        ]
+    })
+
+    event.remove({ id: 'create:blasting/zinc_ingot_from_crushed' })
+    event.blasting('moremekanismprocessing:zinc_ingot', 'create:crushed_zinc_ore').xp(0.5)
+
+    event.remove({ id: 'create:crafting/materials/zinc_ingot_from_decompacting' })
+    event.shapeless('9x moremekanismprocessing:zinc_ingot', ['create:zinc_block'])
 })

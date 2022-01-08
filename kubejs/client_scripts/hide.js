@@ -14,4 +14,8 @@ onEvent('jei.hide.items', (event) => {
 	event.hide('mekanism:ingot_lead')
 	event.hide('mekanism:nugget_lead')
 	event.hide('mekanism:block_lead')
+
+	// Zinc
+	event.hide('create:zinc_ingot')
+	event.hide('create:zinc_nugget')
 })
