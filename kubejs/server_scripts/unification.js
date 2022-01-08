@@ -30,6 +30,11 @@ events.listen('item.tags', (event) => {
     event.removeAllTagsFrom('create:copper_ore')
     event.removeAllTagsFrom('mekanism:copper_ore')
     event.removeAllTagsFrom('tconstruct:copper_ore')
+
+    // Silver
+    event.removeAllTagsFrom('moremekanismprocessing:silver_ingot')
+    event.removeAllTagsFrom('moremekanismprocessing:silver_nugget')
+    event.removeAllTagsFrom('moremekanismprocessing:dust_silver')
 })
 
 events.listen('block.tags', (event) => {
@@ -179,4 +184,25 @@ events.listen('recipes', (event) => {
     event.remove({ id: 'tconstruct:common/materials/copper_ingot_smelting' })
     event.remove({ id: 'tconstruct:common/materials/copper_block_from_ingots' })
     event.remove({ id: 'tconstruct:common/materials/copper_nugget_from_ingot' })
+
+    // Silver
+    event.remove({ id: 'moremekanismprocessing:processing/silver/ingot/from_nugget' })
+    event.remove({ id: 'mysticalagriculture:essence/common/silver_ingot' })
+    event.shaped('thermal:silver_ingot',
+        [
+            'EEE',
+            'E E',
+            'EEE'
+        ], { E: 'mysticalagriculture:silver_essence' }
+    )
+    event.remove({ id: 'moremekanismprocessing:processing/silver/ingot/from_dust_blasting' })
+    event.remove({ id: 'moremekanismprocessing:processing/silver/ingot/from_dust_smelting' })
+    event.remove({ id: 'moremekanismprocessing:processing/silver/ingot/from_nugget' })
+    event.remove({ id: 'moremekanismprocessing:processing/silver/nugget/from_ingot' })
+    event.remove({ id: 'moremekanismprocessing:processing/silver/dust/from_ingot' })
+    event.recipes.mekanism.crushing(Item.of('thermal:silver_dust', 1), 'thermal:silver_ingot')
+    event.remove({ id: 'moremekanismprocessing:processing/silver/dust/from_dirty_dust' })
+    event.recipes.mekanism.enriching(Item.of('thermal:silver_dust', 1), '#forge:ores/silver')
+    event.remove({ id: 'moremekanismprocessing:processing/silver/dust/from_ore' })
+    event.recipes.mekanism.enriching(Item.of('thermal:silver_dust', 2), '#forge:ores/silver')
 })

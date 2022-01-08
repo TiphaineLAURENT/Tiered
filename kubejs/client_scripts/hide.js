@@ -33,4 +33,9 @@ onEvent('jei.hide.items', (event) => {
 	event.hide('tconstruct:copper_ore')
 	event.hide('tconstruct:copper_block')
 	event.hide('tconstruct:copper_nugget')
+
+	// Silver
+	event.hide('moremekanismprocessing:dust_silver')
+	event.hide('moremekanismprocessing:silver_ingot')
+	event.hide('moremekanismprocessing:silver_nugget')
 })
