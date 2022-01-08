@@ -56,4 +56,9 @@ onEvent('jei.hide.items', (event) => {
 	event.hide('mekanism:block_bronze')
 	event.hide('mekanism:nugget_bronze')
 	event.hide('mekanism:dust_bronze')
+
+	// Draconium
+	event.hide('moremekanismprocessing:dust_draconium')
+	event.hide('moremekanismprocessing:draconium_ingot')
+	event.hide('moremekanismprocessing:draconium_nugget')
 })

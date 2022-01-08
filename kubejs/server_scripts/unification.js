@@ -51,6 +51,11 @@ events.listen('item.tags', (event) => {
     event.removeAllTagsFrom('tconstruct:tinkers_bronze_ingot')
     event.removeAllTagsFrom('tconstruct:tinkers_bronze_block')
     event.removeAllTagsFrom('tconstruct:tinkers_bronze_nugget')
+
+    // Draconium
+    event.removeAllTagsFrom('moremekanismprocessing:dust_draconium')
+    event.removeAllTagsFrom('moremekanismprocessing:draconium_ingot')
+    event.removeAllTagsFrom('moremekanismprocessing:draconium_nugget')
 })
 
 events.listen('block.tags', (event) => {
@@ -303,4 +308,52 @@ events.listen('recipes', (event) => {
     event.replaceOutput({ type: 'minecraft:blasting', mod: 'mekanismtools' }, 'mekanism:nugget_bronze', 'thermal:bronze_nugget')
     event.replaceOutput({ type: 'mekanism:crushing' }, 'mekanism:dust_bronze', 'thermal:bronze_dust')
     event.replaceOutput({ type: 'mekanism:metallurgic_infusing' }, 'mekanism:dust_bronze', 'thermal:bronze_dust')
+
+    // Draconium
+    event.replaceOutput({ type: 'mekanism:crushing' }, 'moremekanismprocessing:dust_draconium', 'draconicevolution:draconium_dust')
+    event.replaceOutput({ type: 'mekanism:enriching' }, 'moremekanismprocessing:dust_draconium', 'draconicevolution:draconium_dust')
+    event.remove({ id: 'moremekanismprocessing:processing/draconium/ingot/from_nugget' })
+    event.replaceOutput({ type: 'minecraft:blasting' }, 'moremekanismprocessing:draconium_ingot', 'draconicevolution:draconium_ingot')
+    event.remove({ id: 'moremekanismprocessing:processing/draconium/ingot/from_dust_smelting' })
+    event.remove({ id: 'moremekanismprocessing:processing/draconium/nugget/from_ingot' })
+    event.custom({
+        type: 'integrateddynamics:squeezer',
+        item: {
+            tag: 'forge:ores/draconium'
+        },
+        result: {
+            items: [
+                {
+                    item: {
+                        item: 'draconicevolution:draconium_dust'
+                    }
+                },
+                {
+                    item: 'draconicevolution:draconium_dust',
+                    chance: 0.5
+                }
+            ]
+        }
+    })
+    event.custom({
+        type: 'integrateddynamics:mechanical_squeezer',
+        item: {
+            tag: 'forge:ores/draconium'
+        },
+        result: {
+            items: [
+                {
+                    item: {
+                        item: 'draconicevolution:draconium_dust',
+                        count: 2
+                    }
+                },
+                {
+                    item: 'draconicevolution:draconium_dust',
+                    chance: 0.5
+                }
+            ]
+        },
+        duration: 40
+    })
 })
