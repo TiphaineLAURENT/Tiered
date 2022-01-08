@@ -1,0 +1,8 @@
+{
+    "name": "Creative",
+    "value": 7,
+    "farmland": "forbidden_arcanus:magical_farmland",
+    "essence": "mysticalagradditions:creative_essence",
+    "fertilizable": false,
+    "secondarySeedDrop": false
+  }

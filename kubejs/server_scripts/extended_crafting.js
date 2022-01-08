@@ -1,0 +1,9 @@
+events.listen('recipes', (event) => {
+    event.custom({
+        type: 'extendedcrafting:shapeless_table',
+        tier: 4,
+        ingredients:
+            ['minecraft:netherite_scrap', 'thermal:lumium_ingot', 'moremekanismprocessing:lithium_ingot', 'thermal:lead_ingot', 'minecraft:iron_ingot', 'thermal:invar_ingot', 'mekanism:ingot_uranium', 'mekanism:ingot_steel', 'mekanism:ingot_refined_obsidian', 'moremekanismprocessing:zinc_ingot', 'tconstruct:seared_brick', 'create:shadow_steel', 'thermal:signalum_ingot', 'thermal:silver_ingot', 'tconstruct:slimesteel_ingot', 'cagedmobs:star_infused_netherite_ingot', 'astralsorcery:starmetal_ingot', 'botania:terrasteel_ingot', 'thermal:tin_ingot', 'tconstruct:scorched_brick', 'tconstruct:rose_gold_ingot', 'create:refined_radiance', 'morered:red_alloy_ingot', 'tconstruct:queens_slime_ingot', 'industrialforegoing:pink_slime_ingot', 'tconstruct:pig_iron_ingot', 'forbidden_arcanus:obsidian_ingot', 'thermal:nickel_ingot', 'botania:manasteel_ingot', 'tconstruct:manyullyn_ingot', 'minecraft:nether_brick', 'advancednetherite:netherite_diamond_ingot', 'advancednetherite:netherite_emerald_ingot', 'advancednetherite:netherite_gold_ingot', 'minecraft:netherite_ingot', 'advancednetherite:netherite_iron_ingot', 'mekanism:ingot_refined_glowstone', 'thermal:copper_ingot', 'draconicevolution:draconium_ingot', 'thermal:electrum_ingot', 'botania:elementium_ingot', 'thermal:enderium_ingot', 'materialis:fairy_ingot', 'minecraft:gold_ingot', 'tconstruct:hepatizon_ingot', 'mekanism:ingot_osmium', 'thermal:constantan_ingot', 'tconstruct:cobalt_ingot', 'draconicevolution:chaos_shard', 'thermal:bronze_ingot', 'minecraft:brick', 'create:brass_ingot', 'draconicevolution:awakened_draconium_ingot', 'forbidden_arcanus:arcane_gold_ingot', 'mythicbotany:alfsteel_ingot'],
+        result: { item: 'extendedcrafting:the_ultimate_ingot', count: 1 }
+    })
+})

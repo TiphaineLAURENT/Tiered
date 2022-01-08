@@ -1,0 +1,8 @@
+// priority: 1000
+
+global.DRACONIC_TIERS = {
+    DRACONIUM: 'DRACONIUM',
+    WYVERN: 'WYVERN',
+    DRACONIC: 'DRACONIC',
+    CHAOTIC: 'CHAOTIC'
+}

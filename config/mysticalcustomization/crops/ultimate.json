@@ -1,0 +1,14 @@
+{
+    "name": "Ultimate",
+    "type": "resource",
+    "tier": "mysticalcustomization:ultimate",
+    "ingredient": {
+      "item": "extendedcrafting:the_ultimate_ingot"
+    },
+    "color": "a80030",
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_ingot",
+      "essence": "mysticalagriculture:item/essence_ingot"
+    },
+    "glint": true
+  }
