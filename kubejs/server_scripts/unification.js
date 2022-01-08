@@ -42,6 +42,15 @@ events.listen('item.tags', (event) => {
     event.removeAllTagsFrom('mekanism:nugget_tin')
     event.removeAllTagsFrom('mekanism:dust_tin')
     event.removeAllTagsFrom('mekanism:block_tin')
+
+    // Bronze
+    event.removeAllTagsFrom('mekanism:ingot_bronze')
+    event.removeAllTagsFrom('mekanism:nugget_bronze')
+    event.removeAllTagsFrom('mekanism:dust_bronze')
+    event.removeAllTagsFrom('mekanism:block_bronze')
+    event.removeAllTagsFrom('tconstruct:tinkers_bronze_ingot')
+    event.removeAllTagsFrom('tconstruct:tinkers_bronze_block')
+    event.removeAllTagsFrom('tconstruct:tinkers_bronze_nugget')
 })
 
 events.listen('block.tags', (event) => {
@@ -60,6 +69,10 @@ events.listen('block.tags', (event) => {
     // Tin
     event.removeAllTagsFrom('mekanism:block_tin')
     event.removeAllTagsFrom('mekanism:tin_ore')
+
+    // Bronze
+    event.removeAllTagsFrom('mekanism:block_bronze')
+    event.removeAllTagsFrom('tconstruct:tinkers_bronze_block')
 })
 
 events.listen('recipes', (event) => {
@@ -244,4 +257,50 @@ events.listen('recipes', (event) => {
     event.remove({ id: 'create:splashing/mekanism/crushed_tin_ore' })
     event.remove({ id: 'mekanism:processing/tin/ore/from_dust' })
     event.recipes.mekanism.combining('thermal:tin_ore', '8x thermal:tin_dust', 'minecraft:cobblestone')
+
+    // Bronze
+    event.remove({ id: 'tconstruct:common/materials/tinkers_bronze_ingot_from_block' })
+    event.remove({ id: 'mysticalagriculture:seed/infusion/tinkers_bronze' })
+    event.remove({ id: 'mysticalagriculture:seed/reprocessor/tinkers_bronze' })
+    event.remove({ id: 'mysticalagriculture:essence/tconstruct/tinkers_bronze_ingot' })
+    event.remove({ id: 'tconstruct:common/materials/tinkers_bronze_ingot_from_nuggets' })
+    event.remove({ id: 'tconstruct:tinkers_bronze_ingot' })
+    event.remove({ id: 'createaddition:compat/tconstruct/tinkers_bronze' })
+    event.custom({
+        'type': 'create:mixing',
+        'ingredients': [
+            {
+                'tag': 'forge:ingots/copper'
+            },
+            {
+                'tag': 'forge:ingots/copper'
+            },
+            {
+                'tag': 'forge:ingots/copper'
+            },
+            {
+                'tag': 'forge:glass'
+            }
+        ],
+        'results': [
+            {
+                'item': 'thermal:bronze_ingot',
+                'count': 3
+            }
+        ],
+        'heatRequirement': 'heated'
+    })
+    event.remove({ id: 'tconstruct:common/materials/tinkers_bronze_block_from_ingots' })
+    event.remove({ id: 'tconstruct:common/materials/tinkers_bronze_nugget_from_ingot' })
+    event.remove({ id: 'mekanism:processing/bronze/ingot/from_block' })
+    event.remove({ id: 'mekanism:processing/bronze/ingot/from_nuggets' })
+    event.remove({ id: 'mekanism:processing/bronze/ingot/from_dust_blasting' })
+    event.remove({ id: 'mekanism:processing/bronze/ingot/from_dust_smelting' })
+    event.replaceOutput({ type: 'mekanism:metallurgic_infusing' }, 'mekanism:ingot_bronze', 'thermal:bronze_ingot')
+    event.remove({ id: 'mekanism:storage_blocks/bronze' })
+    event.remove({ id: 'mekanism:nuggets/bronze' })
+    event.replaceOutput({ type: 'minecraft:smelting', mod: 'mekanismtools' }, 'mekanism:nugget_bronze', 'thermal:bronze_nugget')
+    event.replaceOutput({ type: 'minecraft:blasting', mod: 'mekanismtools' }, 'mekanism:nugget_bronze', 'thermal:bronze_nugget')
+    event.replaceOutput({ type: 'mekanism:crushing' }, 'mekanism:dust_bronze', 'thermal:bronze_dust')
+    event.replaceOutput({ type: 'mekanism:metallurgic_infusing' }, 'mekanism:dust_bronze', 'thermal:bronze_dust')
 })

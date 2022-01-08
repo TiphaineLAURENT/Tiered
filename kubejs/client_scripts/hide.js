@@ -45,4 +45,15 @@ onEvent('jei.hide.items', (event) => {
 	event.hide('mekanism:ingot_tin')
 	event.hide('mekanism:nugget_tin')
 	event.hide('mekanism:block_tin')
+
+	// Bronze
+	event.hide('mysticalagriculture:tinkers_bronze_seeds')
+	event.hide('mysticalagriculture:tinkers_bronze_essence')
+	event.hide('tconstruct:tinkers_bronze_ingot')
+	event.hide('tconstruct:tinkers_bronze_block')
+	event.hide('tconstruct:tinkers_bronze_nugget')
+	event.hide('mekanism:ingot_bronze')
+	event.hide('mekanism:block_bronze')
+	event.hide('mekanism:nugget_bronze')
+	event.hide('mekanism:dust_bronze')
 })
