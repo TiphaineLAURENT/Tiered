@@ -5,7 +5,7 @@
   "forge:ingots/lumium": "thermal:lumium_ingot",
   "forge:silicon": "refinedstorage:silicon",
   "forge:gems/apatite": "moremekanismprocessing:gem_apatite",
-  "forge:dusts/saltpeter": "null",
+  "forge:dusts/saltpeter": "bloodmagic:saltpeter",
   "forge:ingots/steel": "mekanism:ingot_steel",
   "forge:ingots/lead": "thermal:lead_ingot",
   "forge:ingots/mithril": "null",
