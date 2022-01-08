@@ -23,10 +23,10 @@ events.listen('recipes', (event) => {
     event.remove({ id: 'moremekanismprocessing:processing/cobalt/nugget/from_ingot' })
 
     event.remove({ id: 'moremekanismprocessing:processing/cobalt/ingot/from_dust_blasting' })
-    event.smelting('tconstruct:cobalt_ingot', 'moremekanismprocessing:dust_cobalt')
+    event.smelting('tconstruct:cobalt_ingot', 'moremekanismprocessing:dust_cobalt').xp(0.5)
 
     event.remove({ id: 'moremekanismprocessing:processing/cobalt/ingot/from_dust_smelting' })
-    event.blasting('tconstruct:cobalt_ingot', 'moremekanismprocessing:dust_cobalt')
+    event.blasting('tconstruct:cobalt_ingot', 'moremekanismprocessing:dust_cobalt').xp(0.5)
 
     // Lead
     event.remove({ id: 'mekanism:processing/lead/ore/from_dust' })

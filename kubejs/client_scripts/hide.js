@@ -2,6 +2,9 @@
 
 onEvent('jei.hide.items', (event) => {
 	event.hide('mysticalagriculture:infusion_crystal')
+
+	/* Unification */
+	// Cobalt
 	event.hide('moremekanismprocessing:cobalt_ingot')
 	event.hide('moremekanismprocessing:cobalt_nugget')
 
