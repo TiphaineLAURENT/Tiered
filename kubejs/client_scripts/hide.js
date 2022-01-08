@@ -38,4 +38,11 @@ onEvent('jei.hide.items', (event) => {
 	event.hide('moremekanismprocessing:dust_silver')
 	event.hide('moremekanismprocessing:silver_ingot')
 	event.hide('moremekanismprocessing:silver_nugget')
+
+	// Tin
+	event.hide('mekanism:tin_ore')
+	event.hide('mekanism:dust_tin')
+	event.hide('mekanism:ingot_tin')
+	event.hide('mekanism:nugget_tin')
+	event.hide('mekanism:block_tin')
 })

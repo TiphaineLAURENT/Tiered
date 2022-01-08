@@ -35,6 +35,13 @@ events.listen('item.tags', (event) => {
     event.removeAllTagsFrom('moremekanismprocessing:silver_ingot')
     event.removeAllTagsFrom('moremekanismprocessing:silver_nugget')
     event.removeAllTagsFrom('moremekanismprocessing:dust_silver')
+
+    // Tin
+    event.removeAllTagsFrom('mekanism:tin_ore')
+    event.removeAllTagsFrom('mekanism:ingot_tin')
+    event.removeAllTagsFrom('mekanism:nugget_tin')
+    event.removeAllTagsFrom('mekanism:dust_tin')
+    event.removeAllTagsFrom('mekanism:block_tin')
 })
 
 events.listen('block.tags', (event) => {
@@ -49,6 +56,10 @@ events.listen('block.tags', (event) => {
     event.removeAllTagsFrom('create:copper_ore')
     event.removeAllTagsFrom('mekanism:copper_ore')
     event.removeAllTagsFrom('tconstruct:copper_ore')
+
+    // Tin
+    event.removeAllTagsFrom('mekanism:block_tin')
+    event.removeAllTagsFrom('mekanism:tin_ore')
 })
 
 events.listen('recipes', (event) => {
@@ -205,4 +216,32 @@ events.listen('recipes', (event) => {
     event.recipes.mekanism.enriching(Item.of('thermal:silver_dust', 1), '#forge:ores/silver')
     event.remove({ id: 'moremekanismprocessing:processing/silver/dust/from_ore' })
     event.recipes.mekanism.enriching(Item.of('thermal:silver_dust', 2), '#forge:ores/silver')
+
+    // Tin
+    event.remove({ id: 'mekanism:processing/tin/ingot/from_nugget' })
+    event.remove({ id: 'mekanism:processing/tin/ingot/from_block' })
+    event.remove({ id: 'create:blasting/ingot_tin_compat_mekanism' })
+    event.remove({ id: 'mekanism:processing/tin/ingot/from_ore_blasting' })
+    event.remove({ id: 'mekanism:processing/tin/ingot/from_dust_blasting' })
+    event.remove({ id: 'create:smelting/ingot_tin_compat_mekanism' })
+    event.remove({ id: 'mekanism:processing/tin/ingot/from_ore_smelting' })
+    event.remove({ id: 'mekanism:processing/tin/ingot/from_dust_smelting' })
+    event.remove({ id: 'mekanism:processing/tin/ingot/from_nuggets' })
+    event.remove({ id: 'mekanism:processing/tin/ingot/from_block' })
+    event.remove({ id: 'tconstruct:smeltery/casting/metal/tin/ingot_gold_cast' })
+    event.remove({ id: 'tconstruct:smeltery/casting/metal/tin/ingot_sand_cast' })
+    event.remove({ id: 'mekanism:processing/tin/nugget/from_ingot' })
+    event.remove({ id: 'mekanism:processing/tin/dust/from_ingot' })
+    event.recipes.mekanism.crushing(Item.of('thermal:tin_dust', 1), 'thermal:tin_ingot')
+    event.remove({ id: 'mekanism:processing/tin/dust/from_dirty_dust' })
+    event.recipes.mekanism.enriching(Item.of('thermal:tin_dust', 1), '#forge:ores/tin')
+    event.remove({ id: 'mekanism:processing/tin/dust/from_ore' })
+    event.recipes.mekanism.enriching(Item.of('thermal:tin_dust', 2), '#forge:ores/tin')
+    event.remove({ id: 'tconstruct:smeltery/casting/metal/tin/nugget_gold_cast' })
+    event.remove({ id: 'tconstruct:smeltery/casting/metal/tin/nugget_sand_cast' })
+    event.remove({ id: 'mekanism:processing/tin/storage_blocks/from_ingots' })
+    event.remove({ id: 'tconstruct:smeltery/casting/metal/tin/block' })
+    event.remove({ id: 'create:splashing/mekanism/crushed_tin_ore' })
+    event.remove({ id: 'mekanism:processing/tin/ore/from_dust' })
+    event.recipes.mekanism.combining('thermal:tin_ore', '8x thermal:tin_dust', 'minecraft:cobblestone')
 })
