@@ -555,17 +555,6 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -2.5d
-			dependencies: ["4A3835E51F29E526"]
-			id: "6E9EB330A46A99A4"
-			tasks: [{
-				id: "79BFB15C90053BDC"
-				type: "item"
-				item: "rsrequestify:requester"
-			}]
-		}
-		{
 			x: -5.0d
 			y: -3.0d
 			dependencies: ["4A3835E51F29E526"]
@@ -819,39 +808,6 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -1.5d
-			dependencies: ["6E9EB330A46A99A4"]
-			id: "0083ADCEB1E95FEB"
-			tasks: [{
-				id: "675469A5ABCE9E26"
-				type: "item"
-				item: "cabletiers:elite_requester"
-			}]
-		}
-		{
-			x: -6.0d
-			y: -0.5d
-			dependencies: ["0083ADCEB1E95FEB"]
-			id: "327C337F8EF77E60"
-			tasks: [{
-				id: "639E3F868D68A169"
-				type: "item"
-				item: "cabletiers:ultra_requester"
-			}]
-		}
-		{
-			x: -6.0d
-			y: 0.5d
-			dependencies: ["327C337F8EF77E60"]
-			id: "2463DD8BBD352D62"
-			tasks: [{
-				id: "17BE003905E48EE7"
-				type: "item"
-				item: "cabletiers:creative_requester"
-			}]
-		}
-		{
 			x: -4.300000000000001d
 			y: -2.4d
 			dependencies: ["1925D9FDA6C0C63E"]
@@ -980,6 +936,17 @@
 						value: "refinedstorage:crafter_manager"
 					}
 				}
+			}]
+		}
+		{
+			x: -1.7000000000000002d
+			y: 3.6999999999999997d
+			dependencies: ["0E298FC2787B0672"]
+			id: "4D21EFBD964B99B5"
+			tasks: [{
+				id: "526A5EAE1A5D3A3B"
+				type: "item"
+				item: "rslargepatterns:large_pattern_encoder"
 			}]
 		}
 	]
