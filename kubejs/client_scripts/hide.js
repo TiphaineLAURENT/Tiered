@@ -61,4 +61,9 @@ onEvent('jei.hide.items', (event) => {
 	event.hide('moremekanismprocessing:dust_draconium')
 	event.hide('moremekanismprocessing:draconium_ingot')
 	event.hide('moremekanismprocessing:draconium_nugget')
+
+	// Nickel
+	event.hide('moremekanismprocessing:dust_nickel')
+	event.hide('moremekanismprocessing:nickel_ingot')
+	event.hide('moremekanismprocessing:nickel_nugget')
 })

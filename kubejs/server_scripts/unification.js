@@ -56,6 +56,11 @@ events.listen('item.tags', (event) => {
     event.removeAllTagsFrom('moremekanismprocessing:dust_draconium')
     event.removeAllTagsFrom('moremekanismprocessing:draconium_ingot')
     event.removeAllTagsFrom('moremekanismprocessing:draconium_nugget')
+
+    // Nickel
+    event.removeAllTagsFrom('moremekanismprocessing:nickel_ingot')
+    event.removeAllTagsFrom('moremekanismprocessing:nickel_nugget')
+    event.removeAllTagsFrom('moremekanismprocessing:dust_nickel')
 })
 
 events.listen('block.tags', (event) => {
@@ -356,4 +361,21 @@ events.listen('recipes', (event) => {
         },
         duration: 40
     })
+
+    // Nickel
+    event.replaceOutput({ type: 'minecraft:shaped' }, 'moremekanismprocessing:nickel_ingot', 'thermal:nickel_ingot')
+    event.remove({ id: 'moremekanismprocessing:processing/nickel/ingot/from_nugget' })
+    event.remove({ id: 'moremekanismprocessing:processing/nickel/ingot/from_dust_blasting' })
+    event.remove({ id: 'moremekanismprocessing:processing/nickel/ingot/from_dust_smelting' })
+    event.remove({ id: 'mysticalagriculture:essence/common/nickel_ingot' })
+    event.shaped('thermal:nickel_ingot',
+        [
+            'EEE',
+            'E E',
+            'EEE'
+        ], { E: 'mysticalagriculture:nickel_essence' }
+    )
+    event.replaceOutput({ type: 'mekanism:crushing' }, 'moremekanismprocessing:dust_nickel', 'thermal:nickel_dust')
+    event.replaceOutput({ type: 'mekanism:enriching' }, 'moremekanismprocessing:dust_nickel', 'thermal:nickel_dust')
+    event.remove({ id: 'moremekanismprocessing:processing/nickel/nugget/from_ingot' })
 })
