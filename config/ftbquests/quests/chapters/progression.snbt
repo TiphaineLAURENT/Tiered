@@ -1132,9 +1132,9 @@
 			]
 		}
 		{
-			x: -3.5d
+			x: -5.0d
 			y: -2.5d
-			dependencies: ["1E4520169892DFF2"]
+			dependencies: ["49BF2338A9B1FDB7"]
 			id: "407D96EFE284E959"
 			tasks: [
 				{
@@ -1179,6 +1179,417 @@
 						tag: {
 							Damage: 0
 						}
+					}
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 6.5d
+			id: "75AF6F5542B4462F"
+			tasks: [
+				{
+					id: "383443AD6FB80E35"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6B2DEFA1146B6826"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "797E41233DBD5373"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2EB094F71E570D4F"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 6.5d
+			dependencies: ["75AF6F5542B4462F"]
+			id: "35AA14575FD1D79B"
+			tasks: [
+				{
+					id: "1B4C2F6A294F9F69"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_helmet_nether"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "29BDF26F2376E9DC"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_chestplate_nether"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "28501311DB156D72"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_leggings_nether"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "080E2DED4834BCA3"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_boots_nether"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 6.5d
+			dependencies: ["35AA14575FD1D79B"]
+			id: "0A97FE5C25938C9E"
+			tasks: [
+				{
+					id: "7FBDD952A89AA94D"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_helmet_end"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2A7A404430CAC5D7"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_chestplate_end"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0F38BA380102E3C8"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_leggings_end"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "420B1991F22DE446"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_boots_end"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 6.5d
+			dependencies: ["0A97FE5C25938C9E"]
+			id: "670ECD085316D764"
+			tasks: [
+				{
+					id: "7AFB75D60EF8E0A1"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_helmet_dragon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6248E2FDA3422CBC"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_chestplate_dragon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0058B824021BF537"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_leggings_dragon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "69249295DEDB584D"
+					type: "item"
+					item: {
+						id: "gobber2:gobber2_boots_dragon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 8.0d
+			id: "6D93178FE35866BC"
+			tasks: [
+				{
+					id: "38FCF8662CBFE5CB"
+					type: "item"
+					item: {
+						id: "botania:manasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "138BC767A5BD8DD5"
+					type: "item"
+					item: {
+						id: "botania:manasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "23981FE6F4D261F1"
+					type: "item"
+					item: {
+						id: "botania:manasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "623C18CBA36E929D"
+					type: "item"
+					item: {
+						id: "botania:manasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 8.0d
+			dependencies: ["6D93178FE35866BC"]
+			id: "1DE38FB0E552AAE2"
+			tasks: [
+				{
+					id: "27270991B8671E70"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "63AFEBA71D4D66BE"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "580B48011768339B"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "54BADECEF36D9440"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 8.0d
+			dependencies: ["1DE38FB0E552AAE2"]
+			id: "2AA94E7D675A619D"
+			tasks: [
+				{
+					id: "4A2D621D9872948F"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "050A51D9EF466B6F"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7B96F24F7C2ACDAB"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7CC37CAFA3D8562A"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 6.5d
+			dependencies: [
+				"56E12016B014F784"
+				"662A3D8B6BD6DD2B"
+				"670ECD085316D764"
+				"2AA94E7D675A619D"
+			]
+			id: "0E5F986D94FDD7B5"
+			tasks: [
+				{
+					id: "049B91126688020B"
+					type: "item"
+					item: {
+						id: "overloaded:multi_helmet"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "49F237C924D2885B"
+					type: "item"
+					item: {
+						id: "overloaded:multi_chestplate"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "09B633F6E3CD315D"
+					type: "item"
+					item: {
+						id: "overloaded:multi_leggings"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "7BD1E787E6CEA149"
+					type: "item"
+					item: {
+						id: "overloaded:multi_boots"
+						Count: 1b
+						tag: { }
 					}
 				}
 			]
