@@ -1,11 +1,11 @@
 #Set to false to disable the default way of unlocking trinkets.
-unlockEnabled = false
+unlockEnabled = true
 #Cooldown (ticks) between unlocks
 #Range: 0 ~ 1728000
 unlockCooldown = 2400
 #List of banned trinkets eg: ["losttrinkets:piggy", "losttrinkets:magical_feathers"]
 #The trinkets listed in here will also be removed from players that already unlocked them.
-blackList = ["losttrinkets:octopick"]
+blackList = []
 #List of trinkets that can't be unlocked randomly eg: ["losttrinkets:piggy", "losttrinkets:magical_feathers"]
 #The trinkets listed in here will not be removed from players that already unlocked them.
 nonRandom = []
