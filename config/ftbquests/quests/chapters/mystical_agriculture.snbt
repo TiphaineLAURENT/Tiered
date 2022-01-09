@@ -1,7 +1,7 @@
 {
 	id: "4D01287CE3D57354"
 	group: ""
-	order_index: 4
+	order_index: 5
 	filename: "mystical_agriculture"
 	title: "Mystical Agriculture"
 	icon: "mysticalagriculture:inferium_essence"
@@ -21,6 +21,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
+			dependencies: ["30757BE839B5011C"]
 			id: "31C5263D2AE4CCC2"
 			tasks: [{
 				id: "46A25F77BB837401"
@@ -31,6 +32,7 @@
 		{
 			x: 5.0d
 			y: 0.0d
+			dependencies: ["31C5263D2AE4CCC2"]
 			id: "0CB87B4D8C9CB496"
 			tasks: [{
 				id: "71C46420749AFB52"
@@ -41,6 +43,7 @@
 		{
 			x: 8.5d
 			y: 0.0d
+			dependencies: ["0CB87B4D8C9CB496"]
 			id: "269BC6E7E12CD427"
 			tasks: [{
 				id: "6F57B52C67E4E461"
@@ -51,6 +54,7 @@
 		{
 			x: 12.0d
 			y: 0.0d
+			dependencies: ["269BC6E7E12CD427"]
 			id: "44D20CA4123D4DA5"
 			tasks: [{
 				id: "1EEC8BB4D7CEB950"
@@ -61,6 +65,7 @@
 		{
 			x: 15.5d
 			y: 0.0d
+			dependencies: ["44D20CA4123D4DA5"]
 			id: "08E5288E2A0B03A3"
 			tasks: [{
 				id: "335CCA9D26180DFD"
@@ -727,6 +732,17 @@
 					item: "mysticaladaptations:insanium_shovel"
 				}
 			]
+		}
+		{
+			x: 18.5d
+			y: 0.0d
+			dependencies: ["08E5288E2A0B03A3"]
+			id: "49760BC3FB2C5A06"
+			tasks: [{
+				id: "636D3DE388EDE160"
+				type: "item"
+				item: "mysticalagradditions:creative_essence"
+			}]
 		}
 	]
 }

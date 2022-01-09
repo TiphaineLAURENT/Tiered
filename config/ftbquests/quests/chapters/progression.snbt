@@ -1,14 +1,9 @@
 {
 	id: "5428034ACF7D5A47"
 	group: ""
-	order_index: 1
+	order_index: 2
 	filename: "progression"
 	title: "Armors"
-	icon: {
-		id: "overloaded:multi_chestplate"
-		Count: 1b
-		tag: { }
-	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

@@ -1,7 +1,7 @@
 {
 	id: "000000000000044D"
 	group: ""
-	order_index: 5
+	order_index: 8
 	filename: "create"
 	title: "Create"
 	icon: "create:crushing_wheel"
@@ -105,10 +105,7 @@
 			x: 6.0d
 			y: -4.0d
 			description: ["The Mechanical Press is a mechanical component that applies Pressing, Packing, and Compacting recipes to items below it."]
-			dependencies: [
-				"0000000000000496"
-				"0000000000000458"
-			]
+			dependencies: ["0000000000000458"]
 			id: "000000000000045A"
 			tasks: [{
 				id: "000000000000045B"
@@ -562,10 +559,7 @@
 			x: 6.5d
 			y: -5.0d
 			description: ["The Gearbox can relay rotational power in four horizontal directions. The vertical counterpart, like the normal version, can relay power in four vertical directions."]
-			dependencies: [
-				"0000000000000496"
-				"0000000000000458"
-			]
+			dependencies: ["0000000000000458"]
 			id: "0000000000000489"
 			tasks: [
 				{
@@ -601,10 +595,7 @@
 				"The Encased Fan is a mechanical component that can create air streams and generate power."
 				"Its air streams are used for moving entities or for Bulk Washing, Bulk Blasting, and Bulk Smoking."
 			]
-			dependencies: [
-				"0000000000000496"
-				"0000000000000458"
-			]
+			dependencies: ["0000000000000458"]
 			id: "000000000000048C"
 			tasks: [{
 				id: "000000000000048D"
@@ -706,54 +697,6 @@
 			}]
 		}
 		{
-			title: "Kinetic Transmitters"
-			x: 5.5d
-			y: -5.0d
-			description: [
-				"The Cogwheel is a basic mechanical component in Create that relays rotation."
-				""
-				"The Large Cogwheel is a larger variant of the cogwheel that can relay rotation around corners and power Rotation Speed Controllers."
-			]
-			id: "0000000000000496"
-			tasks: [
-				{
-					id: "0000000000000497"
-					type: "item"
-					item: "create:shaft"
-				}
-				{
-					id: "000000000000049C"
-					type: "item"
-					title: "Cogwheel"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:cogwheels"
-						}
-					}
-				}
-				{
-					id: "000000000000049D"
-					type: "item"
-					title: "Large Cogwheel"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:large_cogwheels"
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "363CB6E6046DFC1C"
-				type: "item"
-				item: "create:shaft"
-				count: 16
-			}]
-		}
-		{
 			x: 7.5d
 			y: -3.5d
 			description: [
@@ -761,7 +704,6 @@
 				""
 				"Total stress capacity can be increased by adding more wheels in sequence."
 			]
-			dependencies: ["0000000000000496"]
 			id: "000000000000049E"
 			tasks: [{
 				id: "000000000000049F"
@@ -779,7 +721,6 @@
 			x: 7.5d
 			y: -5.0d
 			description: ["The Millstone is a more basic equivalent of the Crushing Wheels, capable of applying milling recipes to any items inserted from above."]
-			dependencies: ["0000000000000496"]
 			id: "00000000000004A0"
 			tasks: [{
 				id: "00000000000004A1"
@@ -834,7 +775,6 @@
 			x: 7.5d
 			y: -6.5d
 			description: ["The Mechanical Mixer is a mechanical component that applies Mixing recipes and shapeless Crafting recipes to items in Basins."]
-			dependencies: ["0000000000000496"]
 			id: "00000000000004A6"
 			tasks: [{
 				id: "00000000000004A7"

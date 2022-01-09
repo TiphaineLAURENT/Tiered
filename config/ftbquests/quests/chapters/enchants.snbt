@@ -1,0 +1,219 @@
+{
+	id: "46A4A198D32E8C95"
+	group: ""
+	order_index: 7
+	filename: "enchants"
+	title: "Enchants"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["1B46149682CF680B"]
+			id: "27DBD0217722713F"
+			tasks: [{
+				id: "7C8481A9D7B36D68"
+				type: "item"
+				item: "cyclic:disenchanter"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			id: "1B46149682CF680B"
+			tasks: [{
+				id: "05D3FADA24D52136"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.4999999999999996d
+			dependencies: ["0772E9D2A1B9971B"]
+			id: "33E37336992D5242"
+			tasks: [{
+				id: "17DB3391F2EF2A05"
+				type: "item"
+				item: "enchantingbooks:iron_book"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			dependencies: ["1B46149682CF680B"]
+			id: "24D711DFB6D8E737"
+			tasks: [{
+				id: "674B3CF85BC527BA"
+				type: "item"
+				item: "minecraft:bookshelf"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			dependencies: ["33E37336992D5242"]
+			id: "2D6D7E204CD7313B"
+			tasks: [{
+				id: "02289AA0F3693383"
+				type: "item"
+				item: "enchantingbooks:golden_book"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			dependencies: ["1B46149682CF680B"]
+			id: "0772E9D2A1B9971B"
+			tasks: [{
+				id: "3B2184455E148B06"
+				type: "item"
+				item: "minecraft:book"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			dependencies: ["2D6D7E204CD7313B"]
+			id: "03C4EC5913027B88"
+			tasks: [{
+				id: "7CE4346E941E0829"
+				type: "item"
+				item: "enchantingbooks:diamond_book"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.5d
+			dependencies: ["03C4EC5913027B88"]
+			id: "44F85B960634DCBE"
+			tasks: [{
+				id: "3E0F2811F49688C0"
+				type: "item"
+				item: "enchantingbooks:netherite_book"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			dependencies: ["24D711DFB6D8E737"]
+			id: "45D13A7910E0A2B5"
+			tasks: [{
+				id: "583E858AB8793617"
+				type: "item"
+				item: "enchantingbooks:iron_bookshelf"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			dependencies: ["45D13A7910E0A2B5"]
+			id: "3EA95E0C2B603CBF"
+			tasks: [{
+				id: "40666DE4BB713B35"
+				type: "item"
+				item: "enchantingbooks:golden_bookshelf"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			dependencies: ["3EA95E0C2B603CBF"]
+			id: "56916333DB830563"
+			tasks: [{
+				id: "076F66AC58BBFFCF"
+				type: "item"
+				item: "enchantingbooks:diamond_bookshelf"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			dependencies: ["56916333DB830563"]
+			id: "709AA966ECE15578"
+			tasks: [{
+				id: "021F22DDE901C4F4"
+				type: "item"
+				item: "enchantingbooks:netherite_bookshelf"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["1B46149682CF680B"]
+			id: "38DF141B606A4D13"
+			tasks: [{
+				id: "4F95D5AEE50AF45E"
+				type: "item"
+				item: "botania:mana_pylon"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["38DF141B606A4D13"]
+			id: "616D0EDA60366F4B"
+			tasks: [{
+				id: "361FBAEB93C1D98F"
+				type: "item"
+				item: "botania:natura_pylon"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			dependencies: ["616D0EDA60366F4B"]
+			id: "107E97286013D2CB"
+			tasks: [{
+				id: "7DFEB5242D25055C"
+				type: "item"
+				item: "mythicbotany:alfsteel_pylon"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			dependencies: ["107E97286013D2CB"]
+			id: "21BA53D55CF84E6C"
+			tasks: [{
+				id: "548E4CC3FF2F920A"
+				type: "item"
+				item: "botania:gaia_pylon"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			dependencies: ["1B46149682CF680B"]
+			id: "404A12B55C1A34A2"
+			tasks: [{
+				id: "17CA81EC291FCDAD"
+				type: "item"
+				item: "botania:enchanter"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			dependencies: ["1B46149682CF680B"]
+			id: "2BDFF013C8214F21"
+			tasks: [{
+				id: "15B872F06A5EF075"
+				type: "item"
+				item: "enigmaticlegacy:enchanter_pearl"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["1B46149682CF680B"]
+			id: "3F77B50C3A3C44E8"
+			tasks: [{
+				id: "7D6DC5A9929043F9"
+				type: "item"
+				item: "apotheosis:enchantment_library"
+			}]
+		}
+	]
+}

@@ -1,75 +1,13 @@
 {
 	id: "0000000000000859"
 	group: ""
-	order_index: 8
+	order_index: 10
 	filename: "mekanism"
 	title: "Mekanism"
 	icon: "mekanism:quantum_entangloporter"
 	subtitle: ["MEKANISM 10 !!!"]
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
-	images: [
-		{
-			x: 3.0d
-			y: -3.0d
-			width: 2.0d
-			height: 2.5d
-			rotation: 0.0d
-			image: "kubejs:textures/ftbquests/fusion_reactor.png"
-			hover: ["Fusion Reactor"]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 7.0d
-			y: -3.0d
-			width: 2.0d
-			height: 2.5d
-			rotation: 0.0d
-			image: "kubejs:textures/ftbquests/supercritical_phase_shifter.png"
-			hover: ["Supercritical Phase Shifter"]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 11.0d
-			y: -3.0d
-			width: 2.0d
-			height: 2.5d
-			rotation: 0.0d
-			image: "kubejs:textures/ftbquests/thermal_evaporation.png"
-			hover: ["Thermal Evaporation"]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 9.0d
-			y: -3.0d
-			width: 2.0d
-			height: 2.5d
-			rotation: 0.0d
-			image: "kubejs:textures/ftbquests/energy_storage.png"
-			hover: ["Energy Storage"]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 5.0d
-			y: -3.0d
-			width: 2.0d
-			height: 2.5d
-			rotation: 0.0d
-			image: "kubejs:textures/ftbquests/fission_reactor.png"
-			hover: ["Fission Reactor"]
-			click: ""
-			dev: false
-			corner: false
-		}
-	]
 	quests: [
 		{
 			x: 6.5d
@@ -212,308 +150,11 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 2.0d
-			description: [
-				"Basic Universal Cable can transfer 3.20kRF/t."
-				"Basic Mechanical Pipe can transfer 512mB/t and has an internal buffer of 4,000mB."
-				"Basic Pressurized Tube can transfer 1,000mB/t of gas and has an internal buffer of 8,000mB."
-				"Basic Logistical Transporter can transfer 2 items/sec and works 1 block distance per second."
-			]
-			id: "000000000000086E"
-			tasks: [
-				{
-					id: "000000000000086F"
-					type: "item"
-					item: "mekanism:basic_universal_cable"
-				}
-				{
-					id: "0000000000000876"
-					type: "item"
-					item: "mekanism:basic_mechanical_pipe"
-				}
-				{
-					id: "0000000000000877"
-					type: "item"
-					item: "mekanism:basic_pressurized_tube"
-				}
-				{
-					id: "0000000000000878"
-					type: "item"
-					item: "mekanism:basic_logistical_transporter"
-				}
-			]
-			rewards: [{
-				id: "45F63E4BBA9D5303"
-				type: "item"
-				item: "mekanism:block_steel"
-			}]
-		}
-		{
-			x: 8.5d
-			y: 3.0d
-			description: [
-				"Advanced Universal Cable can transfer 51.20kRF/t."
-				"Advanced Mechanical Pipe can transfer 1,000mB/t and has an internal buffer of 8,000mB."
-				"Advanced Pressurized Tube can transfer 4,000mB/t of gas and has an internal buffer of 64,000mB."
-				"Advanced Logistical Transporter can transfer 32 items/sec and works 2 blocks distance per second."
-			]
-			dependencies: ["000000000000086E"]
-			id: "0000000000000870"
-			tasks: [
-				{
-					id: "0000000000000871"
-					type: "item"
-					item: "mekanism:advanced_universal_cable"
-				}
-				{
-					id: "0000000000000879"
-					type: "item"
-					item: "mekanism:advanced_mechanical_pipe"
-				}
-				{
-					id: "000000000000087A"
-					type: "item"
-					item: "mekanism:advanced_pressurized_tube"
-				}
-				{
-					id: "000000000000087B"
-					type: "item"
-					item: "mekanism:advanced_logistical_transporter"
-				}
-			]
-			rewards: [{
-				id: "0DACBD1F446CD85D"
-				type: "item"
-				item: "mekanism:alloy_infused"
-				count: 8
-			}]
-		}
-		{
-			x: 8.5d
-			y: 4.0d
-			description: [
-				"Elite Universal Cable can transfer 409.60kRF/t."
-				"Elite Mechanical Pipe can transfer 16,000mB/t and has an internal buffer of 64,000mB."
-				"Elite Pressurized Tube can transfer 128,000mB/t of gas and has an internal buffer of 1,000,000mB."
-				"Elite Logistical Transporter can transfer 64 items/sec and works 4 blocks distance per second."
-			]
-			dependencies: ["0000000000000870"]
-			id: "0000000000000872"
-			tasks: [
-				{
-					id: "0000000000000873"
-					type: "item"
-					item: "mekanism:elite_universal_cable"
-				}
-				{
-					id: "000000000000087C"
-					type: "item"
-					item: "mekanism:elite_mechanical_pipe"
-				}
-				{
-					id: "000000000000087D"
-					type: "item"
-					item: "mekanism:elite_pressurized_tube"
-				}
-				{
-					id: "000000000000087E"
-					type: "item"
-					item: "mekanism:elite_logistical_transporter"
-				}
-			]
-			rewards: [{
-				id: "0ADD65C73ACC6ED5"
-				type: "item"
-				item: "mekanism:alloy_reinforced"
-				count: 8
-			}]
-		}
-		{
-			x: 8.5d
-			y: 5.0d
-			description: [
-				"Ultimate Universal Cable can transfer 3.27MRF/t."
-				"Ultimate Mechanical Pipe can transfer 64,000mB/t and has an internal buffer of 512,000mB."
-				"Ultimate Pressurized Tube can transfer 1,024,000mB/t of gas and has an internal buffer of 16,000,000mB."
-				"Ultimate Logistical Transporter can transfer 128 items/sec and works 10 blocks distance per second."
-			]
-			dependencies: ["0000000000000872"]
-			id: "0000000000000874"
-			tasks: [
-				{
-					id: "0000000000000875"
-					type: "item"
-					item: "mekanism:ultimate_universal_cable"
-				}
-				{
-					id: "000000000000087F"
-					type: "item"
-					item: "mekanism:ultimate_mechanical_pipe"
-				}
-				{
-					id: "0000000000000880"
-					type: "item"
-					item: "mekanism:ultimate_pressurized_tube"
-				}
-				{
-					id: "0000000000000881"
-					type: "item"
-					item: "mekanism:ultimate_logistical_transporter"
-				}
-			]
-			rewards: [{
-				id: "6767CA12B27F4033"
-				type: "item"
-				item: "mekanism:alloy_atomic"
-				count: 8
-			}]
-		}
-		{
-			x: 7.5d
-			y: 1.5d
-			description: ["You can store 14,000mB in the Basic Fluid Tank."]
-			id: "0000000000000882"
-			tasks: [{
-				id: "0000000000000883"
-				type: "item"
-				item: "mekanism:basic_fluid_tank"
-			}]
-			rewards: [{
-				id: "2E5E5873B9D65917"
-				type: "item"
-				item: "minecraft:iron_block"
-			}]
-		}
-		{
-			x: 7.5d
-			y: 2.5d
-			description: ["You can store 28,000mB in the Advanced Fluid Tank."]
-			dependencies: ["0000000000000882"]
-			id: "0000000000000884"
-			tasks: [{
-				id: "0000000000000885"
-				type: "item"
-				item: "mekanism:advanced_fluid_tank"
-			}]
-			rewards: [{
-				id: "3FBA0B4587264B25"
-				type: "item"
-				item: "mekanism:alloy_infused"
-				count: 4
-			}]
-		}
-		{
-			x: 7.5d
-			y: 3.5d
-			description: ["You can store 56,000mB in the Elite Fluid Tank."]
-			dependencies: ["0000000000000884"]
-			id: "0000000000000886"
-			tasks: [{
-				id: "0000000000000887"
-				type: "item"
-				item: "mekanism:elite_fluid_tank"
-			}]
-			rewards: [{
-				id: "29E39E53A0E2C6C2"
-				type: "item"
-				item: "mekanism:alloy_reinforced"
-				count: 4
-			}]
-		}
-		{
-			x: 7.5d
-			y: 4.5d
-			description: ["You can store 112,000mB in the Ultimate Fluid Tank."]
-			dependencies: ["0000000000000886"]
-			id: "0000000000000888"
-			tasks: [{
-				id: "0000000000000889"
-				type: "item"
-				item: "mekanism:ultimate_fluid_tank"
-			}]
-			rewards: [{
-				id: "30DE73CFD3D5BE88"
-				type: "item"
-				item: "mekanism:alloy_atomic"
-				count: 4
-			}]
-		}
-		{
-			x: 4.5d
-			y: 2.0d
-			description: ["You can store 64,000mB of gas in the Basic Chemical Tank."]
-			id: "000000000000088A"
-			tasks: [{
-				id: "000000000000088B"
-				type: "item"
-				item: "mekanism:basic_chemical_tank"
-			}]
-			rewards: [{
-				id: "6CEC6B46579798F5"
-				type: "item"
-				item: "mekanism:block_osmium"
-			}]
-		}
-		{
-			x: 4.5d
-			y: 3.0d
-			description: ["You can store 128,000mB of gas in the Advanced Chemical Tank."]
-			dependencies: ["000000000000088A"]
-			id: "000000000000088C"
-			tasks: [{
-				id: "000000000000088D"
-				type: "item"
-				item: "mekanism:advanced_chemical_tank"
-			}]
-			rewards: [{
-				id: "5A95882E904CE24D"
-				type: "item"
-				item: "mekanism:alloy_infused"
-				count: 4
-			}]
-		}
-		{
-			x: 4.5d
-			y: 4.0d
-			description: ["You can store 256,000mB of gas in the Elite Chemical Tank."]
-			dependencies: ["000000000000088C"]
-			id: "000000000000088E"
-			tasks: [{
-				id: "000000000000088F"
-				type: "item"
-				item: "mekanism:elite_chemical_tank"
-			}]
-			rewards: [{
-				id: "7F6CE7D03103A17F"
-				type: "item"
-				item: "mekanism:alloy_reinforced"
-				count: 4
-			}]
-		}
-		{
-			x: 4.5d
-			y: 5.0d
-			description: ["You can store 512,000mB of gas in the Ultimate Chemical Tank."]
-			dependencies: ["000000000000088E"]
-			id: "0000000000000890"
-			tasks: [{
-				id: "0000000000000891"
-				type: "item"
-				item: "mekanism:ultimate_chemical_tank"
-			}]
-			rewards: [{
-				id: "658ABC637D3F0AB7"
-				type: "item"
-				item: "mekanism:alloy_atomic"
-				count: 4
-			}]
-		}
-		{
 			title: "Hazmat Suit"
-			x: 5.5d
-			y: -1.5d
+			x: 3.5d
+			y: -3.5d
 			description: ["The Hazmat Suit protects the player from Radiation."]
+			dependencies: ["000000000000093F"]
 			id: "0000000000000892"
 			tasks: [
 				{
@@ -1067,8 +708,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -1.5d
+			x: 2.5d
+			y: -3.5d
 			description: [
 				"Radioactive Waste Barrels are used to store radioactive materials."
 				""
@@ -1076,6 +717,7 @@
 				""
 				"You can store 64,000mB in it."
 			]
+			dependencies: ["000000000000093F"]
 			id: "00000000000008CE"
 			tasks: [{
 				id: "00000000000008CF"
@@ -1584,13 +1226,14 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 1.5d
+			x: 6.5d
+			y: -2.5d
 			description: [
 				"The Basic Induction Cell has a capacity of 3.20GRF."
 				""
 				"The Basic Induction Provider can transfer 102.40kRF/t."
 			]
+			dependencies: ["0000000000000930"]
 			id: "0000000000000918"
 			tasks: [
 				{
@@ -1611,8 +1254,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 2.5d
+			x: 7.5d
+			y: -2.5d
 			description: [
 				"The Advanced Induction Cell has a capacity of 25.6GRF."
 				""
@@ -1639,8 +1282,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 3.5d
+			x: 8.5d
+			y: -2.5d
 			description: [
 				"The Elite Induction Cell has a capacity of 204.80GRF."
 				""
@@ -1667,8 +1310,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 4.5d
+			x: 9.5d
+			y: -2.5d
 			description: [
 				"The ultimate Induction Cell has a capacity of 1.60TRF."
 				""
@@ -1803,8 +1446,8 @@
 		}
 		{
 			title: "Induction Matrix"
-			x: 9.5d
-			y: -4.5d
+			x: 5.5d
+			y: -2.5d
 			description: [
 				"The Induction Matrix is a highly configurable multi-block energy storage structure."
 				""
@@ -1837,8 +1480,8 @@
 		}
 		{
 			title: "Thermal Evaporation Plant"
-			x: 11.5d
-			y: -4.5d
+			x: 3.5d
+			y: -2.5d
 			description: [
 				"he Thermal Evaporation Plant is a multiblock structure with the purpose of converting Water to Brine, which can be further converted to Lithium by the use of a second Thermal Evaporation Plant."
 				""
@@ -1874,7 +1517,7 @@
 		}
 		{
 			title: "Fusion Reactor"
-			x: 3.5d
+			x: 7.5d
 			y: -4.5d
 			description: [
 				"The Fusion Reactor is a multiblock structure that allows for variable input rates of 3 types of fuel: Deuterium, Tritium and D-T Fuel."
@@ -1948,7 +1591,7 @@
 		}
 		{
 			title: "Fission Reactor"
-			x: 5.5d
+			x: 3.5d
 			y: -4.5d
 			description: [
 				"The Fission Reactor is a multiblock structure that generates massive amounts of heat but does not produce power on its own."
@@ -2046,7 +1689,7 @@
 		}
 		{
 			title: "Supercritical Phase Shifter"
-			x: 7.5d
+			x: 5.5d
 			y: -4.5d
 			description: ["The Supercritical Phase Shifter is a multiblock structure that consumes large amount of energy and polonium gas to create antimatter gas,"]
 			dependencies: ["36E927EAE1EC49AA"]
@@ -2098,8 +1741,9 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 6.5d
 			y: -4.5d
+			guide_page: "https://wiki.aidancbrady.com/wiki/Fusion_Reactor"
 			id: "388675A67CC6C15F"
 			tasks: [{
 				id: "36913F11C6813959"
@@ -2109,8 +1753,10 @@
 		}
 		{
 			title: "Supercritical Phase Shifter"
-			x: 6.5d
+			x: 4.5d
 			y: -4.5d
+			guide_page: "https://wiki.aidancbrady.com/wiki/Supercritical_Phase_Shifter"
+			dependencies: ["000000000000093F"]
 			id: "36E927EAE1EC49AA"
 			tasks: [{
 				id: "17600C24C58CBE4D"
@@ -2119,8 +1765,9 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: -4.5d
+			x: 2.5d
+			y: -2.5d
+			guide_page: "https://ftb.fandom.com/wiki/Thermal_Evaporation_Plant"
 			id: "36E35E10E83EF0EE"
 			tasks: [{
 				id: "63F59F1FDB43CA0E"
@@ -2129,8 +1776,9 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -4.5d
+			x: 4.5d
+			y: -2.5d
+			dependencies: ["0000000000000933"]
 			id: "6888EBB4C5E39F1F"
 			tasks: [{
 				id: "0BC2A9F9DFB154D0"
@@ -2139,8 +1787,9 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 2.5d
 			y: -4.5d
+			guide_page: "https://wiki.aidancbrady.com/wiki/Fission_Reactor"
 			id: "7793A1D816ED6291"
 			tasks: [{
 				id: "17114B905F1E5628"

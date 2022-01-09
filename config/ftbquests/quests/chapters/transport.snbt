@@ -1,0 +1,518 @@
+{
+	id: "6D6CC1BDBE0B8D74"
+	group: ""
+	order_index: 4
+	filename: "transport"
+	title: "Transports"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -7.5d
+			y: -4.5d
+			id: "02AD25527D100605"
+			tasks: [{
+				id: "16F314DC25534FAD"
+				type: "item"
+				item: "pipez:item_pipe"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.5d
+			id: "499CC7BB4A79BB82"
+			tasks: [{
+				id: "0213EA67502DBD88"
+				type: "item"
+				item: "pipez:fluid_pipe"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.5d
+			id: "5B824431022BC139"
+			tasks: [{
+				id: "7FF11E4729A95A01"
+				type: "item"
+				item: "pipez:energy_pipe"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			id: "6EDD1B97C2B2E053"
+			tasks: [{
+				id: "4B1C9C115C8CBFBD"
+				type: "item"
+				item: "pipez:gas_pipe"
+			}]
+		}
+		{
+			x: -5.300000000000001d
+			y: -6.0d
+			dependencies: [
+				"02AD25527D100605"
+				"499CC7BB4A79BB82"
+				"5B824431022BC139"
+				"6EDD1B97C2B2E053"
+			]
+			id: "03165A20CC38368C"
+			tasks: [{
+				id: "08C9D685CD944565"
+				type: "item"
+				item: "pipez:universal_pipe"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -3.0d
+			id: "7FF96087E96C70E1"
+			tasks: [{
+				id: "1D215B46D82BF367"
+				type: "item"
+				item: "pipez:basic_upgrade"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -3.0d
+			dependencies: ["7FF96087E96C70E1"]
+			id: "479AB8434A79F74A"
+			tasks: [{
+				id: "6E10CDCC8E848042"
+				type: "item"
+				item: "pipez:improved_upgrade"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -3.0d
+			dependencies: ["479AB8434A79F74A"]
+			id: "6D634BCF4A6D46CF"
+			tasks: [{
+				id: "5D33206BEF640774"
+				type: "item"
+				item: "pipez:advanced_upgrade"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			dependencies: ["6D634BCF4A6D46CF"]
+			id: "51158DD620E7BB9A"
+			tasks: [{
+				id: "02A56B69D678B03E"
+				type: "item"
+				item: "pipez:ultimate_upgrade"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			dependencies: ["51158DD620E7BB9A"]
+			id: "7B3102D02FEC9AD4"
+			tasks: [{
+				id: "2666D38BC520B1D1"
+				type: "item"
+				item: "pipez:infinity_upgrade"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -0.6d
+			id: "05B6FFFEA1C55B75"
+			tasks: [{
+				id: "0A2185B8C4CC2A64"
+				type: "item"
+				item: "modularrouters:item_router"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			dependencies: ["05B6FFFEA1C55B75"]
+			id: "13C0B58D6C5A017D"
+			tasks: [{
+				id: "5363C60B46E3EEFF"
+				type: "item"
+				item: {
+					id: "modularrouters:sender_module_1"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			dependencies: ["05B6FFFEA1C55B75"]
+			id: "624C1F979F6E2BAF"
+			tasks: [{
+				id: "2476320D7DB1DB24"
+				type: "item"
+				item: {
+					id: "modularrouters:puller_module_1"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.5d
+			dependencies: ["624C1F979F6E2BAF"]
+			id: "216632CDA50BDBDE"
+			tasks: [{
+				id: "74C9DDCD6B6BE069"
+				type: "item"
+				item: {
+					id: "modularrouters:puller_module_2"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			dependencies: ["13C0B58D6C5A017D"]
+			id: "0ADBA62DBA536EB7"
+			tasks: [{
+				id: "5F718775A127A28D"
+				type: "item"
+				item: {
+					id: "modularrouters:sender_module_2"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			dependencies: ["0ADBA62DBA536EB7"]
+			id: "741A86BF8A5EBC66"
+			tasks: [{
+				id: "4A3DE7790D7B1B63"
+				type: "item"
+				item: {
+					id: "modularrouters:sender_module_3"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: -0.6d
+			dependencies: ["05B6FFFEA1C55B75"]
+			id: "5A82F6CB8A7A64D8"
+			tasks: [
+				{
+					id: "26FFB739816FD170"
+					type: "item"
+					item: "modularrouters:speed_upgrade"
+				}
+				{
+					id: "62088E876DC9983C"
+					type: "item"
+					item: "modularrouters:stack_upgrade"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 2.0d
+			id: "5B1EA2D80A07AE77"
+			tasks: [{
+				id: "77C8815DD11C5A5B"
+				type: "item"
+				item: "minecraft:hopper"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.0d
+			dependencies: ["5B1EA2D80A07AE77"]
+			id: "25A53C27458F8711"
+			tasks: [{
+				id: "7A4F731653599AEA"
+				type: "item"
+				item: "speedyhoppers:speedyhopper_mk1"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			dependencies: ["73DE971F25BBF94B"]
+			id: "58671574A4EF74A0"
+			tasks: [{
+				id: "517B04CC31FE00E2"
+				type: "item"
+				item: "speedyhoppers:speedyhopper_mk3"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.0d
+			dependencies: ["25A53C27458F8711"]
+			id: "73DE971F25BBF94B"
+			tasks: [{
+				id: "05BE8561EFE2CF7A"
+				type: "item"
+				item: "speedyhoppers:speedyhopper_mk2"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "4C8D3C585A601433"
+			tasks: [{
+				id: "2451A7B6A525C832"
+				type: "item"
+				item: "mekanism:basic_mechanical_pipe"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["4C8D3C585A601433"]
+			id: "3C4264CE2151B5E4"
+			tasks: [{
+				id: "0D6137162E96AE79"
+				type: "item"
+				item: "mekanism:advanced_mechanical_pipe"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["3C4264CE2151B5E4"]
+			id: "384448CD11D1EFF8"
+			tasks: [{
+				id: "2305BB9B91737E88"
+				type: "item"
+				item: "mekanism:elite_mechanical_pipe"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["384448CD11D1EFF8"]
+			id: "7416D1FD556B96D9"
+			tasks: [{
+				id: "5F59A1AEE851FE3E"
+				type: "item"
+				item: "mekanism:ultimate_mechanical_pipe"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "5F0A2F00F7BA8E5A"
+			tasks: [{
+				id: "036C436F4EB758B1"
+				type: "item"
+				item: "mekanism:basic_pressurized_tube"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["5F0A2F00F7BA8E5A"]
+			id: "5BED47A4775A31B8"
+			tasks: [{
+				id: "171BE86C74C2A7F1"
+				type: "item"
+				item: "mekanism:advanced_pressurized_tube"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["5BED47A4775A31B8"]
+			id: "3FCEF28D1465B0F3"
+			tasks: [{
+				id: "2104D9F2BC917A38"
+				type: "item"
+				item: "mekanism:elite_pressurized_tube"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["3FCEF28D1465B0F3"]
+			id: "1ADB9EC016D531AE"
+			tasks: [{
+				id: "3BDC73139A69EF90"
+				type: "item"
+				item: "mekanism:ultimate_pressurized_tube"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "760B402596DF61C7"
+			tasks: [{
+				id: "513DE97A4FF74DF4"
+				type: "item"
+				item: "mekanism:basic_universal_cable"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			dependencies: ["760B402596DF61C7"]
+			id: "0CDDFBE136B0984C"
+			tasks: [{
+				id: "764D5D458262C0A5"
+				type: "item"
+				item: "mekanism:advanced_universal_cable"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["0CDDFBE136B0984C"]
+			id: "46BCADE4990493D2"
+			tasks: [{
+				id: "5DD0536DA39452B7"
+				type: "item"
+				item: "mekanism:elite_universal_cable"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["46BCADE4990493D2"]
+			id: "7C63CACEE084716D"
+			tasks: [{
+				id: "0ABF56C6163952AA"
+				type: "item"
+				item: "mekanism:ultimate_universal_cable"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			id: "1DC10101712CBFAE"
+			tasks: [{
+				id: "5CC37C5AC3B118A0"
+				type: "item"
+				item: "powah:energy_cable_starter"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			id: "47F6ABFCE5DD7D51"
+			tasks: [{
+				id: "43FFAE8810A84FB3"
+				type: "item"
+				item: "powah:energy_cable_basic"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			id: "05BE4F81B43606D6"
+			tasks: [{
+				id: "264FB28ACB0919D7"
+				type: "item"
+				item: "powah:energy_cable_hardened"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			id: "414481AA3670BB33"
+			tasks: [{
+				id: "3205D3DFE2704CE6"
+				type: "item"
+				item: "powah:energy_cable_blazing"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			id: "73BCD405B5CFA600"
+			tasks: [{
+				id: "23817BE08BCC45DF"
+				type: "item"
+				item: "powah:energy_cable_niotic"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.5d
+			id: "74D3A01F792C32E1"
+			tasks: [{
+				id: "49BF6164FEB1635A"
+				type: "item"
+				item: "powah:energy_cable_spirited"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.5d
+			id: "11881C5B7C5C84D7"
+			tasks: [{
+				id: "78D306BD4D8B1D75"
+				type: "item"
+				item: "powah:energy_cable_nitro"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			id: "4252FE7A37B72E3A"
+			tasks: [{
+				id: "6588C17218143A9D"
+				type: "item"
+				item: "cyclic:energy_pipe"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			id: "4D17A522F383A13E"
+			tasks: [{
+				id: "571FF2309259D0E3"
+				type: "item"
+				item: "cyclic:item_pipe"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			id: "4DE76B1B23A11D50"
+			tasks: [{
+				id: "0965E2A58519E32F"
+				type: "item"
+				item: "cyclic:fluid_pipe"
+			}]
+		}
+	]
+}

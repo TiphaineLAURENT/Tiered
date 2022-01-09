@@ -1,7 +1,7 @@
 {
 	id: "28978D686090B88B"
 	group: ""
-	order_index: 23
+	order_index: 24
 	filename: "creative_stuff"
 	title: "Creative Stuff"
 	icon: "pneumaticcraft:creative_upgrade"
@@ -30,8 +30,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 5.0d
+			x: -0.5d
+			y: 4.0d
 			id: "2DFB0B2A6D0EC81B"
 			tasks: [{
 				id: "6B880504F2A8619B"
@@ -71,8 +71,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 5.0d
+			x: 0.5d
+			y: 6.0d
 			id: "5B2491DEA3C6795C"
 			tasks: [{
 				id: "1ABC2985A5536120"
@@ -91,7 +91,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 0.0d
 			y: 5.0d
 			id: "0D420B885EEC1D36"
 			tasks: [{
@@ -101,8 +101,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -1.0d
+			x: 1.0d
+			y: 2.0d
 			id: "7C604EBE05008AEF"
 			tasks: [{
 				id: "24DC862D47B1BF30"
@@ -111,8 +111,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -1.0d
+			x: 0.0d
+			y: 2.0d
 			id: "2BBC1D3B7217E91E"
 			tasks: [{
 				id: "799DED798E801C15"
@@ -131,8 +131,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 4.0d
+			x: 0.5d
+			y: -2.0d
 			id: "3EA595ACDDDBD3D9"
 			tasks: [{
 				id: "53A5DD0B81E2B6AF"
@@ -221,8 +221,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -1.0d
+			x: -0.5d
+			y: 0.0d
 			id: "6C9FF8085D2E809F"
 			tasks: [{
 				id: "2442723E40DDB185"
@@ -275,8 +275,8 @@
 			]
 		}
 		{
-			x: 5.5d
-			y: 4.0d
+			x: 1.0d
+			y: 3.0d
 			id: "4E4963685FB4BFAD"
 			tasks: [{
 				id: "2F83085FF27B234F"

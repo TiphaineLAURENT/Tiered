@@ -1,7 +1,7 @@
 {
 	id: "00000000000005DE"
 	group: ""
-	order_index: 17
+	order_index: 18
 	filename: "forbidden__arcanus"
 	title: "Forbidden and Arcanus"
 	icon: "forbidden_arcanus:dark_soul"
@@ -567,13 +567,13 @@
 			tasks: [{
 				id: "3DB4F7A0A43ED897"
 				type: "item"
-				item: "eidolon:arcane_gold_ingot"
+				item: "forbidden_arcanus:arcane_gold_ingot"
 				count: 32L
 			}]
 			rewards: [{
 				id: "528A8FE2359ADCF3"
 				type: "item"
-				item: "eidolon:arcane_gold_block"
+				item: "forbidden_arcanus:arcane_gold_ingot"
 				count: 4
 			}]
 		}

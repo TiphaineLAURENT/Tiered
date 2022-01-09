@@ -1,7 +1,7 @@
 {
 	id: "00000000000002B4"
 	group: ""
-	order_index: 14
+	order_index: 15
 	filename: "astral_sorcery"
 	title: "Astral Sorcery"
 	icon: "astralsorcery:starmetal_ingot"
@@ -613,8 +613,8 @@
 		{
 			title: "How do I begin Astral Sorcery ?"
 			icon: "create:brass_hand"
-			x: -3.5d
-			y: -7.0d
+			x: -4.0d
+			y: -6.0d
 			shape: "circle"
 			description: [
 				"To begin with Astral you need to find a big shrine in the world."
@@ -632,131 +632,6 @@
 				id: "652F8FABF8D1EE2D"
 				type: "item"
 				item: "mob_grinding_utils:solid_xp_baby"
-			}]
-		}
-		{
-			title: "Dark Celestial Alatar"
-			icon: "masterfulmachinery:autoastral_controller"
-			x: 1.5d
-			y: -7.0d
-			description: [
-				"The Dark Celestial Altar is a multi-block structure that will allow you to automate certain Astral Sorcery crafting."
-				"{image:kubejs:textures/ftbquests/begin/dark_celestial.png width:150 height:100 align:1}"
-				"You need to link a crystal to the Starlight input port to be able to craft with the structure."
-			]
-			dependencies: ["00000000000002C0"]
-			id: "35F0ED96597505AB"
-			tasks: [
-				{
-					id: "37B47BAB7584330F"
-					type: "item"
-					item: "masterfulmachinery:autoastral_controller"
-				}
-				{
-					id: "6B661F0B372ACF5F"
-					type: "item"
-					item: "masterfulmachinery:autoastral_dark_celestial_item_port_items_input"
-				}
-				{
-					id: "6B6EFA617407B1AC"
-					type: "item"
-					item: "masterfulmachinery:autoastral_dark_celestial_item_port_items_output"
-				}
-				{
-					id: "4CE3D8B4AD7419D0"
-					type: "item"
-					item: "masterfulmachinery:autoastral_dark_celestial_starlight_port_astral_starlight_input"
-					count: 4L
-				}
-				{
-					id: "69B4983CA427FBBE"
-					type: "item"
-					item: "astralsorcery:black_marble_bricks"
-					count: 65L
-				}
-				{
-					id: "49662C2225EE11C4"
-					type: "item"
-					item: "astralsorcery:black_marble_chiseled"
-					count: 4L
-				}
-				{
-					id: "6CDFA2A63C392EAF"
-					type: "item"
-					item: "astralsorcery:black_marble_pillar"
-					count: 8L
-				}
-				{
-					id: "604105177EFCC1FB"
-					type: "item"
-					item: "astralsorcery:black_marble_runed"
-					count: 4L
-				}
-				{
-					id: "7BDEF6E4A51A2463"
-					type: "item"
-					item: "astralsorcery:black_marble_raw"
-					count: 57L
-				}
-				{
-					id: "2DA08DEBF629F713"
-					type: "item"
-					item: "astralsorcery:infused_wood_enriched"
-					count: 4L
-				}
-				{
-					id: "71659E93E63F838B"
-					type: "item"
-					item: "astralsorcery:infused_wood_column"
-					count: 8L
-				}
-				{
-					id: "1A40F7C3CB25CA91"
-					type: "item"
-					item: "astralsorcery:altar_radiance"
-				}
-			]
-			rewards: [{
-				id: "60DEA27B02BC5E71"
-				type: "item"
-				item: {
-					id: "astralsorcery:rock_collector_crystal"
-					Count: 1b
-					tag: {
-						astralsorcery: {
-							constellation: "astralsorcery:discidia"
-							crystalProperties: {
-								attributes: [
-									{
-										property: "astralsorcery:size"
-										pLevel: 3
-										discovered: 1b
-									}
-									{
-										property: "astralsorcery:purity"
-										pLevel: 2
-										discovered: 1b
-									}
-									{
-										property: "astralsorcery:shape"
-										pLevel: 3
-										discovered: 1b
-									}
-									{
-										property: "astralsorcery:collector.rate"
-										pLevel: 3
-										discovered: 1b
-									}
-									{
-										property: "astralsorcery:constellation.discidia"
-										pLevel: 2
-										discovered: 1b
-									}
-								]
-							}
-						}
-					}
-				}
 			}]
 		}
 	]
