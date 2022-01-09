@@ -147,10 +147,10 @@ events.listen('recipes', (event) => {
     soil('forbidden_arcanus:magical_farmland', ['inferium', 'prudentium', 'tertium', 'imperium', 'supremium', 'insanium', 'magical'], 0.80)
     event.shaped('forbidden_arcanus:magical_farmland',
         [
-            ' E ',
+            'TET',
             'EFE',
-            ' E '
-        ], { E: 'miniutilities:magical_egg', F: 'mysticalagradditions:insanium_farmland' }
+            'TET'
+        ], { E: 'miniutilities:magical_egg', F: 'mysticalagradditions:insanium_farmland', T: 'cyclic:terra_preta' }
     )
 
     function seedPot(seed, categorie, growth) {

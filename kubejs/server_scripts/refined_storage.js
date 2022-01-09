@@ -11,12 +11,21 @@ events.listen('recipes', (event) => {
         'refinedstorage:fortune_2_upgrade'
     ])
 
+    // Creative crafter
     event.remove({ id: 'creativecrafter:creative_crafter' })
     event.shaped('creativecrafter:creative_crafter',
         [
-            ' C ',
+            'UCU',
             'PNP',
-            ' H '
-        ], { C: '#forge:chests/wooden', P: 'extradisks:withering_processor', N: 'extrastorage:netherite_crafter', H: 'minecraft:dragon_head' }
+            'UHU'
+        ], { C: '#forge:chests/wooden', P: 'extradisks:withering_processor', N: 'extrastorage:netherite_crafter', H: 'minecraft:dragon_head', U: 'extendedcrafting:the_ultimate_block' }
+    )
+
+    // Processor binding
+    event.remove({ id: 'refinedstorage:processor_binding' })
+    event.shaped('refinedstorage:processor_binding',
+        [
+            'SBS',
+        ], { S: 'botania:mana_string', B: '#forge:slimeballs' }
     )
 })
