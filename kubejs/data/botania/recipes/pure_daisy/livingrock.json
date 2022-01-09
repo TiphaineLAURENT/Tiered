@@ -1,0 +1,10 @@
+{
+  "type": "botania:pure_daisy",
+  "input": { 
+  	"type": "block",
+    "block": "integrateddynamics:crystalized_menril_block"
+  },
+  "output": {
+    "name": "botania:livingrock"
+  }
+}
