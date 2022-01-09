@@ -135,16 +135,31 @@ events.listen('recipes', (event) => {
         ],
     })
 
-    function soil(item, categories, growth) {
+    function soil(item, categories, growth, reverse, next) {
         event.recipes.botanypots.soil({
             input: { item: item },
             display: { block: item },
             categories: categories,
             growthModifier: growth
         })
+        event.shapeless(reverse, item)
+        if (next) {
+            event.shapeless(next, [item, `3x ${reverse}`])
+        }
     }
-    event.remove({ id: 'mysticalagriculture:soils/magical_farmland' })
-    soil('forbidden_arcanus:magical_farmland', ['inferium', 'prudentium', 'tertium', 'imperium', 'supremium', 'insanium', 'magical'], 0.80)
+    event.remove({ id: 'mysticalagriculture:soils/inferium_farmland' })
+    event.remove({ id: 'mysticalagriculture:soils/prudentium_farmland' })
+    event.remove({ id: 'mysticalagriculture:soils/tertium_farmland' })
+    event.remove({ id: 'mysticalagriculture:soils/imperium_farmland' })
+    event.remove({ id: 'mysticalagriculture:soils/supremium_farmland' })
+    event.remove({ id: 'mysticalagriculture:soils/insanium_farmland' })
+    // soil('minecraft:farmland', ['inferium'], 0.10, 'mysticalagriculture:inferium_essence')
+    soil('mysticalagriculture:inferium_farmland', ['inferium'], 0.20, 'mysticalagriculture:inferium_essence', 'mysticalagriculture:prudentium_farmland')
+    soil('mysticalagriculture:prudentium_farmland', ['inferium', 'prudentium'], 0.30, 'mysticalagriculture:prudentium_essence', 'mysticalagriculture:tertium_farmland')
+    soil('mysticalagriculture:tertium_farmland', ['inferium', 'prudentium', 'tertium'], 0.40, 'mysticalagriculture:tertium_essence', 'mysticalagriculture:imperium_farmland')
+    soil('mysticalagriculture:imperium_farmland', ['inferium', 'prudentium', 'tertium', 'imperium'], 0.50, 'mysticalagriculture:imperium_essence', 'mysticalagriculture:supremium_farmland')
+    soil('mysticalagriculture:supremium_farmland', ['inferium', 'prudentium', 'tertium', 'imperium', 'supremium'], 0.60, 'mysticalagriculture:supremium_essence')
+    soil('mysticalagradditions:insanium_farmland', ['inferium', 'prudentium', 'tertium', 'imperium', 'supremium', 'insanium'], 0.70, 'mysticalagradditions:insanium_essence')
     event.shaped('forbidden_arcanus:magical_farmland',
         [
             'TET',
@@ -175,5 +190,6 @@ events.listen('recipes', (event) => {
     }
     seedPot('nitro_crystal', 'insanium', 4500)
     seedPot('awakened_draconium', 'insanium', 6000)
+    seedPot('chaos', 'insanium', 10000)
     seedPot('ultimate', 'magical', 8000)
 })
