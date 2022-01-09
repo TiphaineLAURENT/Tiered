@@ -8,13 +8,13 @@
 	"Obtain Blursed" = true
 	#What Should the Max Multiplier of Kikoku Enchant be?
 	#Range: 1 ~ 5000
-	"Kikoku Max" = 2
+	"Kikoku Max" = 5000
 	#What should the Unstable Ingot do when the time limit is reached?
 	#NO_DAMAGE: Slowness while holding
 	#DAMAGE: After 10 seconds, slowly ramps up the damage
 	#EXPLOSION: Explodes after 10 seconds
 	#Allowed Values: NO_DAMAGE, DAMAGE, EXPLOSION
-	"Reaction Type" = "DAMAGE"
+	"Reaction Type" = "EXPLOSION"
 	#How much EXP should base experience pearls give?
 	#Range: 1 ~ 128
 	"EXP Given from EXP Pearls" = 10
@@ -30,7 +30,7 @@
 	"Lunar Panel Generation" = 4
 	#How many Panels should it take to increase the multiplier by 1?
 	#Range: 1 ~ 1000000
-	"Panel Multiplier Amount" = 50
+	"Panel Multiplier Amount" = 2
 
 ["World Generation"]
 	#Should Ender Ore Generate?
