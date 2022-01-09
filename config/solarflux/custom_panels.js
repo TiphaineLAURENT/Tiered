@@ -33,7 +33,7 @@
 
 define english "en_us"
 
-var ourMaterial = false;
+// var ourMaterial = false;
 
 /** This function is called when mod is being constructed */
 function init()
@@ -67,6 +67,38 @@ function init()
 		.build(2);
 
     Comment end*/
+	panel()
+		.name("ultimate")
+		.height(6 / 16.0)
+		.generation("8388608")
+		.capacity("3355443200")
+		.transfer("50331648")
+		.buildAndRegister()
+		.langBuilder()
+			.put(english, "Ultimate Solar Panel")
+			.build()
+
+	panel()
+		.name("gobber")
+		.height(6 / 16.0)
+		.generation("1048576")
+		.capacity("1024000000")
+		.transfer("16384000")
+		.buildAndRegister()
+		.langBuilder()
+			.put(english, "Gobber Solar Panel")
+			.build();
+			
+	panel()
+	.name("etherium")
+	.height(6 / 16.0)
+	.generation("524288")
+	.capacity("512000000")
+	.transfer("8192000")
+	.buildAndRegister()
+	.langBuilder()
+		.put(english, "Etherium Solar Panel")
+		.build()
 }
 
 /*
