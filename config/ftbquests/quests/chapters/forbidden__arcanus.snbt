@@ -695,10 +695,7 @@
 			x: -1.5d
 			y: 0.0d
 			shape: "circle"
-			description: [
-				"To begin, find Arcane Crystal in caves. It's pretty used in any craft."
-				"The Arcane Gold from this mod has been replaced by the Arcane Gold from Eidolon, so you can get your Arcane Gold in a cauldron from Eidolon."
-			]
+			description: ["To begin, find Arcane Crystal in caves. It's pretty used in any craft."]
 			id: "0E2B7A7B0F382087"
 			tasks: [{
 				id: "142222965C0A18ED"

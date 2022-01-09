@@ -129,10 +129,12 @@
 		}
 		{
 			x: 0.0d
-			y: -7.5d
+			y: -8.5d
 			dependencies: [
 				"7498B73B45AA8758"
 				"44A452434C289995"
+				"23AF96661CDA2EFF"
+				"5A3AA78134240E88"
 			]
 			id: "69F26E784600D176"
 			tasks: [{
@@ -147,7 +149,7 @@
 		}
 		{
 			x: 1.5d
-			y: -7.5d
+			y: -8.5d
 			dependencies: ["69F26E784600D176"]
 			id: "55C3B8DAEA259086"
 			tasks: [{
@@ -158,7 +160,7 @@
 		}
 		{
 			x: -1.5d
-			y: -9.0d
+			y: -10.0d
 			id: "7498B73B45AA8758"
 			tasks: [{
 				id: "0B506703537DA756"
@@ -168,7 +170,7 @@
 		}
 		{
 			x: -1.5d
-			y: -7.5d
+			y: -8.5d
 			id: "44A452434C289995"
 			tasks: [{
 				id: "1CD03E4D9845C56E"
@@ -178,7 +180,7 @@
 		}
 		{
 			x: 3.0d
-			y: -9.0d
+			y: -10.0d
 			dependencies: ["17AFAE82384DFBC2"]
 			id: "30DFFF1DF6B1AFD0"
 			tasks: [{
@@ -191,9 +193,29 @@
 			title: "Industrial Foregoing"
 			icon: "industrialforegoing:mob_imprisonment_tool"
 			x: 1.5d
-			y: -9.0d
+			y: -10.0d
 			dependencies: ["69F26E784600D176"]
 			id: "17AFAE82384DFBC2"
+		}
+		{
+			x: -1.5d
+			y: -7.0d
+			id: "23AF96661CDA2EFF"
+			tasks: [{
+				id: "047AF8712E4AC856"
+				type: "item"
+				item: "astralsorcery:tome"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			id: "5A3AA78134240E88"
+			tasks: [{
+				id: "0F6BE8035F6ADBE9"
+				type: "item"
+				item: "create:large_cogwheel"
+			}]
 		}
 	]
 }
