@@ -4,7 +4,6 @@
 	order_index: 24
 	filename: "creative_stuff"
 	title: "Creative Stuff"
-	icon: "pneumaticcraft:creative_upgrade"
 	subtitle: ["The end game my friends."]
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false

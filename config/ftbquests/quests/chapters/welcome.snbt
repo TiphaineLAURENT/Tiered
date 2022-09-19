@@ -4,22 +4,10 @@
 	order_index: 0
 	filename: "welcome"
 	title: "Welcome"
-	icon: "kubejs:sphere"
+	icon: "easy_piglins:piglin"
 	subtitle: ["Bonjour."]
 	default_quest_shape: "gear"
 	default_hide_dependency_lines: false
-	images: [{
-		x: 0.0d
-		y: -4.0d
-		width: 10.0d
-		height: 5.0d
-		rotation: 0.0d
-		image: "ragnamod:textures/logo.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
 	quests: [
 		{
 			title: "Welcome"

@@ -7,120 +7,10 @@
 	subtitle: ["This is madness !"]
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
-	images: [
-		{
-			x: 0.0d
-			y: 0.0d
-			width: 8.0d
-			height: 10.0d
-			rotation: 0.0d
-			image: "kubejs:textures/ftbquests/cool_stuff.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 2.25d
-			y: 3.0d
-			width: 2.0d
-			height: 2.5d
-			rotation: 0.0d
-			image: "kubejs:textures/ftbquests/brazier.png"
-			hover: ["Brazier"]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 0.0d
-			y: 8.0d
-			width: 14.0d
-			height: 6.5d
-			rotation: 0.0d
-			image: "kubejs:textures/ftbquests/o_stuff.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: -10.0d
-			y: 8.0d
-			width: 9.0d
-			height: 6.5d
-			rotation: 0.0d
-			image: "kubejs:textures/ftbquests/jetpacks.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 10.0d
-			y: 8.0d
-			width: 9.0d
-			height: 6.5d
-			rotation: 0.0d
-			image: "kubejs:textures/ftbquests/dim.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 7.5d
-			y: 8.5d
-			width: 2.0d
-			height: 2.5d
-			rotation: 0.0d
-			image: "kubejs:textures/ftbquests/dimdung.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 10.0d
-			y: 8.5d
-			width: 2.0d
-			height: 2.5d
-			rotation: 0.0d
-			image: "kubejs:textures/ftbquests/undergarden.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 12.5d
-			y: 8.5d
-			width: 2.0d
-			height: 2.5d
-			rotation: 0.0d
-			image: "kubejs:textures/ftbquests/lostcity.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
-			x: 7.5d
-			y: 0.0d
-			width: 8.0d
-			height: 10.0d
-			rotation: 0.0d
-			image: "kubejs:textures/ftbquests/kitchen.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-	]
 	quests: [
 		{
-			x: 0.0d
-			y: 8.0d
+			x: -0.5d
+			y: 4.0d
 			description: ["The Heart Amulet is an amulet who you can store 10 heart canisters of each color to get more health."]
 			dependencies: [
 				"69F50F42B9BAC0BF"
@@ -141,8 +31,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 8.0d
+			x: -2.5d
+			y: 4.0d
 			description: ["The red heart is dropped by any mobs."]
 			id: "13941EAF09F3B97A"
 			tasks: [{
@@ -158,8 +48,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 8.0d
+			x: -1.5d
+			y: 4.0d
 			description: ["The yellow heart is dropped by any boss."]
 			dependencies: ["13941EAF09F3B97A"]
 			id: "3BB82D0384E52C95"
@@ -176,8 +66,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 8.0d
+			x: 1.5d
+			y: 4.0d
 			description: ["The green heart is dropped by the Ender Dragon."]
 			dependencies: ["3BB82D0384E52C95"]
 			id: "3D2AE21668EA59A0"
@@ -194,8 +84,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 8.0d
+			x: 0.5d
+			y: 4.0d
 			description: ["The blue heart is dropped by the Evoker."]
 			dependencies: ["3D2AE21668EA59A0"]
 			id: "69F50F42B9BAC0BF"
@@ -212,8 +102,8 @@
 			}]
 		}
 		{
-			x: -0.25d
-			y: 3.0d
+			x: -5.75d
+			y: 0.5d
 			description: [
 				"Botany pot can grow all kind of crops and saplings."
 				"The hopper version is perfect to automate farming what you put in your pot."
@@ -358,56 +248,11 @@
 			}]
 		}
 		{
-			title: "Dimensional Dungeons"
-			icon: "dimdungeons:block_key_charger"
-			x: 7.5d
-			y: 7.0d
-			description: [
-				"A blank key cannot be used to enter a dungeon. A newly crafted key must first be used in an 'activation ritual' which will inscribe the name and location of a randomly generated dungeon onto the key."
-				"This action will require you to bring the key in the Stronghold and use it on the top of an End Portal Frame."
-			]
-			id: "247308E0062867EB"
-			tasks: [
-				{
-					id: "4FCC35A18296D09D"
-					type: "item"
-					item: "dimdungeons:item_portal_key"
-				}
-				{
-					id: "0AD721BD7954EA13"
-					type: "item"
-					item: "dimdungeons:block_gilded_portal"
-					count: 2L
-				}
-				{
-					id: "6E4DAB7B74107FF3"
-					type: "item"
-					item: "dimdungeons:block_portal_keyhole"
-				}
-			]
-			rewards: [{
-				id: "6E47EDC4E7BE6A94"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "dimdungeons:guide_book"
-					}
-				}
-			}]
-		}
-		{
 			title: "Did you mention Physics?"
-			x: 7.0d
-			y: 10.0d
+			x: 4.5d
+			y: 6.0d
 			subtitle: "Honey, I Shrunk the Kids!"
-			description: [
-				"The Personal Shrinking Device allows you to enter and exit your compact machine."
-				"{image:kubejs:textures/ftbquests/begin/projectors.png width:150 height:100 align:1}"
-				"Field Projectors are used to miniaturize your compact machines and other craft."
-				"You don't have to make the biggest size, just a 5x5 is sufficient for all crafts."
-			]
+			description: ["The Personal Shrinking Device allows you to enter and exit your compact machine."]
 			id: "0D78FF79D69B3596"
 			tasks: [
 				{
@@ -430,8 +275,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 10.0d
+			x: 5.5d
+			y: 6.0d
 			description: ["The Tiny Compact Machine is a 3x3x3 space."]
 			dependencies: ["0D78FF79D69B3596"]
 			id: "2A3C834BAC2D66A4"
@@ -447,8 +292,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: 10.0d
+			x: 6.5d
+			y: 6.0d
 			description: ["The Small Compact Machine is a 5x5x5 space."]
 			dependencies: ["2A3C834BAC2D66A4"]
 			id: "67228E1120640FAB"
@@ -464,8 +309,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 10.0d
+			x: 7.5d
+			y: 6.0d
 			description: ["The Normal Compact Machine is a 7x7x7 space."]
 			dependencies: ["67228E1120640FAB"]
 			id: "12340D5B78680D32"
@@ -481,8 +326,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 10.0d
+			x: 8.5d
+			y: 6.0d
 			description: ["The Large Compact Machine is a 9x9x9 space."]
 			dependencies: ["12340D5B78680D32"]
 			id: "7CDACF0CCDC79EA3"
@@ -498,8 +343,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: 10.0d
+			x: 9.5d
+			y: 6.0d
 			description: ["The Giant Compact Machine is a 11x11x11 space."]
 			dependencies: ["7CDACF0CCDC79EA3"]
 			id: "0F324A4E61CB9053"
@@ -515,8 +360,8 @@
 			}]
 		}
 		{
-			x: 13.0d
-			y: 10.0d
+			x: 10.5d
+			y: 6.0d
 			description: ["The Maximum Compact Machine is a 13x13x13 space."]
 			dependencies: ["0F324A4E61CB9053"]
 			id: "349A652CF43F8376"
@@ -628,39 +473,6 @@
 			}]
 		}
 		{
-			x: 8.75d
-			y: 7.0d
-			subtitle: "Diggy Diggy Hole!"
-			description: ["Eternal day and no caves."]
-			dependencies: ["2A4B496451E1606F"]
-			id: "60E5765FE4FDFC45"
-			tasks: [{
-				id: "3769B231A01C3EA4"
-				type: "item"
-				item: "jamd:mine_portal_block"
-			}]
-			rewards: [{
-				id: "421DF2B03793D674"
-				type: "loot"
-			}]
-		}
-		{
-			x: 11.25d
-			y: 7.0d
-			description: ["Eternal day in the void."]
-			dependencies: ["2A4B496451E1606F"]
-			id: "3727827CF1E483EC"
-			tasks: [{
-				id: "4541C1F47A65BDE8"
-				type: "item"
-				item: "javd:portal_block"
-			}]
-			rewards: [{
-				id: "266FCABD3C361E22"
-				type: "loot"
-			}]
-		}
-		{
 			title: "Item Collector"
 			x: 1.25d
 			y: -0.5d
@@ -685,8 +497,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 8.0d
+			x: -8.5d
+			y: 4.0d
 			description: [
 				"This is the tier 1 jetpack from the vanilla collection."
 				"Can store 80K RF and use 32RF/t"
@@ -704,8 +516,8 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: 8.0d
+			x: -7.5d
+			y: 4.0d
 			description: [
 				"This is the tier 2 jetpack from the vanilla collection."
 				"Can store 400K RF and use 50RF/t"
@@ -724,8 +536,8 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: 8.0d
+			x: -6.5d
+			y: 4.0d
 			description: [
 				"This is the tier 3 jetpack from the vanilla collection."
 				"Can store 4M RF and use 200RF/t"
@@ -744,8 +556,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 8.0d
+			x: -5.5d
+			y: 4.0d
 			description: [
 				"This is the tier 4 jetpack from the vanilla collection."
 				"Can store 20M RF and use 450RF/t"
@@ -761,28 +573,6 @@
 				id: "56E38EF79A4224CA"
 				type: "item"
 				item: "minecraft:netherite_block"
-			}]
-		}
-		{
-			title: "The Undergarden"
-			x: 10.0d
-			y: 7.0d
-			description: ["To enter the Undergarden, just make a stone brick portal and right click with this catalyst."]
-			id: "5B83DDDBFDC5E30F"
-			tasks: [{
-				id: "6D1FE535AA553B47"
-				type: "item"
-				item: {
-					id: "undergarden:catalyst"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "0F1C61741F0EF855"
-				type: "loot"
 			}]
 		}
 		{
@@ -811,8 +601,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 10.0d
+			x: -3.5d
+			y: 6.0d
 			description: [
 				"This basic backpack have 27 slots to store things and have 1 upgrade slot."
 				"You can dye your backpack the same way you can dye a leather armor."
@@ -832,8 +622,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 10.0d
+			x: -2.5d
+			y: 6.0d
 			description: ["The Iron Backpack have 54 slots to put things and have 2 upgrade slots."]
 			dependencies: ["45A6A422D4EBC8E1"]
 			id: "2E6B3A90B82E604E"
@@ -849,8 +639,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 10.0d
+			x: -1.5d
+			y: 6.0d
 			description: ["The Gold Backpack have 81 slots to put things and have 3 upgrade slots."]
 			dependencies: ["2E6B3A90B82E604E"]
 			id: "3980C83785FB3A8D"
@@ -866,8 +656,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 10.0d
+			x: -0.5d
+			y: 6.0d
 			description: ["The Diamond Backpack have 108 slots to put things and have 5 upgrade slots."]
 			dependencies: ["3980C83785FB3A8D"]
 			id: "7730F0AD80DB6D41"
@@ -883,8 +673,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 10.0d
+			x: 0.5d
+			y: 6.0d
 			description: ["The Diamond Backpack have 120 slots to put things and have 7 upgrade slots."]
 			dependencies: ["7730F0AD80DB6D41"]
 			id: "5CE04112C43D7A02"
@@ -900,8 +690,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 10.0d
+			x: 1.5d
+			y: 6.0d
 			description: ["This is your base to make upgrade with your backpack."]
 			id: "3CF5229F9A3EFD84"
 			tasks: [{
@@ -956,8 +746,8 @@
 			}]
 		}
 		{
-			x: -2.75d
-			y: 3.0d
+			x: -8.25d
+			y: 0.5d
 			description: [
 				"You can farm mobs loot in a Mob Cage."
 				"Check JEI to find what block environment a mob need and grab an ADN sample of your desired mob."
@@ -984,8 +774,8 @@
 			}]
 		}
 		{
-			x: -1.75d
-			y: 3.0d
+			x: -7.25d
+			y: 0.5d
 			description: ["The Netherite DNA Sampler is used for boss, the Basic is for most of passive mobs."]
 			dependencies: ["4E6C11F47AFDB1AE"]
 			id: "4B45ACC1B04473BE"
@@ -1014,8 +804,8 @@
 		}
 		{
 			title: "Mob Cage upgrades"
-			x: -2.75d
-			y: 2.0d
+			x: -8.25d
+			y: -0.5d
 			description: [
 				"For farm certain kind of loot, sometime you need an upgrade."
 				"Generally the Cooking upgrade can cook meat in the cage."
@@ -1049,8 +839,8 @@
 		}
 		{
 			title: "Backpack Upgrades"
-			x: 3.0d
-			y: 10.0d
+			x: 2.5d
+			y: 6.0d
 			description: [
 				"Smelting upgrade put a furnace integrated in your backpack."
 				"Crafting upgrade put a 3x3 crafting grid in your backpack."
@@ -1091,37 +881,6 @@
 				id: "76656E395E5CA9CD"
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_void_upgrade"
-			}]
-		}
-		{
-			title: "Lost City"
-			x: 12.5d
-			y: 7.0d
-			description: ["To go to Lost City, place any bed on two \"dimensional blank blocks\" and surround your bed with skeleton skull."]
-			id: "5590521BEF0A3538"
-			tasks: [
-				{
-					id: "6BB262C6F30CC6F0"
-					type: "item"
-					item: "rftoolsdim:dimensional_blank_block"
-					count: 2L
-				}
-				{
-					id: "22B69242E29D8B39"
-					type: "item"
-					title: "Any #minecraft:beds"
-					item: "minecraft:white_bed"
-				}
-				{
-					id: "59B84478E53F2100"
-					type: "item"
-					item: "minecraft:skeleton_skull"
-					count: 6L
-				}
-			]
-			rewards: [{
-				id: "1609B478E2B2C77D"
-				type: "loot"
 			}]
 		}
 		{

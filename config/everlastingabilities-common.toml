@@ -539,3 +539,67 @@
 		#The xp required per level.
 		xpPerLevel = 20
 
+	[ability.bad_omen]
+		#The maximum ability level.
+		maxLevel = 4
+		#If this can be obtained by spawning mobs.
+		obtainableOnMobSpawn = true
+		#The xp required per level.
+		xpPerLevel = 200
+		#If this can be obtained by combining totems in a crafting grid.
+		obtainableOnCraft = true
+		#If this can be obtained by initially spawning players.
+		obtainableOnPlayerSpawn = true
+		#Rarity of this ability.
+		rarity = 3
+		#If this can be obtained in loot chests.
+		obtainableOnLoot = true
+
+	[ability.slow_falling]
+		#If this can be obtained by combining totems in a crafting grid.
+		obtainableOnCraft = true
+		#Rarity of this ability.
+		rarity = 1
+		#The xp required per level.
+		xpPerLevel = 50
+		#If this can be obtained in loot chests.
+		obtainableOnLoot = true
+		#The maximum ability level.
+		maxLevel = 1
+		#If this can be obtained by initially spawning players.
+		obtainableOnPlayerSpawn = true
+		#If this can be obtained by spawning mobs.
+		obtainableOnMobSpawn = true
+
+	[ability.conduit_power]
+		#The xp required per level.
+		xpPerLevel = 50
+		#Rarity of this ability.
+		rarity = 2
+		#If this can be obtained by spawning mobs.
+		obtainableOnMobSpawn = true
+		#If this can be obtained in loot chests.
+		obtainableOnLoot = true
+		#The maximum ability level.
+		maxLevel = 3
+		#If this can be obtained by initially spawning players.
+		obtainableOnPlayerSpawn = true
+		#If this can be obtained by combining totems in a crafting grid.
+		obtainableOnCraft = true
+
+	[ability.dolphins_grace]
+		#If this can be obtained by initially spawning players.
+		obtainableOnPlayerSpawn = true
+		#The xp required per level.
+		xpPerLevel = 50
+		#If this can be obtained by combining totems in a crafting grid.
+		obtainableOnCraft = true
+		#The maximum ability level.
+		maxLevel = 1
+		#If this can be obtained by spawning mobs.
+		obtainableOnMobSpawn = true
+		#If this can be obtained in loot chests.
+		obtainableOnLoot = true
+		#Rarity of this ability.
+		rarity = 1
+

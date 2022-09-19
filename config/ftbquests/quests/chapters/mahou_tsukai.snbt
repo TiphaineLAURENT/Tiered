@@ -389,7 +389,6 @@
 			description: [
 				"To begin with Mahou Tsukai you need to bleed yourself with a dagger and draw Mahoujin."
 				"After that, you obtain 100 points of mana Mahou."
-				"{image:kubejs:textures/ftbquests/begin/mahou.png width:150 height:100 align:1}"
 				"There is a LOT of spells you can make and very powerful weapon, like Morgan."
 				"I recommend you to read closely the Mahou Tsukai Knowledge Compendium because I can't explain shortly what you can do, but the book can."
 			]
