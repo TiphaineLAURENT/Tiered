@@ -75,7 +75,10 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			dependencies: ["622DD058DE83869D"]
+			dependencies: [
+				"622DD058DE83869D"
+				"1811E77D7FDAC70D"
+			]
 			id: "679F7FEFD650FCAE"
 			tasks: [{
 				id: "55EC70D53EE2E4E4"
@@ -84,12 +87,9 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 6.0d
 			y: 0.0d
-			dependencies: [
-				"679F7FEFD650FCAE"
-				"1811E77D7FDAC70D"
-			]
+			dependencies: ["1B4B83F4894C1E2F"]
 			id: "6CE6C3BCA4E4B78B"
 			tasks: [{
 				id: "2BBDFAA3E13BE23C"
@@ -101,6 +101,7 @@
 			x: -6.700000000000001d
 			y: -1.0d
 			dependencies: ["7BFB698164C97333"]
+			optional: true
 			id: "3B1637FE1635155A"
 			tasks: [{
 				id: "248B3471626810ED"
@@ -112,6 +113,7 @@
 			x: -5.200000000000001d
 			y: -1.0d
 			dependencies: ["3B1637FE1635155A"]
+			optional: true
 			id: "4115E86371C62BD4"
 			tasks: [{
 				id: "29074197755ADA54"
@@ -123,6 +125,7 @@
 			x: -3.000000000000001d
 			y: -1.0d
 			dependencies: ["4115E86371C62BD4"]
+			optional: true
 			id: "1811E77D7FDAC70D"
 			tasks: [{
 				id: "19394DDB29DBE48E"
@@ -131,118 +134,9 @@
 			}]
 		}
 		{
-			x: -10.5d
+			x: 7.5d
 			y: 0.0d
-			dependencies: ["7BFB698164C97333"]
-			id: "31AD0634CC6BF114"
-			tasks: [{
-				id: "56DB2A12A3A28F18"
-				type: "item"
-				item: "mysticalagriculture:inferium_furnace"
-			}]
-		}
-		{
-			x: -11.999999999999993d
-			y: 0.0d
-			dependencies: ["31AD0634CC6BF114"]
-			id: "3436FB8C6304C52B"
-			tasks: [{
-				id: "7A55E4FF38170BAC"
-				type: "item"
-				item: "mysticalagriculture:prudentium_furnace"
-			}]
-		}
-		{
-			x: -13.499999999999995d
-			y: 0.0d
-			dependencies: ["3436FB8C6304C52B"]
-			id: "1507C3B40108169F"
-			tasks: [{
-				id: "0DB297A982AB3CD5"
-				type: "item"
-				item: "mysticalagriculture:tertium_furnace"
-			}]
-		}
-		{
-			x: -14.999999999999995d
-			y: 0.0d
-			dependencies: ["1507C3B40108169F"]
-			id: "73EBEDB92680F99A"
-			tasks: [{
-				id: "105EEBEA3935963B"
-				type: "item"
-				item: "mysticalagriculture:imperium_furnace"
-			}]
-		}
-		{
-			x: -16.5d
-			y: 0.0d
-			dependencies: ["73EBEDB92680F99A"]
-			id: "65DD49018D41F933"
-			tasks: [{
-				id: "5E17A5E92710249A"
-				type: "item"
-				item: "mysticalagriculture:supremium_furnace"
-			}]
-		}
-		{
-			x: -9.699999999999998d
-			y: 1.4d
-			id: "32BF61BD48F09DC4"
-			tasks: [{
-				id: "4D6EF67F48E1B6AE"
-				type: "item"
-				item: "tconstruct:seared_melter"
-			}]
-		}
-		{
-			x: -8.199999999999998d
-			y: 1.4d
-			dependencies: ["32BF61BD48F09DC4"]
-			id: "52D0AF445D60EEC6"
-			tasks: [{
-				id: "3847B07A990EA837"
-				type: "item"
-				item: "tconstruct:smeltery_controller"
-			}]
-		}
-		{
-			x: -9.0d
-			y: -1.5d
-			dependencies: ["7BFB698164C97333"]
-			id: "52A385EAD333A18B"
-			tasks: [{
-				id: "65EED6C4081DCAF2"
-				type: "item"
-				item: "avaritiafurnace:compressed_furnace"
-			}]
-		}
-		{
-			x: -9.0d
-			y: -3.0d
-			dependencies: ["52A385EAD333A18B"]
-			id: "4B0584A53639EBAB"
-			tasks: [{
-				id: "2142AE26B7333B36"
-				type: "item"
-				item: "avaritiafurnace:double_compressed_furnace"
-			}]
-		}
-		{
-			x: -9.0d
-			y: -4.5d
-			dependencies: ["4B0584A53639EBAB"]
-			id: "50E194360B8FD358"
-			tasks: [{
-				id: "59BFDB72C0F9B8E0"
-				type: "item"
-				item: "avaritiafurnace:triple_compressed_furnace"
-			}]
-		}
-		{
-			x: -9.0d
-			y: -6.0d
-			dependencies: ["50E194360B8FD358"]
+			dependencies: ["6CE6C3BCA4E4B78B"]
 			id: "5D54269CAA7E5C93"
 			tasks: [{
 				id: "69F10598F07F2536"
@@ -251,19 +145,8 @@
 			}]
 		}
 		{
-			x: -18.0d
-			y: 0.0d
-			dependencies: ["65DD49018D41F933"]
-			id: "72B6054A840469DD"
-			tasks: [{
-				id: "6EC2A81ADAA7FBBF"
-				type: "item"
-				item: "mysticaladaptations:insanium_furnace"
-			}]
-		}
-		{
-			x: -7.5d
-			y: 3.0d
+			x: -9.0d
+			y: 1.5d
 			id: "684C627A1ABFF738"
 			tasks: [{
 				id: "0B83968B7F4E6FD0"
@@ -272,8 +155,9 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 3.0d
+			x: -4.5d
+			y: 1.5d
+			dependencies: ["02F2B174758E6663"]
 			id: "076C1B9EA69E4477"
 			tasks: [{
 				id: "6E06E9425FAB77E6"
@@ -282,8 +166,9 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 3.0d
+			x: -6.0d
+			y: 1.5d
+			dependencies: ["322E9E7BFC5FE082"]
 			id: "02F2B174758E6663"
 			tasks: [{
 				id: "1A8418242291F490"
@@ -292,8 +177,9 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 3.0d
+			x: -7.5d
+			y: 1.5d
+			dependencies: ["684C627A1ABFF738"]
 			id: "322E9E7BFC5FE082"
 			tasks: [{
 				id: "7ECA0CAECA2A6264"
@@ -303,7 +189,8 @@
 		}
 		{
 			x: -1.5d
-			y: 3.0d
+			y: 1.5d
+			dependencies: ["4DA7D1D820C10F3E"]
 			id: "757CF408EC9759A0"
 			tasks: [{
 				id: "4823158E01C07923"
@@ -312,8 +199,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 3.0d
+			x: -3.0d
+			y: 1.5d
+			dependencies: ["076C1B9EA69E4477"]
 			id: "4DA7D1D820C10F3E"
 			tasks: [{
 				id: "7BAF23844238836E"
@@ -322,8 +210,9 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: 3.0d
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["757CF408EC9759A0"]
 			id: "66EE54FF54A9870D"
 			tasks: [{
 				id: "51F4B82A4112F704"
@@ -332,8 +221,8 @@
 			}]
 		}
 		{
-			x: -12.0d
-			y: 3.0d
+			x: 1.5d
+			y: 1.5d
 			dependencies: ["66EE54FF54A9870D"]
 			id: "1293A37F03821B89"
 			tasks: [{
@@ -343,8 +232,8 @@
 			}]
 		}
 		{
-			x: -13.5d
-			y: 3.0d
+			x: 3.0d
+			y: 1.5d
 			dependencies: ["1293A37F03821B89"]
 			id: "2496948D3ED84F2E"
 			tasks: [{
@@ -354,8 +243,8 @@
 			}]
 		}
 		{
-			x: -15.0d
-			y: 3.0d
+			x: 4.5d
+			y: 1.5d
 			dependencies: ["2496948D3ED84F2E"]
 			id: "4994C2C10A502B0A"
 			tasks: [{
@@ -365,8 +254,8 @@
 			}]
 		}
 		{
-			x: -16.5d
-			y: 3.0d
+			x: 6.0d
+			y: 1.5d
 			dependencies: ["4994C2C10A502B0A"]
 			id: "63DC40EE18269911"
 			tasks: [{
@@ -376,8 +265,8 @@
 			}]
 		}
 		{
-			x: -18.0d
-			y: 3.0d
+			x: 7.5d
+			y: 1.5d
 			dependencies: ["63DC40EE18269911"]
 			id: "0E2590E745685CF3"
 			tasks: [{
@@ -387,14 +276,58 @@
 			}]
 		}
 		{
-			x: -19.5d
-			y: 3.0d
+			x: 9.0d
+			y: 1.5d
 			dependencies: ["0E2590E745685CF3"]
 			id: "1293DAFD7747E7A2"
 			tasks: [{
 				id: "3384E674C0A6B010"
 				type: "item"
 				item: "ironfurnaces:rainbow_coal"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["679F7FEFD650FCAE"]
+			id: "1407AF5153D3F6D7"
+			tasks: [{
+				id: "5D8B5CB75BC1A15D"
+				type: "item"
+				item: "ironfurnaces:allthemodium_furnace"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["1407AF5153D3F6D7"]
+			id: "3F3D565FF5E74833"
+			tasks: [{
+				id: "11A134F6FED5CC27"
+				type: "item"
+				item: "ironfurnaces:vibranium_furnace"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["3F3D565FF5E74833"]
+			id: "1B4B83F4894C1E2F"
+			tasks: [{
+				id: "3F1F15A58F1DA6D5"
+				type: "item"
+				item: "ironfurnaces:unobtainium_furnace"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.5d
+			dependencies: ["1293DAFD7747E7A2"]
+			id: "6887C27B4A2A9062"
+			tasks: [{
+				id: "050396C081A5E482"
+				type: "item"
+				item: "avaritiafurnace:infinity_fuel"
 			}]
 		}
 	]

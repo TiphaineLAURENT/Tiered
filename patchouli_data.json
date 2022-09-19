@@ -1,1 +1,16 @@
-{"bookGuiScale":0,"clickedVisualize":false,"bookData":{}}
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "apotheosis:apoth_chronicle": {
+      "viewedEntries": [
+        "apotheosis:enchanting/table/info"
+      ],
+      "bookmarks": [],
+      "history": [
+        "apotheosis:enchanting/table/info"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

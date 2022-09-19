@@ -378,4 +378,7 @@ events.listen('recipes', (event) => {
     event.replaceOutput({ type: 'mekanism:crushing' }, 'moremekanismprocessing:dust_nickel', 'thermal:nickel_dust')
     event.replaceOutput({ type: 'mekanism:enriching' }, 'moremekanismprocessing:dust_nickel', 'thermal:nickel_dust')
     event.remove({ id: 'moremekanismprocessing:processing/nickel/nugget/from_ingot' })
+
+    // Clean empty recipes
+    event.remove({ output: 'minecraft:air' })
 })

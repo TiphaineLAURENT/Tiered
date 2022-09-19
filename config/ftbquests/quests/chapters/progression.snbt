@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 2
 	filename: "progression"
-	title: "Armors"
+	title: "Weaponery"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -300,9 +300,9 @@
 			]
 		}
 		{
-			x: -3.5d
+			x: -2.0d
 			y: -1.0d
-			dependencies: ["49BF2338A9B1FDB7"]
+			dependencies: ["407D96EFE284E959"]
 			id: "1E4520169892DFF2"
 			tasks: [
 				{
@@ -358,8 +358,8 @@
 			]
 		}
 		{
-			x: -3.499999999999999d
-			y: 0.5000000000000001d
+			x: -0.5d
+			y: -4.0d
 			dependencies: ["1E4520169892DFF2"]
 			id: "737B74D79433D203"
 			tasks: [
@@ -410,8 +410,8 @@
 			]
 		}
 		{
-			x: -2.0000000000000004d
-			y: 0.5000000000000001d
+			x: -0.5d
+			y: -5.0d
 			dependencies: ["1E4520169892DFF2"]
 			id: "3234B032BAE2F17F"
 			tasks: [
@@ -462,8 +462,8 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: 0.5d
+			x: -0.5d
+			y: -2.0d
 			dependencies: ["1E4520169892DFF2"]
 			id: "3A0D830B3B138522"
 			tasks: [
@@ -514,8 +514,8 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: 2.0d
+			x: -0.5d
+			y: 3.0d
 			dependencies: ["1E4520169892DFF2"]
 			id: "291B0ED3773F89E2"
 			tasks: [
@@ -566,8 +566,8 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: 3.5d
+			x: -0.5d
+			y: 2.0d
 			dependencies: ["1E4520169892DFF2"]
 			id: "535F5F471DCDC2B3"
 			tasks: [
@@ -618,8 +618,8 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: 2.0d
+			x: -0.5d
+			y: -1.0d
 			dependencies: ["1E4520169892DFF2"]
 			id: "695EF0EC43E39823"
 			tasks: [
@@ -670,8 +670,8 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: 3.5d
+			x: -0.5d
+			y: 0.0d
 			dependencies: ["1E4520169892DFF2"]
 			id: "4C9FE15C4FCDAB3D"
 			tasks: [
@@ -728,8 +728,8 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: 3.5d
+			x: -0.5d
+			y: 1.0d
 			dependencies: ["1E4520169892DFF2"]
 			id: "522F48C4AFDC9F4F"
 			tasks: [
@@ -780,8 +780,8 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: 5.0d
+			x: -0.5d
+			y: -3.0d
 			dependencies: ["1E4520169892DFF2"]
 			id: "662A3D8B6BD6DD2B"
 			tasks: [
@@ -848,27 +848,16 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: 2.0d
-			dependencies: [
-				"737B74D79433D203"
-				"3234B032BAE2F17F"
-				"3A0D830B3B138522"
-				"291B0ED3773F89E2"
-				"535F5F471DCDC2B3"
-				"695EF0EC43E39823"
-				"4C9FE15C4FCDAB3D"
-				"522F48C4AFDC9F4F"
-				"662A3D8B6BD6DD2B"
-				"1E4520169892DFF2"
-			]
+			x: 5.5d
+			y: -1.0d
+			dependencies: ["49500458D6E411B7"]
 			id: "2B50CEAADB68D121"
 			tasks: [
 				{
-					id: "3D2D76D6BA79674A"
+					id: "195B99115305D23C"
 					type: "item"
 					item: {
-						id: "upgradednetherite:ultimate_upgraded_netherite_helmet"
+						id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_helmet"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -876,10 +865,10 @@
 					}
 				}
 				{
-					id: "7565F758649ACF4A"
+					id: "3A5D7E601AFB4FE4"
 					type: "item"
 					item: {
-						id: "upgradednetherite:ultimate_upgraded_netherite_chestplate"
+						id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_chestplate"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -887,10 +876,10 @@
 					}
 				}
 				{
-					id: "76D91F6594147AA6"
+					id: "5B020DF85F25A29A"
 					type: "item"
 					item: {
-						id: "upgradednetherite:ultimate_upgraded_netherite_leggings"
+						id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_leggings"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -898,10 +887,10 @@
 					}
 				}
 				{
-					id: "147685E9EDB3AAC6"
+					id: "7D449306C366B866"
 					type: "item"
 					item: {
-						id: "upgradednetherite:ultimate_upgraded_netherite_boots"
+						id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_boots"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -911,224 +900,8 @@
 			]
 		}
 		{
-			x: -1.9999999999999991d
+			x: -3.5d
 			y: -1.0d
-			hide_dependency_lines: false
-			dependencies: ["1E4520169892DFF2"]
-			hide: true
-			id: "09504CE7816509DF"
-			tasks: [
-				{
-					id: "6106F4BED7CC4481"
-					type: "item"
-					item: {
-						id: "advancednetherite:netherite_iron_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "0189DFF2BA68077F"
-					type: "item"
-					item: {
-						id: "advancednetherite:netherite_iron_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "3C652DBF23DBB901"
-					type: "item"
-					item: {
-						id: "advancednetherite:netherite_iron_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "4DF2C109A255E71D"
-					type: "item"
-					item: {
-						id: "advancednetherite:netherite_iron_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -0.4999999999999991d
-			y: -1.0d
-			dependencies: ["09504CE7816509DF"]
-			id: "23CE83A51C60D0C3"
-			tasks: [
-				{
-					id: "44080682AF7FA50D"
-					type: "item"
-					item: {
-						id: "advancednetherite:netherite_gold_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "2E70ABE7A68FDC3F"
-					type: "item"
-					item: {
-						id: "advancednetherite:netherite_gold_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "13A492AA30B9DDEF"
-					type: "item"
-					item: {
-						id: "advancednetherite:netherite_gold_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "37EADDC81AFC47F2"
-					type: "item"
-					item: {
-						id: "advancednetherite:netherite_gold_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 0.9999999999999998d
-			y: -1.0d
-			dependencies: ["23CE83A51C60D0C3"]
-			id: "7553EC8A14CB5D11"
-			tasks: [
-				{
-					id: "0543F2DBB59D9B5D"
-					type: "item"
-					item: {
-						id: "advancednetherite:netherite_emerald_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "347D54B28AAA3BE7"
-					type: "item"
-					item: {
-						id: "advancednetherite:netherite_emerald_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "4EA6BC30593DF586"
-					type: "item"
-					item: {
-						id: "advancednetherite:netherite_emerald_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "626E9A61C2A7B57E"
-					type: "item"
-					item: {
-						id: "advancednetherite:netherite_emerald_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 2.5d
-			y: -1.0d
-			dependencies: ["7553EC8A14CB5D11"]
-			id: "56E12016B014F784"
-			tasks: [
-				{
-					id: "7A0EF5FDCD73A806"
-					type: "item"
-					item: {
-						id: "advancednetherite:netherite_diamond_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "146FD97D990EA00D"
-					type: "item"
-					item: {
-						id: "advancednetherite:netherite_diamond_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-							AS_Amulet_Holder: [I;
-								-527277230
-								1147290555
-								-1882485507
-								1843020620
-							]
-						}
-					}
-				}
-				{
-					id: "6CCFEAAA6A586CC7"
-					type: "item"
-					item: {
-						id: "advancednetherite:netherite_diamond_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "1AD94CF191640CB7"
-					type: "item"
-					item: {
-						id: "advancednetherite:netherite_diamond_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -5.0d
-			y: -2.5d
 			dependencies: ["49BF2338A9B1FDB7"]
 			id: "407D96EFE284E959"
 			tasks: [
@@ -1179,119 +952,54 @@
 			]
 		}
 		{
-			x: -11.0d
-			y: 6.5d
-			id: "75AF6F5542B4462F"
+			x: 7.0d
+			y: -1.0d
+			dependencies: ["2B50CEAADB68D121"]
+			id: "0E5F986D94FDD7B5"
 			tasks: [
 				{
-					id: "383443AD6FB80E35"
+					id: "2BA2F2BD15EC14E6"
 					type: "item"
-					item: {
-						id: "gobber2:gobber2_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "upgradednetherite_creative:creative_upgraded_netherite_helmet"
 				}
 				{
-					id: "6B2DEFA1146B6826"
+					id: "09C286FBDEC358EF"
 					type: "item"
-					item: {
-						id: "gobber2:gobber2_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "upgradednetherite_creative:creative_upgraded_netherite_chestplate"
 				}
 				{
-					id: "797E41233DBD5373"
+					id: "6D424C63480BE5AB"
 					type: "item"
-					item: {
-						id: "gobber2:gobber2_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "upgradednetherite_creative:creative_upgraded_netherite_leggings"
 				}
 				{
-					id: "2EB094F71E570D4F"
+					id: "515D06B3993E0474"
 					type: "item"
-					item: {
-						id: "gobber2:gobber2_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
+					item: "upgradednetherite_creative:creative_upgraded_netherite_boots"
 				}
 			]
 		}
 		{
-			x: -9.5d
-			y: 6.5d
-			dependencies: ["75AF6F5542B4462F"]
-			id: "35AA14575FD1D79B"
-			tasks: [
-				{
-					id: "1B4C2F6A294F9F69"
-					type: "item"
-					item: {
-						id: "gobber2:gobber2_helmet_nether"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "29BDF26F2376E9DC"
-					type: "item"
-					item: {
-						id: "gobber2:gobber2_chestplate_nether"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "28501311DB156D72"
-					type: "item"
-					item: {
-						id: "gobber2:gobber2_leggings_nether"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "080E2DED4834BCA3"
-					type: "item"
-					item: {
-						id: "gobber2:gobber2_boots_nether"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
+			x: 1.0d
+			y: -1.0d
+			dependencies: [
+				"3234B032BAE2F17F"
+				"737B74D79433D203"
+				"662A3D8B6BD6DD2B"
+				"3A0D830B3B138522"
+				"695EF0EC43E39823"
+				"4C9FE15C4FCDAB3D"
+				"522F48C4AFDC9F4F"
+				"535F5F471DCDC2B3"
+				"291B0ED3773F89E2"
 			]
-		}
-		{
-			x: -8.0d
-			y: 6.5d
-			dependencies: ["35AA14575FD1D79B"]
-			id: "0A97FE5C25938C9E"
+			id: "167AB11CB961D26E"
 			tasks: [
 				{
-					id: "7FBDD952A89AA94D"
+					id: "11B4628A1C3E22B5"
 					type: "item"
 					item: {
-						id: "gobber2:gobber2_helmet_end"
+						id: "allthemodium:allthemodium_helmet"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -1299,10 +1007,10 @@
 					}
 				}
 				{
-					id: "2A7A404430CAC5D7"
+					id: "67F30F1D0ED218B8"
 					type: "item"
 					item: {
-						id: "gobber2:gobber2_chestplate_end"
+						id: "allthemodium:allthemodium_chestplate"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -1310,10 +1018,10 @@
 					}
 				}
 				{
-					id: "0F38BA380102E3C8"
+					id: "0E0548C815512D85"
 					type: "item"
 					item: {
-						id: "gobber2:gobber2_leggings_end"
+						id: "allthemodium:allthemodium_leggings"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -1321,217 +1029,10 @@
 					}
 				}
 				{
-					id: "420B1991F22DE446"
+					id: "5C833C49653ECD77"
 					type: "item"
 					item: {
-						id: "gobber2:gobber2_boots_end"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -6.5d
-			y: 6.5d
-			dependencies: ["0A97FE5C25938C9E"]
-			id: "670ECD085316D764"
-			tasks: [
-				{
-					id: "7AFB75D60EF8E0A1"
-					type: "item"
-					item: {
-						id: "gobber2:gobber2_helmet_dragon"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "6248E2FDA3422CBC"
-					type: "item"
-					item: {
-						id: "gobber2:gobber2_chestplate_dragon"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "0058B824021BF537"
-					type: "item"
-					item: {
-						id: "gobber2:gobber2_leggings_dragon"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "69249295DEDB584D"
-					type: "item"
-					item: {
-						id: "gobber2:gobber2_boots_dragon"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -11.0d
-			y: 8.0d
-			id: "6D93178FE35866BC"
-			tasks: [
-				{
-					id: "38FCF8662CBFE5CB"
-					type: "item"
-					item: {
-						id: "botania:manasteel_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "138BC767A5BD8DD5"
-					type: "item"
-					item: {
-						id: "botania:manasteel_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "23981FE6F4D261F1"
-					type: "item"
-					item: {
-						id: "botania:manasteel_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "623C18CBA36E929D"
-					type: "item"
-					item: {
-						id: "botania:manasteel_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -9.5d
-			y: 8.0d
-			dependencies: ["6D93178FE35866BC"]
-			id: "1DE38FB0E552AAE2"
-			tasks: [
-				{
-					id: "27270991B8671E70"
-					type: "item"
-					item: {
-						id: "botania:terrasteel_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "63AFEBA71D4D66BE"
-					type: "item"
-					item: {
-						id: "botania:terrasteel_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "580B48011768339B"
-					type: "item"
-					item: {
-						id: "botania:terrasteel_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "54BADECEF36D9440"
-					type: "item"
-					item: {
-						id: "botania:terrasteel_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -8.0d
-			y: 8.0d
-			dependencies: ["1DE38FB0E552AAE2"]
-			id: "2AA94E7D675A619D"
-			tasks: [
-				{
-					id: "4A2D621D9872948F"
-					type: "item"
-					item: {
-						id: "mythicbotany:alfsteel_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "050A51D9EF466B6F"
-					type: "item"
-					item: {
-						id: "mythicbotany:alfsteel_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "7B96F24F7C2ACDAB"
-					type: "item"
-					item: {
-						id: "mythicbotany:alfsteel_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "7CC37CAFA3D8562A"
-					type: "item"
-					item: {
-						id: "mythicbotany:alfsteel_boots"
+						id: "allthemodium:allthemodium_boots"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -1542,52 +1043,526 @@
 		}
 		{
 			x: 2.5d
-			y: 6.5d
-			dependencies: [
-				"56E12016B014F784"
-				"662A3D8B6BD6DD2B"
-				"670ECD085316D764"
-				"2AA94E7D675A619D"
-			]
-			id: "0E5F986D94FDD7B5"
+			y: -1.0d
+			dependencies: ["167AB11CB961D26E"]
+			id: "4E885D736B7D4A69"
 			tasks: [
 				{
-					id: "049B91126688020B"
+					id: "0276B3D97C6B1F91"
 					type: "item"
 					item: {
-						id: "overloaded:multi_helmet"
+						id: "allthemodium:vibranium_helmet"
 						Count: 1b
-						tag: { }
+						tag: {
+							Damage: 0
+						}
 					}
 				}
 				{
-					id: "49F237C924D2885B"
+					id: "720C1382DB0C357C"
 					type: "item"
 					item: {
-						id: "overloaded:multi_chestplate"
+						id: "allthemodium:vibranium_chestplate"
 						Count: 1b
-						tag: { }
+						tag: {
+							Damage: 0
+						}
 					}
 				}
 				{
-					id: "09B633F6E3CD315D"
+					id: "56A65C517F147D3E"
 					type: "item"
 					item: {
-						id: "overloaded:multi_leggings"
+						id: "allthemodium:vibranium_leggings"
 						Count: 1b
-						tag: { }
+						tag: {
+							Damage: 0
+						}
 					}
 				}
 				{
-					id: "7BD1E787E6CEA149"
+					id: "71495E4DFCFC8540"
 					type: "item"
 					item: {
-						id: "overloaded:multi_boots"
+						id: "allthemodium:vibranium_boots"
 						Count: 1b
-						tag: { }
+						tag: {
+							Damage: 0
+						}
 					}
 				}
 			]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			dependencies: ["4E885D736B7D4A69"]
+			id: "49500458D6E411B7"
+			tasks: [
+				{
+					id: "37D35D7A7EA29A64"
+					type: "item"
+					item: {
+						id: "allthemodium:unobtainium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3D6C2F269E45188C"
+					type: "item"
+					item: {
+						id: "allthemodium:unobtainium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "73658E5538C024EA"
+					type: "item"
+					item: {
+						id: "allthemodium:unobtainium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "05214C00FD6CF388"
+					type: "item"
+					item: {
+						id: "allthemodium:unobtainium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 12.0d
+			id: "0849775052FF200E"
+			tasks: [{
+				id: "725F031E435D7535"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 12.0d
+			dependencies: ["0849775052FF200E"]
+			id: "5BA683CBD1AEB41B"
+			tasks: [{
+				id: "5E7DB7BF832E7D32"
+				type: "item"
+				item: {
+					id: "minecraft:stone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 12.0d
+			dependencies: ["5BA683CBD1AEB41B"]
+			id: "1CCE4EC5530C9661"
+			tasks: [{
+				id: "3EB982C14B17C2D0"
+				type: "item"
+				item: {
+					id: "minecraft:golden_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 12.0d
+			dependencies: ["1CCE4EC5530C9661"]
+			id: "3600A456935F0D20"
+			tasks: [{
+				id: "0902A6D57F408997"
+				type: "item"
+				item: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 12.0d
+			dependencies: ["3600A456935F0D20"]
+			id: "2237BC07329D474C"
+			tasks: [{
+				id: "310AE569BFAE0262"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 12.0d
+			dependencies: ["2237BC07329D474C"]
+			id: "589C4914EB5E6E73"
+			tasks: [{
+				id: "74F51E39F5BF0DC2"
+				type: "item"
+				item: {
+					id: "cyclic:emerald_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 12.0d
+			dependencies: ["589C4914EB5E6E73"]
+			id: "128E5B0A28707251"
+			tasks: [{
+				id: "1E994E005A43858A"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 9.0d
+			dependencies: ["128E5B0A28707251"]
+			id: "7FBE4B76C54A23D6"
+			tasks: [{
+				id: "0F5E6DAFCDDC8CA1"
+				type: "item"
+				item: {
+					id: "upgradednetherite:gold_upgraded_netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 8.0d
+			dependencies: ["128E5B0A28707251"]
+			id: "5FC2119925E3CA38"
+			tasks: [{
+				id: "7402C94437929853"
+				type: "item"
+				item: {
+					id: "upgradednetherite:fire_upgraded_netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 11.0d
+			dependencies: ["128E5B0A28707251"]
+			id: "6B81ED11EE500386"
+			tasks: [{
+				id: "6A10A8A48BD0AFD0"
+				type: "item"
+				item: {
+					id: "upgradednetherite:ender_upgraded_netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 16.0d
+			dependencies: ["128E5B0A28707251"]
+			id: "1F65597DD864ADAA"
+			tasks: [{
+				id: "00168B9D2645A834"
+				type: "item"
+				item: {
+					id: "upgradednetherite:water_upgraded_netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 15.0d
+			dependencies: ["128E5B0A28707251"]
+			id: "415C862D004082C4"
+			tasks: [{
+				id: "1940C5FEE8C9AB74"
+				type: "item"
+				item: {
+					id: "upgradednetherite:wither_upgraded_netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 12.0d
+			dependencies: ["128E5B0A28707251"]
+			id: "6DA66870E13BA0B4"
+			tasks: [{
+				id: "454774128CEBA62A"
+				type: "item"
+				item: {
+					id: "upgradednetherite:poison_upgraded_netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 14.0d
+			dependencies: ["128E5B0A28707251"]
+			id: "325FC8CC16C2B80C"
+			tasks: [{
+				id: "4054A7D0864789DB"
+				type: "item"
+				item: {
+					id: "upgradednetherite:phantom_upgraded_netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 10.0d
+			dependencies: ["128E5B0A28707251"]
+			id: "08FC82F840460B78"
+			tasks: [{
+				id: "2E53B72A4C761B68"
+				type: "item"
+				item: {
+					id: "upgradednetherite:corrupt_upgraded_netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 13.0d
+			dependencies: ["128E5B0A28707251"]
+			id: "7CA6C4A0A3F3ED35"
+			tasks: [{
+				id: "668B67B9DBCFE11B"
+				type: "item"
+				item: {
+					id: "upgradednetherite:feather_upgraded_netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 12.0d
+			dependencies: ["27712E7FAF25CE66"]
+			id: "4CDDA2D0C138AE3C"
+			tasks: [{
+				id: "65D5DBB6F9C202B5"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_sword"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1546130054
+									-25080380
+									-1931570841
+									-1024642710
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 12.0d
+			dependencies: ["4CDDA2D0C138AE3C"]
+			id: "0F4D353C4CF5A82F"
+			tasks: [{
+				id: "02241D707B6FEEA2"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_sword"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-763468570
+									930891957
+									-1846905663
+									2036723466
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 12.0d
+			dependencies: ["0F4D353C4CF5A82F"]
+			id: "272EEFC36E9EB084"
+			tasks: [{
+				id: "6400A5535B48CCF3"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_sword"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-82279907
+									792544069
+									-1621435820
+									718289814
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 12.0d
+			dependencies: ["272EEFC36E9EB084"]
+			id: "0D75A36B3582B974"
+			tasks: [{
+				id: "16900476610039B6"
+				type: "item"
+				item: {
+					id: "allthemodium:alloy_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 12.0d
+			dependencies: [
+				"5FC2119925E3CA38"
+				"7FBE4B76C54A23D6"
+				"08FC82F840460B78"
+				"6B81ED11EE500386"
+				"6DA66870E13BA0B4"
+				"7CA6C4A0A3F3ED35"
+				"325FC8CC16C2B80C"
+				"415C862D004082C4"
+				"1F65597DD864ADAA"
+			]
+			id: "27712E7FAF25CE66"
+			tasks: [{
+				id: "103AFB17EFC62D30"
+				type: "item"
+				item: {
+					id: "upgradednetherite_ultimate:ultimate_upgraded_netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 12.0d
+			dependencies: ["0D75A36B3582B974"]
+			id: "764750B4C2A1818C"
+			tasks: [{
+				id: "45D1B4DA3C6A4487"
+				type: "item"
+				item: "upgradednetherite_creative:creative_upgraded_netherite_sword"
+			}]
 		}
 	]
 }

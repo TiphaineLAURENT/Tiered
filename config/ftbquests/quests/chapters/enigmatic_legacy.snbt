@@ -1894,7 +1894,6 @@
 			shape: "circle"
 			description: [
 				"To begin with Environmental Tech you need to make Litherite Block in a Casting Basin with Tinker Construct."
-				"{image:kubejs:textures/ftbquests/begin/environmental_tech.png width:150 height:100 align:1}"
 				"Simply pour Molten Queen Slime on a Uraninite Block to get a Litherite Block."
 			]
 			id: "74F0D66F8E94245F"

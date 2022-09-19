@@ -8,6 +8,18 @@
 	subtitle: ["Bonjour."]
 	default_quest_shape: "gear"
 	default_hide_dependency_lines: false
+	images: [{
+		x: -0.5d
+		y: -5.0d
+		width: 1.0d
+		height: 1.0d
+		rotation: 0.0d
+		image: "minecraft:textures/gui/presets/isles.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			title: "Welcome"

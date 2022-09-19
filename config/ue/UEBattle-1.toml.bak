@@ -120,7 +120,7 @@
 			#Range: > 1
 			trancendence = 200
 			#Enchantments that are not compatible with this Enchantment
-			incompats = ["uniquee:berserk", "uniquee:alchemistsgrace", "uniquee:ender_mending", "minecraft:mending"]
+			incompats = ["uniquee:ender_mending", "minecraft:mending"]
 			#Allows to add custom incompatible Items
 			incompatible_items = []
 			#Allows to add custom compatible Items

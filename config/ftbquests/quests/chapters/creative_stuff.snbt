@@ -1,7 +1,7 @@
 {
 	id: "28978D686090B88B"
 	group: ""
-	order_index: 24
+	order_index: 23
 	filename: "creative_stuff"
 	title: "Creative Stuff"
 	subtitle: ["The end game my friends."]
@@ -13,9 +13,9 @@
 			y: -1.0d
 			id: "2831A8A6FBB4D057"
 			tasks: [{
-				id: "6FADF40DC55C4360"
+				id: "2F0E63BC7287C4CD"
 				type: "item"
-				item: "overloaded:creative_generator"
+				item: "creativetweaks:creative_alloy"
 			}]
 		}
 		{
@@ -134,9 +134,15 @@
 			y: -2.0d
 			id: "3EA595ACDDDBD3D9"
 			tasks: [{
-				id: "53A5DD0B81E2B6AF"
+				id: "4622A25D603ED8D8"
 				type: "item"
-				item: "simplyjetpacks:jetpack_creative_armored"
+				item: {
+					id: "ironjetpacks:creative_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
 			}]
 		}
 		{
@@ -232,44 +238,27 @@
 		{
 			x: 2.0d
 			y: 2.0d
-			dependencies: ["6FADF40DC55C4360"]
 			id: "5A197558ACA88F94"
 			tasks: [
 				{
-					id: "1B5DA831AEA5835F"
+					id: "606BDB0051389604"
 					type: "item"
-					item: {
-						id: "overloaded:multi_helmet"
-						Count: 1b
-						tag: { }
-					}
+					item: "upgradednetherite_creative:creative_upgraded_netherite_helmet"
 				}
 				{
-					id: "286B52F2AD5C75A0"
+					id: "17698344E1CB2C6C"
 					type: "item"
-					item: {
-						id: "overloaded:multi_chestplate"
-						Count: 1b
-						tag: { }
-					}
+					item: "upgradednetherite_creative:creative_upgraded_netherite_chestplate"
 				}
 				{
-					id: "4968788F4F994D62"
+					id: "0D1B373B695BCCFD"
 					type: "item"
-					item: {
-						id: "overloaded:multi_leggings"
-						Count: 1b
-						tag: { }
-					}
+					item: "upgradednetherite_creative:creative_upgraded_netherite_leggings"
 				}
 				{
-					id: "5638E0B71F9CCA84"
+					id: "32846303D095557C"
 					type: "item"
-					item: {
-						id: "overloaded:multi_boots"
-						Count: 1b
-						tag: { }
-					}
+					item: "upgradednetherite_creative:creative_upgraded_netherite_boots"
 				}
 			]
 		}

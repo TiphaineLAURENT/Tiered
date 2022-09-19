@@ -40,7 +40,7 @@
 	#If valid Target Icons should be shown
 	"Enchantment Icons" = true
 	#If Icons should be displayed. Can be toggled ingame with a key
-	"Enchantment Icons Visible" = false
+	"Enchantment Icons Visible" = true
 	#How many Icon Rows should exists
 	#Range: 1 ~ 100
 	"Enchantment Icon Rows" = 3
