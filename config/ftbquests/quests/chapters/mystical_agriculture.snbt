@@ -567,6 +567,17 @@
 						}
 					}
 				}
+				{
+					id: "4F3540CE862CE5BD"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:inferium_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
 			]
 		}
 		{
@@ -601,6 +612,17 @@
 					type: "item"
 					item: {
 						id: "mysticalagriculture:prudentium_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "60CA4D9C62A03982"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:prudentium_hoe"
 						Count: 1b
 						tag: {
 							Damage: 0
@@ -647,6 +669,17 @@
 						}
 					}
 				}
+				{
+					id: "23791948B6732D81"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:tertium_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
 			]
 		}
 		{
@@ -687,6 +720,17 @@
 						}
 					}
 				}
+				{
+					id: "165BFF6B28AC71CA"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:imperium_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
 			]
 		}
 		{
@@ -708,6 +752,11 @@
 					id: "0D97F5E6A98F943B"
 					type: "item"
 					item: "mysticalagriculture:supremium_shovel"
+				}
+				{
+					id: "46A6C5C38C023F82"
+					type: "item"
+					item: "mysticalagriculture:supremium_hoe"
 				}
 			]
 		}
@@ -731,6 +780,11 @@
 					type: "item"
 					item: "mysticaladaptations:insanium_shovel"
 				}
+				{
+					id: "09F09F3FF2541D24"
+					type: "item"
+					item: "mysticaladaptations:insanium_hoe"
+				}
 			]
 		}
 		{
@@ -742,6 +796,379 @@
 				id: "636D3DE388EDE160"
 				type: "item"
 				item: "mysticalagradditions:creative_essence"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			description: [
+				"Botany pot can grow all kind of crops and saplings."
+				"The hopper version is perfect to automate farming what you put in your pot."
+			]
+			id: "7DF601A022C4C64E"
+			tasks: [{
+				id: "67FFA14B63A9814E"
+				type: "item"
+				title: "Any #botanypots:botany_pots"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botanypots:botany_pots"
+					}
+				}
+			}]
+			rewards: [{
+				id: "225ED1BAE9E40E94"
+				type: "item"
+				item: "byg:peat"
+				count: 16
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			dependencies: ["7DF601A022C4C64E"]
+			id: "2C512EB096D72873"
+			tasks: [{
+				id: "6E068A7264396477"
+				type: "item"
+				title: "Any #botanypots:hopper_botany_pots"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botanypots:hopper_botany_pots"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			dependencies: ["4ABFCD5EB38EFAD2"]
+			id: "243548CE0F259C5A"
+			tasks: [{
+				id: "6D1983CFAE4FC38C"
+				type: "item"
+				item: "ftb-power-pots:power_pot_mk1"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			dependencies: ["243548CE0F259C5A"]
+			id: "242AFED2EBC48990"
+			tasks: [{
+				id: "27BC816D9261263E"
+				type: "item"
+				item: "ftb-power-pots:power_pot_mk2"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.5d
+			dependencies: ["572D4695141BE974"]
+			id: "4C4B8D9385132897"
+			tasks: [{
+				id: "42A75D33982A9726"
+				type: "item"
+				item: "ftb-power-pots:power_pot_mk4"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			dependencies: ["242AFED2EBC48990"]
+			id: "572D4695141BE974"
+			tasks: [{
+				id: "356E3A99B7BB8CBC"
+				type: "item"
+				item: "ftb-power-pots:power_pot_mk3"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			dependencies: ["2C512EB096D72873"]
+			id: "6E8F81C46020F9AF"
+			tasks: [
+				{
+					id: "2E7CF482A9E64B4F"
+					type: "item"
+					item: "industrialforegoing:plant_gatherer"
+				}
+				{
+					id: "2646BDAA3829E1FB"
+					type: "item"
+					item: "industrialforegoing:plant_fertilizer"
+				}
+				{
+					id: "5A3661CF3BC662F9"
+					type: "item"
+					item: "industrialforegoing:plant_sower"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["6E8F81C46020F9AF"]
+			id: "4ABFCD5EB38EFAD2"
+			tasks: [{
+				id: "31D1306FE64E4F72"
+				type: "item"
+				item: "industrialforegoing:hydroponic_bed"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.5d
+			id: "671571CD023E08C4"
+			tasks: [{
+				id: "27BC2731E9565D18"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			id: "36E3647FF596A720"
+			tasks: [{
+				id: "0104B8D66F56AD3E"
+				type: "item"
+				item: {
+					id: "minecraft:stone_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			id: "69B838284C3967BE"
+			tasks: [{
+				id: "72EBF700801193BC"
+				type: "item"
+				item: {
+					id: "minecraft:golden_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			id: "33A46EDFC01C9B24"
+			tasks: [{
+				id: "50394E244AC30E3E"
+				type: "item"
+				item: {
+					id: "minecraft:iron_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			id: "68E69F8A1BEAAE5A"
+			tasks: [{
+				id: "24367C2FCF1E77B5"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			id: "08AF60AD878D29AE"
+			tasks: [{
+				id: "1C02102C1E8993BF"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.5d
+			id: "6085C489A40D2F8E"
+			tasks: [{
+				id: "6E16780637506DD2"
+				type: "item"
+				item: {
+					id: "advancednetherite:netherite_iron_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -5.5d
+			id: "4B4304BA726E5371"
+			tasks: [{
+				id: "22B6FBBDA4147852"
+				type: "item"
+				item: {
+					id: "advancednetherite:netherite_gold_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.5d
+			id: "4E1A07B72FC7FF01"
+			tasks: [{
+				id: "0C0DAEB376EEA081"
+				type: "item"
+				item: {
+					id: "advancednetherite:netherite_emerald_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.5d
+			id: "72F4EDB7BD129859"
+			tasks: [{
+				id: "27C73450BBAA0B20"
+				type: "item"
+				item: {
+					id: "advancednetherite:netherite_diamond_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -5.5d
+			id: "2A4D597A1F501908"
+			tasks: [{
+				id: "7B6369A9750155FE"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_hoe"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									748135464
+									478826074
+									-1949106656
+									-874141029
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -5.5d
+			id: "3D0DA57F5CCE98D7"
+			tasks: [{
+				id: "62F8481BD821E21C"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_hoe"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1833797192
+									-535477562
+									-1514928808
+									-318145217
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -5.5d
+			id: "10C6D998A2044C23"
+			tasks: [{
+				id: "2E6619FEA40F281F"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_hoe"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-715983804
+									-247511702
+									-1429864309
+									1592242021
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
 			}]
 		}
 	]

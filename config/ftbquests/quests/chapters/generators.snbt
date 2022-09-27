@@ -1,0 +1,776 @@
+{
+	id: "5AB871682AF311F0"
+	group: ""
+	order_index: 8
+	filename: "generators"
+	title: "Energy"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: -0.5d
+			id: "101016DFE3CA09E3"
+			tasks: [{
+				id: "6DD3805E931E5EA4"
+				type: "item"
+				item: "irongenerators:stone_generator"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["26699768AACCD5A1"]
+			id: "0232F9C2F4792EF0"
+			tasks: [{
+				id: "09C48F470BB26CF3"
+				type: "item"
+				item: "irongenerators:iron_generator"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -0.5d
+			dependencies: ["62D12A562372C743"]
+			id: "02F9C8C7F171BE60"
+			tasks: [{
+				id: "63D4921277261629"
+				type: "item"
+				item: "irongenerators:diamond_generator"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			dependencies: ["02F9C8C7F171BE60"]
+			id: "3448D02DC764377C"
+			tasks: [{
+				id: "15B57B160EA73770"
+				type: "item"
+				item: "irongenerators:obsidian_generator"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -0.5d
+			dependencies: ["324AA91223B50C90"]
+			id: "428773F3CCAD5080"
+			tasks: [{
+				id: "328B23FBD0E89AA6"
+				type: "item"
+				item: "irongenerators:netherite_generator"
+			}]
+		}
+		{
+			x: 18.5d
+			y: -0.5d
+			dependencies: ["0C927F311B07BCD4"]
+			id: "15BC9B6D4758232A"
+			tasks: [{
+				id: "56F4C13BAF7484B7"
+				type: "item"
+				item: "irongenerators:allthemodium_generator"
+			}]
+		}
+		{
+			x: 19.5d
+			y: -0.5d
+			dependencies: ["15BC9B6D4758232A"]
+			id: "60843970CF107363"
+			tasks: [{
+				id: "1AE3953885463C86"
+				type: "item"
+				item: "irongenerators:vibranium_generator"
+			}]
+		}
+		{
+			x: 20.5d
+			y: -0.5d
+			dependencies: ["60843970CF107363"]
+			id: "4F81695D569E00B2"
+			tasks: [{
+				id: "794CAB37BFDB5C8A"
+				type: "item"
+				item: "irongenerators:unobtainium_generator"
+			}]
+		}
+		{
+			x: 21.5d
+			y: -0.5d
+			dependencies: ["4F81695D569E00B2"]
+			id: "77499F09493D985D"
+			tasks: [{
+				id: "0B45B9E683DC8FF5"
+				type: "item"
+				item: "irongenerators:infinity_generator"
+			}]
+		}
+		{
+			title: "Fission Reactor"
+			x: 22.5d
+			y: -0.5d
+			dependencies: ["77499F09493D985D"]
+			id: "3CF644A28A88152D"
+			tasks: [
+				{
+					id: "78C90D1F540AA97D"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+				}
+				{
+					id: "464F508C1B57F1CA"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_casing"
+				}
+				{
+					id: "4D2652AA4F1CF8C6"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_port"
+				}
+				{
+					id: "31F0B282DC268B19"
+					type: "item"
+					item: "mekanismgenerators:fission_fuel_assembly"
+				}
+				{
+					id: "49F58E4AE7A4751B"
+					type: "item"
+					item: "mekanismgenerators:control_rod_assembly"
+				}
+			]
+		}
+		{
+			title: "Water cooled Fission Reactor"
+			x: 23.5d
+			y: -0.5d
+			dependencies: ["3CF644A28A88152D"]
+			id: "5C7ECE04A3ED43F4"
+			tasks: [
+				{
+					id: "6C273B9F2633D929"
+					type: "item"
+					item: "mekanismgenerators:turbine_rotor"
+				}
+				{
+					id: "613B5045CCE8DC09"
+					type: "item"
+					item: "mekanismgenerators:rotational_complex"
+				}
+				{
+					id: "13855E2EEB841144"
+					type: "item"
+					item: "mekanismgenerators:electromagnetic_coil"
+				}
+				{
+					id: "7AFAD59655ADE137"
+					type: "item"
+					item: "mekanismgenerators:turbine_casing"
+				}
+				{
+					id: "03602C0DEA543465"
+					type: "item"
+					item: "mekanismgenerators:turbine_valve"
+				}
+				{
+					id: "00BB36A3C908BDC1"
+					type: "item"
+					item: "mekanismgenerators:turbine_vent"
+				}
+				{
+					id: "461A90BA1A11E203"
+					type: "item"
+					item: "mekanismgenerators:saturating_condenser"
+				}
+				{
+					id: "4964E9D93CD23A0E"
+					type: "item"
+					item: "mekanism:structural_glass"
+				}
+				{
+					id: "0B5C3BAC1B1F2560"
+					type: "item"
+					item: "mekanismgenerators:turbine_blade"
+				}
+			]
+		}
+		{
+			title: "Fission Reactor"
+			x: 24.5d
+			y: -0.5d
+			dependencies: ["5C7ECE04A3ED43F4"]
+			id: "73A19883DFF454B2"
+			tasks: [
+				{
+					id: "38EC6501C8D82006"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_controller"
+				}
+				{
+					id: "2690EFEE69A44FB8"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_frame"
+				}
+				{
+					id: "3F16AAA74B24BF12"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_port"
+				}
+				{
+					id: "476476D5A453DE3E"
+					type: "item"
+					item: "mekanismgenerators:laser_focus_matrix"
+				}
+				{
+					id: "45813D6D2C54D315"
+					type: "item"
+					item: "mekanismgenerators:hohlraum"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["033715A6E6C2170E"]
+			id: "50B65EF0E3169644"
+			tasks: [{
+				id: "544DC06ABBCB6BD2"
+				type: "item"
+				item: "mekanismgenerators:heat_generator"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -1.5d
+			dependencies: ["69F76683667672DD"]
+			id: "2818A30BC696F315"
+			tasks: [{
+				id: "1CB4AB5CB94E2EA9"
+				type: "item"
+				item: "mekanismgenerators:advanced_solar_generator"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.5d
+			dependencies: ["07062297164BF49A"]
+			id: "26FF255ADCF3D5E7"
+			tasks: [{
+				id: "29E1080B1490E2F7"
+				type: "item"
+				item: "mekanismgenerators:wind_generator"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.5d
+			dependencies: ["1C1A79C01ABA2A56"]
+			id: "1BA882031B1ACB8B"
+			tasks: [{
+				id: "32257224ABF10218"
+				type: "item"
+				item: "mekanismgenerators:gas_burning_generator"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			dependencies: ["50B65EF0E3169644"]
+			id: "1C1A79C01ABA2A56"
+			tasks: [{
+				id: "3C0A9157446E8FDC"
+				type: "item"
+				item: "mekanismgenerators:bio_generator"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["101016DFE3CA09E3"]
+			id: "26699768AACCD5A1"
+			tasks: [{
+				id: "505E267F20DA85F0"
+				type: "item"
+				item: "irongenerators:netherrack_generator"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			dependencies: ["0232F9C2F4792EF0"]
+			id: "5F6CD44378D24588"
+			tasks: [{
+				id: "5388F43DBCA80427"
+				type: "item"
+				item: "irongenerators:lead_generator"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			dependencies: ["5F6CD44378D24588"]
+			id: "5DAC106B634942F1"
+			tasks: [{
+				id: "35EDA2E9FCC4236D"
+				type: "item"
+				item: "irongenerators:copper_generator"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			dependencies: ["5DAC106B634942F1"]
+			id: "3A50582F9EC78C37"
+			tasks: [{
+				id: "325633E652DB4415"
+				type: "item"
+				item: "irongenerators:tin_generator"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			dependencies: ["3A50582F9EC78C37"]
+			id: "1EDC32CBA20DBE42"
+			tasks: [{
+				id: "10D403BCC515C1ED"
+				type: "item"
+				item: "irongenerators:gold_generator"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			dependencies: ["1EDC32CBA20DBE42"]
+			id: "033715A6E6C2170E"
+			tasks: [{
+				id: "22D4EA0A24EBEB36"
+				type: "item"
+				item: "irongenerators:osmium_generator"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			dependencies: ["033715A6E6C2170E"]
+			id: "1B8EF195B38CFB9B"
+			tasks: [{
+				id: "7B8D011F830B226F"
+				type: "item"
+				item: "irongenerators:quartz_enriched_iron_generator"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			dependencies: ["1B8EF195B38CFB9B"]
+			id: "3EA861EB333A04B0"
+			tasks: [{
+				id: "60D832EF7208E0A4"
+				type: "item"
+				item: "irongenerators:bronze_generator"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -0.5d
+			dependencies: ["3EA861EB333A04B0"]
+			id: "62D12A562372C743"
+			tasks: [{
+				id: "57478C46619BAAC4"
+				type: "item"
+				item: "irongenerators:invar_generator"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -0.5d
+			dependencies: ["3448D02DC764377C"]
+			id: "07062297164BF49A"
+			tasks: [{
+				id: "54372283306582E5"
+				type: "item"
+				item: "irongenerators:steel_generator"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -0.5d
+			dependencies: ["07062297164BF49A"]
+			id: "5D66475654D1D123"
+			tasks: [{
+				id: "058640DCD316DBE6"
+				type: "item"
+				item: "irongenerators:uranium_generator"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -0.5d
+			dependencies: ["69F76683667672DD"]
+			id: "324AA91223B50C90"
+			tasks: [{
+				id: "6232DCC2555126D6"
+				type: "item"
+				item: "irongenerators:signalum_generator"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -0.5d
+			dependencies: ["5D66475654D1D123"]
+			id: "69F76683667672DD"
+			tasks: [{
+				id: "6ACAB2F02C9923C0"
+				type: "item"
+				item: "irongenerators:refined_obsidian_generator"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -0.5d
+			dependencies: ["428773F3CCAD5080"]
+			id: "6B8FD86A237A7E5C"
+			tasks: [{
+				id: "119A27226B858C4C"
+				type: "item"
+				item: "irongenerators:platin_generator"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -0.5d
+			dependencies: ["6B8FD86A237A7E5C"]
+			id: "0C927F311B07BCD4"
+			tasks: [{
+				id: "645D1FF00C34E7D0"
+				type: "item"
+				item: "irongenerators:enderium_generator"
+			}]
+		}
+		{
+			x: -5.0000000000000036d
+			y: -0.20000000000000004d
+			description: ["The Flux Plug receives energy from adjacent blocks passively, adding energy to your Flux Network."]
+			dependencies: ["00000000000005BC"]
+			id: "00000000000005B6"
+			tasks: [{
+				id: "00000000000005B7"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+			rewards: [{
+				id: "5184C1837A21DE15"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+		}
+		{
+			title: "Flux Dust"
+			x: -3.9999999999999987d
+			y: 0.30000000000000004d
+			description: ["To get Flux Dust, you need to throw Redstone Dust on top of a bedrock or flux block, then left click on an Obsidian block, previously placed above of your Redstone dust, to crush your Redstone and transform it into Flux."]
+			id: "00000000000005BC"
+			tasks: [{
+				id: "00000000000005BD"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 64L
+			}]
+			rewards: [{
+				id: "78C255731402B15F"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 64
+			}]
+		}
+		{
+			x: -2.9999999999999987d
+			y: -0.20000000000000004d
+			description: ["The Flux Point provides energy to adjacent blocks actively, removing energy from your Flux Network."]
+			dependencies: ["00000000000005BC"]
+			id: "00000000000005B8"
+			tasks: [{
+				id: "00000000000005B9"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+			rewards: [{
+				id: "0DA37E1A4478BB3C"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+		}
+		{
+			x: -5.0000000000000036d
+			y: 0.8d
+			description: ["The Flux Controller is used to enable wireless charging on your Flux Network."]
+			dependencies: ["00000000000005BC"]
+			id: "00000000000005B4"
+			tasks: [{
+				id: "00000000000005B5"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+			rewards: [{
+				id: "3421E5D6C13AF383"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+		}
+		{
+			x: -2.9999999999999987d
+			y: 0.8d
+			description: ["The Gargantuan Flux Storage can store up to 128M RF in your Flux Network."]
+			dependencies: ["00000000000005BC"]
+			id: "00000000000005BA"
+			tasks: [{
+				id: "00000000000005BB"
+				type: "item"
+				item: "fluxnetworks:gargantuan_flux_storage"
+			}]
+			rewards: [{
+				id: "5134DAE586700E9E"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 64
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			description: ["Solar Panel I can generate 1RF/t and transfer 8RF/t."]
+			id: "000000000000059E"
+			tasks: [{
+				id: "000000000000059F"
+				type: "item"
+				item: "solarflux:sp_1"
+			}]
+			rewards: [{
+				id: "4B5181CB21E60D76"
+				type: "item"
+				item: "solarflux:sp_1"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			description: ["Solar Panel II can generate 8RF/t and transfer 64RF/t."]
+			dependencies: ["000000000000059E"]
+			id: "00000000000005A0"
+			tasks: [{
+				id: "00000000000005A1"
+				type: "item"
+				item: "solarflux:sp_2"
+			}]
+			rewards: [{
+				id: "63ECD97BFA5E8D9E"
+				type: "item"
+				item: "solarflux:sp_2"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			description: ["Solar Panel III can generate 32RF/t and transfer 256RF/t."]
+			dependencies: ["00000000000005A0"]
+			id: "00000000000005A2"
+			tasks: [{
+				id: "00000000000005A3"
+				type: "item"
+				item: "solarflux:sp_3"
+			}]
+			rewards: [{
+				id: "56F69D5EBA42869C"
+				type: "item"
+				item: "solarflux:sp_3"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			description: ["Solar Panel IV can generate 128RF/t and transfer 1,024RF/t."]
+			dependencies: ["00000000000005A2"]
+			id: "00000000000005A4"
+			tasks: [{
+				id: "00000000000005A5"
+				type: "item"
+				item: "solarflux:sp_4"
+			}]
+			rewards: [{
+				id: "2886DBCC481B63B3"
+				type: "item"
+				item: "solarflux:sp_4"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			description: ["Solar Panel V can generate 512RF/t and transfer 4,096RF/t."]
+			dependencies: ["00000000000005A4"]
+			id: "00000000000005A6"
+			tasks: [{
+				id: "00000000000005A7"
+				type: "item"
+				item: "solarflux:sp_5"
+			}]
+			rewards: [{
+				id: "0A6457902A03D78E"
+				type: "item"
+				item: "solarflux:sp_5"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			description: ["Solar Panel VI can generate 2,048RF/t and transfer 16,348RF/t."]
+			dependencies: ["00000000000005A6"]
+			id: "00000000000005A8"
+			tasks: [{
+				id: "00000000000005A9"
+				type: "item"
+				item: "solarflux:sp_6"
+			}]
+			rewards: [{
+				id: "51F2B780C04ED0CB"
+				type: "item"
+				item: "solarflux:sp_6"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			description: ["Solar Panel VII can generate 8,192RF/t and transfer 65,536RF/t."]
+			dependencies: ["00000000000005A8"]
+			id: "00000000000005AA"
+			tasks: [{
+				id: "00000000000005AB"
+				type: "item"
+				item: "solarflux:sp_7"
+			}]
+			rewards: [{
+				id: "38B724C18E78759D"
+				type: "item"
+				item: "solarflux:sp_7"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			description: ["Solar Panel VIII can generate 32,768RF/t and transfer 262,144RF/t."]
+			dependencies: ["00000000000005AA"]
+			id: "00000000000005AC"
+			tasks: [{
+				id: "00000000000005AD"
+				type: "item"
+				item: "solarflux:sp_8"
+			}]
+			rewards: [{
+				id: "10B0BCCC4C1BC59E"
+				type: "item"
+				item: "solarflux:sp_8"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			description: ["Wyvern Solar Panel can generate 65,536RF/t and transfer 512,000RF/t."]
+			dependencies: ["00000000000005AC"]
+			id: "77CE60B3B721B8D4"
+			tasks: [{
+				id: "2938E4E7F30ECD3E"
+				type: "item"
+				item: "solarflux:sp_de.wyvern"
+			}]
+			rewards: [{
+				id: "1370337EA9E03BED"
+				type: "item"
+				item: "solarflux:sp_de.wyvern"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			description: ["Draconic Solar Panel can generate 131,072RF/t and transfer 1,024,000RF/t."]
+			dependencies: ["77CE60B3B721B8D4"]
+			id: "6879CAB5AC5113E7"
+			tasks: [{
+				id: "0F30C48337B04F86"
+				type: "item"
+				item: "solarflux:sp_de.draconic"
+			}]
+			rewards: [{
+				id: "508E62D115042FE6"
+				type: "item"
+				item: "solarflux:sp_de.draconic"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.0d
+			description: ["Chaotic Solar Panel can generate 262,144RF/t and transfer 4,096,000RF/t."]
+			dependencies: ["6879CAB5AC5113E7"]
+			id: "2011C6A8B662156E"
+			tasks: [{
+				id: "16DC0A37EC80678F"
+				type: "item"
+				item: "solarflux:sp_de.chaotic"
+			}]
+			rewards: [{
+				id: "69C3D0647388C89A"
+				type: "item"
+				item: "solarflux:sp_de.chaotic"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.0d
+			description: ["Etherium  Solar Panel can generate 524,288RF/t and transfer 8,192,000RF/t."]
+			dependencies: ["2011C6A8B662156E"]
+			id: "00000000000005B0"
+			tasks: [{
+				id: "00000000000005B1"
+				type: "item"
+				item: "solarflux:sp_custom_etherium"
+			}]
+			rewards: [{
+				id: "5CA013B213652D23"
+				type: "item"
+				item: "solarflux:sp_custom_etherium"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.0d
+			description: ["Gobber Solar Panel can generate 1,048,576RF/t and transfer 16,384,000RF/t."]
+			dependencies: ["00000000000005B0"]
+			id: "00000000000005AE"
+			tasks: [{
+				id: "00000000000005AF"
+				type: "item"
+				item: "solarflux:sp_custom_gobber"
+			}]
+			rewards: [{
+				id: "6F6A78B300B55DBE"
+				type: "item"
+				item: "solarflux:sp_custom_gobber"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.0d
+			description: ["Ultimate Solar Panel can generate 8,388,608RF/t and transfer 50,331,648RF/t."]
+			dependencies: ["00000000000005AE"]
+			id: "00000000000005B2"
+			tasks: [{
+				id: "00000000000005B3"
+				type: "item"
+				item: "solarflux:sp_custom_ultimate"
+			}]
+			rewards: [{
+				id: "4BD9233FC23B44CB"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+		}
+	]
+}

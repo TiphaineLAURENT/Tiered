@@ -102,47 +102,6 @@
 			}]
 		}
 		{
-			x: -5.75d
-			y: 0.5d
-			description: [
-				"Botany pot can grow all kind of crops and saplings."
-				"The hopper version is perfect to automate farming what you put in your pot."
-			]
-			id: "7DF601A022C4C64E"
-			tasks: [
-				{
-					id: "67FFA14B63A9814E"
-					type: "item"
-					title: "Any #botanypots:botany_pots"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "botanypots:botany_pots"
-						}
-					}
-				}
-				{
-					id: "572FD6AEE5F6249B"
-					type: "item"
-					title: "Any #botanypots:hopper_botany_pots"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "botanypots:hopper_botany_pots"
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "225ED1BAE9E40E94"
-				type: "item"
-				item: "byg:peat"
-				count: 16
-			}]
-		}
-		{
 			icon: {
 				id: "buildinggadgets:gadget_building"
 				Count: 1b

@@ -1,7 +1,7 @@
 {
 	id: "0000000000000AC7"
 	group: ""
-	order_index: 12
+	order_index: 13
 	filename: "rftools"
 	title: "RFTools"
 	icon: { id: "rftoolsbase:dimensionalshard", Count: 64b }

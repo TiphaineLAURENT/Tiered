@@ -8,8 +8,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 1.0d
-			y: -1.0d
+			x: 0.0d
+			y: 0.0d
 			dependencies: ["1B46149682CF680B"]
 			id: "27DBD0217722713F"
 			tasks: [{
@@ -206,13 +206,60 @@
 		}
 		{
 			x: 1.0d
-			y: 1.0d
-			dependencies: ["1B46149682CF680B"]
+			y: 0.0d
+			dependencies: ["27DBD0217722713F"]
 			id: "3F77B50C3A3C44E8"
 			tasks: [{
 				id: "7D6DC5A9929043F9"
 				type: "item"
 				item: "apotheosis:enchantment_library"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.5d
+			dependencies: ["709AA966ECE15578"]
+			id: "2BE2363D80D7829C"
+			tasks: [{
+				id: "5D5EC42543B2D742"
+				type: "item"
+				item: "apotheosis:hellshelf"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.5d
+			dependencies: ["709AA966ECE15578"]
+			id: "0BD43C0778AE59ED"
+			tasks: [{
+				id: "251B704A54D7A480"
+				type: "item"
+				item: "apotheosis:seashelf"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -7.5d
+			dependencies: [
+				"2BE2363D80D7829C"
+				"0BD43C0778AE59ED"
+			]
+			id: "68E58B0D8FE38CB1"
+			tasks: [{
+				id: "7BA96363F1610E3A"
+				type: "item"
+				item: "apotheosis:endshelf"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["3F77B50C3A3C44E8"]
+			id: "101C7691F82AC8D9"
+			tasks: [{
+				id: "24121E3D21D5D2B2"
+				type: "item"
+				item: "apotheosis:ender_library"
 			}]
 		}
 	]

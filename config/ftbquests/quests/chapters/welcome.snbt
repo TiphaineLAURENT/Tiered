@@ -9,12 +9,12 @@
 	default_quest_shape: "gear"
 	default_hide_dependency_lines: false
 	images: [{
-		x: -0.5d
-		y: -5.0d
-		width: 1.0d
-		height: 1.0d
+		x: 1.0d
+		y: -6.5d
+		width: 10.0d
+		height: 10.0d
 		rotation: 0.0d
-		image: "minecraft:textures/gui/presets/isles.png"
+		image: "astralsorcery:textures/gui/book/frame_full.png"
 		hover: [ ]
 		click: ""
 		dev: false
@@ -128,14 +128,10 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -8.5d
-			dependencies: [
-				"7498B73B45AA8758"
-				"44A452434C289995"
-				"23AF96661CDA2EFF"
-				"5A3AA78134240E88"
-			]
+			title: "Botania"
+			x: 1.5d
+			y: -6.0d
+			dependencies: ["23AF96661CDA2EFF"]
 			id: "69F26E784600D176"
 			tasks: [{
 				id: "233CF47FFE85511C"
@@ -148,9 +144,10 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -8.5d
-			dependencies: ["69F26E784600D176"]
+			title: "Refined Storage"
+			x: -1.5d
+			y: -4.5d
+			dependencies: ["2B3D0C77F14BA52B"]
 			id: "55C3B8DAEA259086"
 			tasks: [{
 				id: "742A663441985461"
@@ -159,8 +156,10 @@
 			}]
 		}
 		{
+			title: "Rftools"
 			x: -1.5d
-			y: -10.0d
+			y: -7.5d
+			dependencies: ["44A452434C289995"]
 			id: "7498B73B45AA8758"
 			tasks: [{
 				id: "0B506703537DA756"
@@ -169,8 +168,10 @@
 			}]
 		}
 		{
+			title: "Integrated Dynamics"
 			x: -1.5d
-			y: -8.5d
+			y: -6.0d
+			dependencies: ["5A3AA78134240E88"]
 			id: "44A452434C289995"
 			tasks: [{
 				id: "1CD03E4D9845C56E"
@@ -179,9 +180,13 @@
 			}]
 		}
 		{
+			title: "Mekanism"
 			x: 3.0d
-			y: -10.0d
-			dependencies: ["17AFAE82384DFBC2"]
+			y: -9.0d
+			dependencies: [
+				"17AFAE82384DFBC2"
+				"2B17B99BCA7ABC07"
+			]
 			id: "30DFFF1DF6B1AFD0"
 			tasks: [{
 				id: "56B9278170ACC514"
@@ -193,28 +198,137 @@
 			title: "Industrial Foregoing"
 			icon: "industrialforegoing:mob_imprisonment_tool"
 			x: 1.5d
-			y: -10.0d
-			dependencies: ["69F26E784600D176"]
+			y: -9.0d
+			dependencies: [
+				"1D11C9BFC3F24505"
+				"50E309462102CA48"
+			]
 			id: "17AFAE82384DFBC2"
 		}
 		{
-			x: -1.5d
-			y: -7.0d
+			title: "Astral Sorcery"
+			icon: "astralsorcery:tome"
+			x: 3.0d
+			y: -6.0d
 			id: "23AF96661CDA2EFF"
-			tasks: [{
-				id: "047AF8712E4AC856"
+			rewards: [{
+				id: "2955DDF6E5906E58"
 				type: "item"
 				item: "astralsorcery:tome"
 			}]
 		}
 		{
+			title: "Create"
 			x: 0.0d
-			y: -7.0d
+			y: -6.0d
+			dependencies: ["69F26E784600D176"]
 			id: "5A3AA78134240E88"
 			tasks: [{
-				id: "0F6BE8035F6ADBE9"
+				id: "4DAE42BAA296C565"
 				type: "item"
-				item: "create:large_cogwheel"
+				item: "create:wrench"
+			}]
+		}
+		{
+			title: "Gobber"
+			x: 4.5d
+			y: -7.5d
+			dependencies: ["2B17B99BCA7ABC07"]
+			id: "3AE59DD050C49B73"
+			tasks: [{
+				id: "2778157CAEA02602"
+				type: "item"
+				item: "gobber2:gobber2_glob"
+			}]
+		}
+		{
+			title: "Blood magic"
+			x: 3.0d
+			y: -7.5d
+			dependencies: ["23AF96661CDA2EFF"]
+			id: "2B17B99BCA7ABC07"
+			tasks: [{
+				id: "27EA3196C72DB1BF"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+			}]
+		}
+		{
+			title: "ComputerCraft"
+			x: 0.0d
+			y: -9.0d
+			dependencies: [
+				"2BFB0FE9D3FEAAC8"
+				"3E08BEBE4A869E53"
+			]
+			id: "1D11C9BFC3F24505"
+			tasks: [{
+				id: "650C125056314053"
+				type: "item"
+				item: "computercraft:turtle_normal"
+			}]
+		}
+		{
+			title: "Compact Machines"
+			x: -1.5d
+			y: -9.0d
+			dependencies: ["7498B73B45AA8758"]
+			id: "2BFB0FE9D3FEAAC8"
+			tasks: [{
+				id: "258CF0D1CF366CF4"
+				type: "item"
+				item: "compactmachines:personal_shrinking_device"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			dependencies: ["7498B73B45AA8758"]
+			id: "3E08BEBE4A869E53"
+			tasks: [{
+				id: "737216D950665998"
+				type: "item"
+				item: "envirocore:litherite_crystal"
+			}]
+		}
+		{
+			title: "Powah!"
+			x: 1.5d
+			y: -7.5d
+			dependencies: [
+				"3E08BEBE4A869E53"
+				"69F26E784600D176"
+			]
+			id: "50E309462102CA48"
+			tasks: [{
+				id: "74F4735166BAE018"
+				type: "item"
+				item: "powah:book"
+			}]
+		}
+		{
+			title: "Tom's Simple Storage"
+			x: 0.0d
+			y: -4.5d
+			dependencies: ["5A3AA78134240E88"]
+			id: "2B3D0C77F14BA52B"
+		}
+		{
+			title: "Mystical Agriculture"
+			x: 1.5d
+			y: -4.5d
+			dependencies: ["69F26E784600D176"]
+			id: "706BEAE6695EA2CB"
+			tasks: [{
+				id: "5B7C340D9952C0B1"
+				type: "item"
+				item: "mysticalagriculture:master_infusion_crystal"
 			}]
 		}
 	]

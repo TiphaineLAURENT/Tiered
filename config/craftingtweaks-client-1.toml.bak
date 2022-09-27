@@ -13,5 +13,5 @@
 	#Allowed Values: DEFAULT, BUTTONS, HOTKEYS, DISABLED
 	craftingTweaksMode = "DEFAULT"
 	#Add modids here of mods that you wish to disable Crafting Tweaks support for.
-	disabledAddons = ["appliedenergistics2", "pamhc2foodextended"]
+	disabledAddons = ['appliedenergistics2']
 
