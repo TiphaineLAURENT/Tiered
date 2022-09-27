@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ili",
+        "g g",
+        "ili"
+    ],
+    "key": {
+        "g": {
+            "tag": "forge:ingots/brass"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "l": {
+            "item": "integrateddynamics:crystalized_menril_chunk"
+        }
+    },
+    "result": {
+        "item": "rftoolsbase:machine_frame"
+    }
+}

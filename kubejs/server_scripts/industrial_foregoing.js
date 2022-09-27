@@ -1,3 +1,4 @@
 events.listen('recipes', (event) => {
-    event.replaceInput({ id: 'industrialforegoing:machine_frame_pity' }, '#minecraft:logs', 'botania:livingwood')
+    event.remove({ output: '#industrialforegoing:machine_frame/pity' })
+    event.recipes.thermal.smelter('industrialforegoing:machine_frame_pity', ['thermal:machine_frame', 'botania:dreamwood', 'compressium:cobblestone_3']).energy(10000)
 })

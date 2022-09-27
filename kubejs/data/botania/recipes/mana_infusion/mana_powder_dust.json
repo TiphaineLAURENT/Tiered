@@ -2,7 +2,7 @@
   "type": "botania:mana_infusion",
   "input": [
     {
-      "item": "create:powdered_obsidian"
+      "item": "astralsorcery:illumination_powder"
     }
   ],
   "output": {

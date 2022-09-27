@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "GPG",
+        "PQP",
+        "GPG"
+    ],
+    "key": {
+        "G": {
+            "tag": "forge:glass_panes"
+        },
+        "P": {
+            "item": "envirocore:obsidian_plate"
+        },
+        "Q": {
+            "item": "botania:quartz_elven"
+        }
+    },
+    "result": {
+        "item": "envirocore:clear_structure_panel"
+    }
+}

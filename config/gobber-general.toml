@@ -82,7 +82,7 @@
 #Gobber Ore Generation
 [gobber2_ore]
 	#Generate Gobber Ore in the world [true / false]
-	gobberOreGeneration = true
+	gobberOreGeneration = false
 	#Size of Gobber Ore pockets [0-100, default: 4]
 	#Range: 0 ~ 100
 	gobberOreSize = 4

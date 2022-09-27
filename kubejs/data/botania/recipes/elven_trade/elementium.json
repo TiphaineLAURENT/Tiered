@@ -1,0 +1,14 @@
+{
+    "type": "botania:elven_trade",
+    "ingredients": [
+        {
+            "tag": "forge:obsidian"
+        }
+    ],
+    "output": [
+        {
+            "item": "envirocore:obsidian_plate",
+            "count": 8
+        }
+    ]
+}

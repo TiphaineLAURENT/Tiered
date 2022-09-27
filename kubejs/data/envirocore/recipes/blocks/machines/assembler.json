@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "VCF",
+        "PRP",
+        "LBL"
+    ],
+    "key": {
+        "V": {
+            "item": "envirocore:volatile_memory"
+        },
+        "C": {
+            "item": "envirocore:cpu"
+        },
+        "F": {
+            "item": "envirocore:flash_memory"
+        },
+        "P": {
+            "item": "minecraft:piston"
+        },
+        "R": {
+            "item": "rftoolsutility:crafter2"
+        },
+        "L": {
+            "item": "create:shadow_steel_casing"
+        },
+        "B": {
+            "item": "integrateddynamics:energy_battery"
+        }
+    },
+    "result": {
+        "item": "envirocore:assembler"
+    }
+}

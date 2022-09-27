@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SBS",
+        "S S",
+        "PIP"
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:stick"
+        },
+        "B": {
+            "item": "create:brass_casing"
+        },
+        "P": {
+            "tag": "minecraft:planks"
+        },
+        "I": {
+            "tag": "forge:ingots/brass"
+        }
+    },
+    "result": {
+        "item": "integrateddynamics:squeezer"
+    }
+}

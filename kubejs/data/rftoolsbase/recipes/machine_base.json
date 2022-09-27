@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "FFF"
+    ],
+    "key": {
+        "F": {
+            "item": "rftoolsbase:machine_frame"
+        }
+    },
+    "result": {
+        "item": "rftoolsbase:machine_base",
+        "count": 6
+    }
+}

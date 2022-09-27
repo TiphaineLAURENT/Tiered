@@ -1,7 +1,7 @@
 {
 	id: "00000000000002B4"
 	group: ""
-	order_index: 15
+	order_index: 7
 	filename: "astral_sorcery"
 	title: "Astral Sorcery"
 	icon: "astralsorcery:starmetal_ingot"
@@ -198,10 +198,7 @@
 		{
 			x: 0.0d
 			y: -6.5d
-			description: [
-				"To obtain Infused Wood, toss any kind of log in Liquid Starlight and voilà !"
-				"{image:kubejs:textures/ftbquests/begin/infusedwood.png width:150 height:100 align:1}"
-			]
+			description: ["To obtain Infused Wood, toss any kind of log in Liquid Starlight and voilà !"]
 			dependencies: [
 				"00000000000002B5"
 				"00000000000002D7"
@@ -618,20 +615,15 @@
 			shape: "circle"
 			description: [
 				"To begin with Astral you need to find a big shrine in the world."
-				"{image:kubejs:textures/ftbquests/begin/shrine.png width:150 height:100 align:1}"
+				"{image:tiered:textures/images/astral_shrine.png width:150 height:100 align:1}"
 				"In this shrine you can find a floating rock crystal, with that place a crafting table below and clear some space above the floating crystal so that it can be in contact with the sky."
-				"{image:kubejs:textures/ftbquests/begin/crystal.png width:150 height:100 align:1}"
+				"{image:tiered:textures/images/astral_luminous_crafting_table_craft.png width:150 height:100 align:1}"
 				"Wait a second and you have your Luminous Crafting Table."
 			]
 			id: "4A20C2B49A61967D"
 			tasks: [{
 				id: "7088167576861EB7"
 				type: "checkmark"
-			}]
-			rewards: [{
-				id: "652F8FABF8D1EE2D"
-				type: "item"
-				item: "mob_grinding_utils:solid_xp_baby"
 			}]
 		}
 	]

@@ -1,0 +1,54 @@
+{
+    "type": "compactcrafting:miniaturization",
+    "recipeSize": 3,
+    "layers": [
+        {
+            "type": "compactcrafting:filled",
+            "component": "W"
+        },
+        {
+            "type": "compactcrafting:mixed",
+            "pattern": [
+                [
+                    "W",
+                    "W",
+                    "W"
+                ],
+                [
+                    "W",
+                    "S",
+                    "W"
+                ],
+                [
+                    "W",
+                    "W",
+                    "W"
+                ]
+            ]
+        },
+        {
+            "type": "compactcrafting:filled",
+            "component": "W"
+        }
+    ],
+    "catalyst": {
+        "id": "envirocore:cpu",
+        "Count": 1
+    },
+    "components": {
+        "W": {
+            "type": "compactcrafting:block",
+            "block": "compactmachines:wall"
+        },
+        "S": {
+            "type": "compactcrafting:block",
+            "block": "rftoolsutility:screen_controller"
+        }
+    },
+    "outputs": [
+        {
+            "id": "computercraft:computer_normal",
+            "Count": 1
+        }
+    ]
+}

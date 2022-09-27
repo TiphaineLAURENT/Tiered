@@ -1,7 +1,7 @@
 {
   "type": "botania:mana_infusion",
   "input": {
-    "item": "rftoolsbase:infused_diamond"
+    "item": "astralsorcery:aquamarine"
   },
   "output": {
     "item": "botania:mana_diamond"

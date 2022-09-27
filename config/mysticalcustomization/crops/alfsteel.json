@@ -1,0 +1,14 @@
+{
+  "name": "Alfsteel",
+  "type": "resource",
+  "tier": "mysticalagradditions:6",
+  "ingredient": {
+    "tag": "forge:ingots/alfsteel"
+  },
+  "color": "FC7703",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "crux": "kubejs:magical_soil"
+}

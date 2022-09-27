@@ -1,0 +1,35 @@
+{
+    "input": [
+        {
+            "tag": "forge:ingots/draconium_awakened"
+        },
+        {
+            "tag": "forge:ingots/alfsteel"
+        },
+        {
+            "tag": "forge:ingots/draconium_awakened"
+        },
+        {
+            "item": "mysticalagriculture:prosperity_seed_base"
+        },
+        {
+            "item": "tconstruct:ender_slime_grass_seeds"
+        },
+        {
+            "item": "envirocore:pladium_crystal"
+        },
+        {
+            "tag": "forge:ingots/alfsteel"
+        },
+        {
+            "item": "envirocore:pladium_crystal"
+        }
+    ],
+    "inputFluid": "{FluidName:\"tconstruct:liquid_soul\",Amount:500}",
+    "processingTime": 300,
+    "output": {
+        "item": "gobber2:gobber2_seed",
+        "count": 1
+    },
+    "type": "industrialforegoing:dissolution_chamber"
+}

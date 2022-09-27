@@ -1,0 +1,17 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "forge:storage_blocks/iron"
+        },
+        {
+            "tag": "forge:dusts/redstone"
+        }
+    ],
+    "results": [
+        {
+            "item": "compactmachines:wall",
+            "count": 16
+        }
+    ]
+}

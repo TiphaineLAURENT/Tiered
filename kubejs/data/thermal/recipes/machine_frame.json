@@ -1,0 +1,18 @@
+{
+    "type": "powah:energizing",
+    "ingredients": [
+        {
+            "item": "computercraft:computer_advanced"
+        },
+        {
+            "item": "powah:energized_steel_block"
+        },
+        {
+            "tag": "envirocore:structure/panels"
+        }
+    ],
+    "energy": 200000,
+    "result": {
+        "item": "thermal:machine_frame"
+    }
+}

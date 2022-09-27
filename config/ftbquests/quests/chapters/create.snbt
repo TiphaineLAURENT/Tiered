@@ -1,7 +1,7 @@
 {
 	id: "000000000000044D"
 	group: ""
-	order_index: 9
+	order_index: 10
 	filename: "create"
 	title: "Create"
 	icon: "create:crushing_wheel"
@@ -971,8 +971,7 @@
 			shape: "circle"
 			description: [
 				"To begin in Create you need to find, first, Andesite or craft it with Cobblestone and Quartz."
-				"With it, you can make Andesite Alloy to craft your first Andesite Casing."
-				"{image:kubejs:textures/ftbquests/begin/create.png width:150 height:100 align:1}"
+				"With it and manasteel nuggets, you can make Andesite Alloy to craft your first Andesite Casing."
 				"To learn how to play with create, you have an integrated tutorial too awesome !  Check an item of Create in JEI and tap on z key (default)."
 			]
 			id: "37DD418638348907"

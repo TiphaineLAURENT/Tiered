@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "NPN",
+        "PQP",
+        "NPN"
+    ],
+    "key": {
+        "N": {
+            "tag": "forge:nuggets/gold"
+        },
+        "P": {
+            "item": "envirocore:obsidian_plate"
+        },
+        "Q": {
+            "item": "botania:quartz_elven"
+        }
+    },
+    "result": {
+        "item": "envirocore:structure_panel"
+    }
+}

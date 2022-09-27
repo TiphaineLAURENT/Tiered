@@ -77,4 +77,5 @@ events.listen('recipes', (event) => {
     smithingcraft('pipez:ultimate_upgrade', 'mysticalagradditions:creative_essence', 'pipez:infinity_upgrade')
     smithingcraft('create:blaze_cake', 'mysticalagradditions:creative_essence', 'create:creative_blaze_cake')
     smithingcraft('cagedmobs:dnasamplerdiamond', 'cagedmobs:star_infused_netherite_ingot', 'cagedmobs:dnasamplernetherite')
+    smithingcraft('toms_storage:ts.wireless_terminal', 'upgradednetherite:ender_upgraded_netherite_ingot', 'toms_storage:ts.adv_wireless_terminal')
 })

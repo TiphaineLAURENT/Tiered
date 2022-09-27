@@ -647,11 +647,6 @@
 					item: "cagedmobs:hoppingmobcage"
 				}
 			]
-			rewards: [{
-				id: "735FCA5003CBD097"
-				type: "item"
-				item: "betterendforge:thallasium_block"
-			}]
 		}
 		{
 			x: -7.25d
@@ -1127,7 +1122,7 @@
 		}
 		{
 			x: 7.5d
-			y: -1.25d
+			y: -1.6999999999999997d
 			description: [
 				"With the Market you can buy every natural seeds, saplings, flowers from every mods (except botania and Twilight Forest) "
 				"At the cost of Endumium."
@@ -1185,17 +1180,9 @@
 			dependencies: ["00000000000004DE"]
 			id: "00000000000004EA"
 			tasks: [{
-				id: "00000000000004EB"
+				id: "132E88626477E272"
 				type: "item"
-				title: "Any #forge:kitchen_floor"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:kitchen_floor"
-					}
-				}
-				count: 64L
+				item: "cookingforblockheads:white_kitchen_floor"
 			}]
 			rewards: [{
 				id: "2907075A55753ED1"

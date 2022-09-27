@@ -1,7 +1,7 @@
 {
 	id: "0000000000000371"
 	group: ""
-	order_index: 16
+	order_index: 8
 	filename: "botania"
 	title: "Botania"
 	icon: "botania:natura_pylon"
@@ -1935,17 +1935,12 @@
 			description: [
 				"To begin with botania in this pack you need two things."
 				"To get Livingwood you have to begin a little with Astral and get Infused Wood."
-				"And to get Livingrock you need to gather Deapthrock in The Undergarden."
+				"And to get Livingrock you need to gather Marble also from Astral Sorcery"
 			]
 			id: "5178F1461D6138EC"
 			tasks: [{
 				id: "2335C1F2FA0D2792"
 				type: "checkmark"
-			}]
-			rewards: [{
-				id: "024C100A8E9A8D5B"
-				type: "item"
-				item: "mob_grinding_utils:solid_xp_baby"
 			}]
 		}
 	]

@@ -1,14 +1,14 @@
 {
-    "name": "Chaos",
-    "type": "resource",
-    "tier": "mysticalagradditions:6",
-    "ingredient": {
-      "item": "draconicevolution:chaos_shard"
-    },
-    "color": "080808",
-    "textures": {
-      "flower": "mysticalagriculture:block/flower_ingot",
-      "essence": "mysticalagriculture:item/essence_ingot"
-    },
-    "crux": "kubejs:chaotic_crux"
-  }
+  "name": "Chaos",
+  "type": "resource",
+  "tier": "mysticalagradditions:6",
+  "ingredient": {
+    "item": "draconicevolution:chaos_shard"
+  },
+  "color": "080808",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  },
+  "crux": "kubejs:chaotic_crux"
+}

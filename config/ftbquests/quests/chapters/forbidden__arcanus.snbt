@@ -1,7 +1,7 @@
 {
 	id: "00000000000005DE"
 	group: ""
-	order_index: 18
+	order_index: 17
 	filename: "forbidden__arcanus"
 	title: "Forbidden and Arcanus"
 	icon: "forbidden_arcanus:dark_soul"
@@ -700,11 +700,6 @@
 			tasks: [{
 				id: "142222965C0A18ED"
 				type: "checkmark"
-			}]
-			rewards: [{
-				id: "13F4EBE87D01042F"
-				type: "item"
-				item: "mob_grinding_utils:solid_xp_baby"
 			}]
 		}
 	]

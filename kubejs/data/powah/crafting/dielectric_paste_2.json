@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "envirocore:erodium_crystal"
+        },
+        {
+            "item": "envirocore:erodium_crystal"
+        },
+        {
+            "item": "mythicbotany:dreamwood_leaves"
+        },
+        {
+            "item": "minecraft:blaze_powder"
+        }
+    ],
+    "result": {
+        "item": "powah:dielectric_paste",
+        "count": 16
+    }
+}

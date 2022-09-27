@@ -2,7 +2,7 @@
   "type": "botania:pure_daisy",
   "input": { 
   	"type": "block",
-    "block": "integrateddynamics:crystalized_menril_block"
+    "block": "astralsorcery:marble_raw"
   },
   "output": {
     "name": "botania:livingrock"

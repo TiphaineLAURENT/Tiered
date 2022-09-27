@@ -1,0 +1,34 @@
+{
+    "type": "draconicevolution:fusion_crafting",
+    "result": {
+        "item": "mekanism:steel_casing"
+    },
+    "catalyst": {
+        "tag": "industrialforegoing:machine_frame/supreme"
+    },
+    "total_energy": 1234567,
+    "tier": "WYVERN",
+    "ingredients": [
+        {
+            "item": "gobber2:gobber2_glass"
+        },
+        {
+            "tag": "forge:ingots/slimesteel"
+        },
+        {
+            "item": "gobber2:gobber2_glass"
+        },
+        {
+            "tag": "forge:storage_blocks/steel"
+        },
+        {
+            "item": "gobber2:gobber2_glass"
+        },
+        {
+            "tag": "forge:ingots/slimesteel"
+        },
+        {
+            "item": "gobber2:gobber2_glass"
+        }
+    ]
+}
